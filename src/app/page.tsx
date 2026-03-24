@@ -1,65 +1,268 @@
-import Image from "next/image";
+// // import Image from "next/image";
 
-export default function Home() {
+import StackScrollCards from "@/components/DummyStackCards";
+import StickyServices from "@/components/DummyStackCards";
+import DummyStackCards from "@/components/DummyStackCards";
+import AboutHomeSection from "@/components/Pages/Home/AboutHomeSection";
+import BlogPreview from "@/components/Pages/Home/BlogPreview";
+import FeaturedProducts from "@/components/Pages/Home/Featured-products";
+import HeroSection from "@/components/Pages/Home/HeroSection";
+import IndustryApplications from "@/components/Pages/Home/IndustryApplications";
+import PrinterCTA from "@/components/Pages/Home/PrinterCTA";
+import TestimonialSection from "@/components/Pages/Home/Testimonials";
+import WhyChooseUs from "@/components/Pages/Home/WhyChooseUs";
+
+// // export default function Home() {
+// //   return (
+// //  <section className="section-bg-light section-padding">
+      
+// //       <div className="container-main">
+
+// //         {/* Hero Section */}
+// //         <div className="content-width mb-16">
+// //           <h1>
+// //             Build Modern Web Applications
+// //           </h1>
+
+// //           <p className="mt-6">
+// //             Create scalable and high-performance applications using 
+// //             Next.js, TailwindCSS and modern UI design systems.
+// //           </p>
+
+// //           <button className="btn-primary mt-8">
+// //             Get Started
+// //           </button>
+// //         </div>
+
+
+// //         {/* Section Heading */}
+// //         <div className="section-center mb-12">
+// //           <h2>
+// //             Our Services
+// //           </h2>
+
+// //           <p className="text-muted-soft mt-4">
+// //             We help businesses build powerful digital platforms.
+// //           </p>
+// //         </div>
+
+
+// //         {/* Cards */}
+// //         <div className="grid md:grid-cols-3 gap-8">
+
+// //           <div className="card-soft card-padding">
+// //             <h3>Web Development</h3>
+
+// //             <p className="mt-3">
+// //               We create modern web applications using React,
+// //               Next.js and scalable architectures.
+// //             </p>
+
+// //             <button className="btn-primary mt-6">
+// //               Learn More
+// //             </button>
+// //           </div>
+
+
+// //           <div className="card-soft card-padding">
+// //             <h3>UI / UX Design</h3>
+
+// //             <p className="mt-3">
+// //               Designing beautiful interfaces with strong
+// //               usability and conversion-focused layouts.
+// //             </p>
+
+// //             <button className="btn-primary mt-6">
+// //               Learn More
+// //             </button>
+// //           </div>
+
+
+// //           <div className="card-soft card-padding">
+// //             <h3>Cloud Solutions</h3>
+
+// //             <p className="mt-3">
+// //               Deploy scalable applications using modern
+// //               cloud infrastructure and DevOps pipelines.
+// //             </p>
+
+// //             <button className="btn-primary mt-6">
+// //               Learn More
+// //             </button>
+// //           </div>
+
+// //         </div>
+
+// //       </div>
+
+// //     </section>
+// //   );
+// // }
+
+// //.........
+
+// "use client"
+
+// import ThemeToggle from "@/components/theme-toggle";
+// import Image from "next/image";
+
+// export default function Home() {
+
+//   const toggleDark = () => {
+//     document.documentElement.classList.toggle("dark");
+//   };
+
+//   return (
+//  <section className="section-bg-light section-padding">
+      
+//       <div className="container-main">
+
+//         {/* Dark Mode Test Button */}
+//         <div className="flex justify-end mb-10">
+//           <button onClick={toggleDark} className="btn-primary">
+//             Toggle Dark Mode
+//           </button>
+//         </div>
+//         <ThemeToggle />
+
+//         {/* Hero Section */}
+//         <div className="content-width mb-16">
+//           <h1>
+//             Build Modern Web Applications
+//           </h1>
+
+//           <p className="mt-6">
+//             Create scalable and high-performance applications using 
+//             Next.js, TailwindCSS and modern UI design systems.
+//           </p>
+
+//           <button className="btn-primary mt-8">
+//             Get Started
+//           </button>
+//         </div>
+
+
+//         {/* Section Heading */}
+//         <div className="section-center mb-12">
+//           <h2>
+//             Our Services
+//           </h2>
+
+//           <p className="text-muted-soft mt-4">
+//             We help businesses build powerful digital platforms.
+//           </p>
+//         </div>
+
+
+//         {/* Cards */}
+//         <div className="grid md:grid-cols-3 gap-8">
+
+//           <div className="card-soft card-padding">
+//             <h3>Web Development</h3>
+
+//             <p className="mt-3">
+//               We create modern web applications using React,
+//               Next.js and scalable architectures.
+//             </p>
+
+//             <button className="btn-primary mt-6">
+//               Learn More
+//             </button>
+//           </div>
+
+
+//           <div className="card-soft card-padding">
+//             <h3>UI / UX Design</h3>
+
+//             <p className="mt-3">
+//               Designing beautiful interfaces with strong
+//               usability and conversion-focused layouts.
+//             </p>
+
+//             <button className="btn-primary mt-6">
+//               Learn More
+//             </button>
+//           </div>
+
+
+//           <div className="card-soft card-padding">
+//             <h3>Cloud Solutions</h3>
+
+//             <p className="mt-3">
+//               Deploy scalable applications using modern
+//               cloud infrastructure and DevOps pipelines.
+//             </p>
+
+//             <button className="btn-primary mt-6">
+//               Learn More
+//             </button>
+//           </div>
+
+//         </div>
+
+//       </div>
+
+//     </section>
+//   );
+// }
+
+//............
+
+// "use client"
+
+// import FeatureCard from "@/components/featuredcard"
+// import ThemeToggle from "@/components/theme-toggle"
+
+// export default function Home() {
+//   return (
+//     <section className="section-bg-light section-padding">
+
+//       <div className="container-main">
+
+//         <div className="flex justify-end mb-10">
+//           <ThemeToggle />
+//         </div>
+
+//         <div className="content-width mb-16">
+//           <h1>
+//             Build Modern Web Applications
+//           </h1>
+
+//           <p className="mt-6">
+//             Create scalable and high-performance applications using 
+//             Next.js, TailwindCSS and modern UI design systems.
+//           </p>
+
+//           <button className="btn-primary mt-8">
+//             Get Started
+//           </button>
+//         </div>
+
+//       </div>
+//       <FeatureCard/>
+
+//     </section>
+//   )
+// }
+
+//........
+
+export default function HomePage() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+    <div>
+      <HeroSection/>
+      {/* <AboutHomeSection/> */}
+      <FeaturedProducts/>
+      <IndustryApplications/>
+      
+      <WhyChooseUs/>
+      <TestimonialSection/>
+      <BlogPreview/>
+      <PrinterCTA/>
+
     </div>
-  );
+    // <div>
+    //    <HeroSection/> <StickyServices/>
+    //  <FeaturedProducts/></div>
+  )
 }
