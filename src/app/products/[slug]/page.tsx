@@ -5,10 +5,9 @@ import Link from "next/link";
 import Image from "next/image";
 import AboutHero from "@/components/Pages/About/AboutHero";
 import FeaturedProducts from "@/components/Pages/Home/Featured-products";
-import { Check, CheckCircle2 } from "lucide-react";
-import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { motion } from "framer-motion";
 import { use } from "react";
+
 
 export default function ProductPage({
   params,
@@ -16,6 +15,7 @@ export default function ProductPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = use(params);
+
 
   const categoryIndex = productsData.findIndex(
     (p) => p.slug.toLowerCase() === slug.toLowerCase()
@@ -96,58 +96,68 @@ export default function ProductPage({
 </div>
 
     {product.subProducts.map((item, index) => (
-      <div key={index} className="sticky top-19 py-6">
+      <div key={index} className="sticky top-[100px] mb-12 lg:mb-20">
 
         <div className="container-main">
           
-          <div className={`${item.bg} ${item.text} rounded-none shadow-xl border-t-1 border-black/50 grid grid-cols-1 md:grid-cols-2 items-center gap-6 md:gap-10 p-8 md:p-14 min-h-[400px] md:min-h-[450px]`}>
+          <div className={`flex flex-col ${index % 2 !== 0 ? "md:flex-row-reverse" : "md:flex-row"} w-full rounded-none overflow-hidden shadow-2xl min-h-[400px] md:min-h-[450px]`}>
 
-            {/* TEXT */}
-            <div className="order-2 md:order-1">
-              <h2 className="text-2xl md:text-4xl font-bold mb-4 leading-snug">
-                {item.name}
-              </h2>
-
-              <p className="text-muted-foreground text-sm md:text-base leading-relaxed mb-6">
-                {item.description}
-              </p>
-
-<ul className="space-y-3 mb-6">
-  {item.features?.slice(0, 5).map((feature, i) => (
-    <li
-      key={i}
-      className="flex items-center gap-3 text-sm md:text-base"
-    >
-
-      <IoMdCheckmarkCircleOutline
-        size={20}
-        className="text-black/70 shrink-0"
-      />
-
-      <span className="font-medium">
-        {feature}
-      </span>
-
-    </li>
-  ))}
-</ul>
-              <Link href={`/products/${product.slug}/${item.slug}`}>
-                <button className="btn-primary rounded-full">
-                  READ MORE
-                </button>
-              </Link>
-            </div>
-
-            {/* IMAGE */}
-            <div className="order-1 md:order-2 flex justify-center">
-              <div className="relative w-full max-w-md h-[220px] md:h-[300px]">
+            {/* IMAGE SECTION */}
+            <div className="w-full md:w-1/2 bg-gradient-to-r from-[#3D484E] via-[#6D7780] to-[#3D484E] p-10 flex items-center justify-center relative min-h-[300px] md:min-h-full">
+              <div className="relative w-full max-w-lg h-[250px] md:h-[350px]">
                 <Image
                   src={item.image}
                   alt={item.name}
                   fill
-                  className="object-contain rounded-xl"
+                  className="object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-500"
                 />
               </div>
+            </div>
+
+            {/* CONTENT SECTION */}
+            <div className="w-full md:w-1/2 bg-white p-10 md:p-16 flex flex-col justify-center items-start text-[#483249]">
+              
+              {/* LOGO */}
+              <div className="mb-6 flex items-center">
+                {(item as any).logoImage ? (
+                  <div className="relative w-32 h-12 md:w-40 md:h-16">
+                    <Image
+                      src={(item as any).logoImage}
+                      alt={`${item.name} logo`}
+                      fill
+                      className="object-contain object-left"
+                    />
+                  </div>
+                ) : (
+                  <span className="text-3xl md:text-4xl font-extrabold tracking-widest text-[#483249] flex items-center gap-2">
+                    <div className="bg-[#483249]/10 p-1 md:p-2 rounded-full backdrop-blur-sm">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-6 h-6 md:w-8 md:h-8 text-[#483249]">
+                        <circle cx="12" cy="12" r="10" />
+                        <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                      </svg>
+                    </div>
+                    {(item as any).logoText || (item.name.toLowerCase().includes("oric") ? "ORIC" : "ALLWIN")}<sup className="text-lg">®</sup>
+                  </span>
+                )}
+              </div>
+
+              {/* TITLE */}
+              <h2 className="text-2xl md:text-3xl lg:text-[40px] font-extrabold mb-4 leading-tight drop-shadow-sm text-[#483249]">
+                {item.name}
+              </h2>
+
+              {/* DESCRIPTION / SUBTITLE */}
+              <p className="text-xl md:text-2xl mb-10 text-[#483249]/90 font-medium">
+                {item.description}
+              </p>
+
+              {/* BUTTON */}
+              <Link href={`/products/${product.slug}/${item.slug}`}>
+                <button className="bg-[#483249] hover:bg-[#342435] text-white font-semibold py-3 px-8 rounded-full transition-colors duration-300 text-lg shadow-xl cursor-pointer">
+                  Know more
+                </button>
+              </Link>
+              
             </div>
 
           </div>

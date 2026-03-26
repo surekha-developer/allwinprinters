@@ -44,205 +44,7 @@ const menuData = [
   { category: "Printer Heads", slug: "printer-heads", products: ["Manual", "Auto"], image: "/images/products/heat.jpg", tag: "Transfer", title: "Heat press", desc: "T-shirt printing" },
 ];
 
-// export default function Header() {
-//   const [isDark, setIsDark] = useState(false);
-//   const [scrolled, setScrolled] = useState(false);
-//   const [menuOpen, setMenuOpen] = useState(false);
-//   const [megaMenuOpen, setMegaMenuOpen] = useState(false);
-//   const [activeCategory, setActiveCategory] = useState(menuData[0]);
 
-//   /* =========================
-//      THEME
-//   ========================= */
-//   useEffect(() => {
-//     const saved = localStorage.getItem("theme");
-//     if (saved === "dark") {
-//       setIsDark(true);
-//       document.documentElement.classList.add("dark");
-//     }
-//   }, []);
-
-//   const toggleTheme = () => {
-//     const next = !isDark;
-//     setIsDark(next);
-//     document.documentElement.classList.toggle("dark", next);
-//     localStorage.setItem("theme", next ? "dark" : "light");
-//   };
-
-//   /* =========================
-//      SCROLL HEADER
-//   ========================= */
-//   useEffect(() => {
-//     const handleScroll = () => setScrolled(window.scrollY > 10);
-//     window.addEventListener("scroll", handleScroll);
-//     return () => window.removeEventListener("scroll", handleScroll);
-//   }, []);
-
-//   /* =========================
-//      SCROLL LOCK (No Shake)
-//   ========================= */
-//   useEffect(() => {
-//     if (menuOpen) {
-//       const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
-//       document.body.style.overflow = "hidden";
-//       document.body.style.paddingRight = `${scrollbarWidth}px`;
-//     } else {
-//       document.body.style.overflow = "";
-//       document.body.style.paddingRight = "";
-//     }
-    
-//     return () => {
-//       document.body.style.overflow = "";
-//       document.body.style.paddingRight = "";
-//     }
-//   }, [menuOpen]);
-
-//   const firstCol = menuData.slice(0, 7);
-//   const secondCol = menuData.slice(7, 14);
-
-//   return (
-//     <header className={`sticky top-0 z-50 w-full transition ${scrolled ? "bg-background/95 backdrop-blur-md shadow border-b" : "bg-background"}`}>
-//       <div className="max-w-7xl mx-auto px-6">
-//         <div className="flex items-center justify-between h-24">
-
-//           {/* LOGO */}
-//          <Link href="/" className="flex items-center gap-2">
-//   <Image
-//     src="/images/jklogo-removebg-preview.png"   // 👉 your logo path inside /public folder
-//     alt="ALLWIN Logo"
-//     width={115}
-//     height={80}
-//     className="rounded-lg"
-//   />
-
-//   {/* <span className="font-bold text-lg">ALLWIN</span> */}
-// </Link>
-
-//           {/* NAV */}
-//           <div className="hidden lg:flex items-center gap-6 h-full">
-//             <Link href="/" className="font-medium h-full flex items-center">Home</Link>
-//             <Link href="/about" className="font-medium h-full flex items-center">About</Link>
-
-//             {/* MEGA MENU */}
-//             <div 
-//                className="relative h-full flex items-center"
-//                onMouseEnter={() => setMegaMenuOpen(true)}
-//                onMouseLeave={() => setMegaMenuOpen(false)}
-//             >
-//               <button className={`font-medium transition-colors h-full flex items-center cursor-default ${megaMenuOpen ? "text-primary" : "hover:text-primary"}`}>
-//                 Products
-//               </button>
-
-//               <div className={`fixed left-0 top-[72px] w-full transition-all duration-300 z-40 ${megaMenuOpen ? "opacity-100 visible translate-y-0" : "opacity-0 invisible translate-y-2"}`}>
-//                 {/* BACKDROP */}
-//                 {/* <div className="absolute inset-0 bg-black/20 backdrop-blur-sm h-screen -z-10" /> */}
-
-//                 <div className="relative max-w-7xl mx-auto px-6 py-6 pb-12 w-full max-h-[calc(100vh-80px)] overflow-y-auto overscroll-contain">
-//                   <div className="bg-background border shadow-2xl rounded-xl grid md:grid-cols-3">
-
-//                     {/* LEFT */}
-//                     <div className="border-r p-4">
-//                       <h4 className="mb-3 text-sm text-muted-foreground font-semibold">Categories</h4>
-
-//                       <div className="grid grid-cols-2 gap-x-6 relative">
-//                         <div className="absolute left-1/2 top-2 bottom-2 w-px bg-border"></div>
-
-//                         <div>
-//                           {firstCol.map((item, i) => (
-//                             <Link key={i} href={`/products/${item.slug}`} onClick={() => setMegaMenuOpen(false)} onMouseEnter={() => setActiveCategory(item)} className={`block px-3 py-2 text-sm rounded-md cursor-pointer ${activeCategory.category === item.category ? "bg-secondary text-accent font-medium" : "hover:bg-secondary"}`}>
-//                               {item.category}
-//                             </Link>
-//                           ))}
-//                         </div>
-
-//                         <div>
-//                           {secondCol.map((item, i) => (
-//                             <Link key={i} href={`/products/${item.slug}`} onClick={() => setMegaMenuOpen(false)} onMouseEnter={() => setActiveCategory(item)} className={`block px-3 py-2 text-sm rounded-md cursor-pointer ${activeCategory.category === item.category ? "bg-secondary text-accent font-medium" : "hover:bg-secondary"}`}>
-//                               {item.category}
-//                             </Link>
-//                           ))}
-//                         </div>
-//                       </div>
-//                     </div>
-
-//                     {/* MIDDLE */}
-//                     <div className="border-r p-4">
-//                       <h4 className="mb-3 text-sm text-muted-foreground font-semibold">Products</h4>
-
-//                       {activeCategory.products.map((p, i) => (
-//                         <div key={i} className="flex justify-between text-sm hover:text-foreground cursor-pointer text-muted-foreground py-1">
-//                           {p} <span>↗</span>
-//                         </div>
-//                       ))}
-//                     </div>
-
-//                     {/* RIGHT */}
-//                     <div className="p-4">
-//                       <h4 className="mb-3 text-sm text-muted-foreground font-semibold">Featured</h4>
-
-//                       <div className="bg-muted rounded-lg p-3">
-//                         <img src={activeCategory.image} className="h-40 w-full object-cover rounded-md mb-3" alt={activeCategory.category} />
-
-//                         <span className="text-xs px-2 py-1 bg-white/20 rounded-full">{activeCategory.tag}</span>
-
-//                         <h4 className="text-sm font-semibold mt-2">{activeCategory.title}</h4>
-//                         <p className="text-xs text-muted-foreground">{activeCategory.desc}</p>
-//                       </div>
-//                     </div>
-
-//                   </div>
-//                 </div>
-//               </div>
-//             </div>
-
-//             <Link href="/news" className="font-medium h-full flex items-center">News</Link>
-//             <Link href="/technical-support" className="font-medium h-full flex items-center">Technical Support</Link>
-//           </div>
-
-//           {/* RIGHT */}
-//           <div className="flex items-center gap-3">
-           
-
-//             <Link href="/contact" className="hidden sm:block">
-//            <button className="btn-gradient px-6 py-2 rounded-4xl flex items-center gap-2">
-//   Contact Us
-//   <FaAngleDoubleRight />
-// </button>
-//             </Link>
-
-//             <div className="lg:hidden relative">
-//                <Button variant="ghost" size="icon" onClick={() => setMenuOpen(!menuOpen)}>
-//                  <Menu />
-//                </Button>
-               
-//                {menuOpen && (
-//                  <div className="absolute right-0 top-full mt-2 w-64 bg-background border shadow-xl rounded-xl p-4 flex flex-col gap-4 z-50">
-//                     <Link href="/" onClick={() => setMenuOpen(false)}>Home</Link>
-//                     <Link href="/about" onClick={() => setMenuOpen(false)}>About</Link>
-//                     <div className="font-medium text-primary">Products</div>
-//                      <div className="pl-4 flex flex-col gap-2 max-h-60 overflow-y-auto">
-//                         {menuData.map((item, i) => (
-//                             <Link key={i} href={`/products/${item.slug}`} onClick={() => setMenuOpen(false)} className="text-sm text-muted-foreground hover:text-foreground">
-//                                 {item.category}
-//                             </Link>
-//                         ))}
-//                      </div>
-//                     <Link href="/news" onClick={() => setMenuOpen(false)}>News</Link>
-//                     <Link href="/technical-support" onClick={() => setMenuOpen(false)}>Technical Support</Link>
-//                     <Link href="/contact" onClick={() => setMenuOpen(false)}>
-//                       <Button className="w-full rounded-full">Contact Us</Button>
-//                     </Link>
-//                  </div>
-//                )}
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </header>
-//   );
-// }
-
-//.......above code is good
 
 
 export default function Header() {
@@ -313,18 +115,25 @@ export default function Header() {
         <div className="flex items-center justify-between h-24">
 
           {/* LOGO */}
-          <Link href="/" className="flex items-center gap-2">
+          <Link href="/" className="flex items-center gap-2 sm:gap-4 flex-shrink-0">
             <Image
               src="/images/jklogo-removebg-preview.png"
-              alt="ALLWIN Logo"
+              alt="JK Enterprises Logo"
               width={115}
               height={80}
-              className="rounded-lg"
+              className="rounded-lg w-20 sm:w-[115px] h-auto"
+            />
+            <Image
+              src="/images/Screenshot_2026-03-26_103628-removebg-preview.png"
+              alt="ALLWIN Logo"
+              width={120}
+              height={60}
+              className="object-contain w-16 sm:w-[100px] h-auto"
             />
           </Link>
 
           {/* NAV */}
-          <div className="hidden lg:flex items-center gap-6 h-full">
+          <div className="hidden lg:flex items-center gap-8 h-full">
 
             {/* Home */}
             <Link
@@ -392,7 +201,7 @@ export default function Header() {
                           {firstCol.map((item, i) => (
                             <Link
                               key={i}
-                              href={`/products/${item.slug}`}
+                              href={["printer-heads", "printer-spare-parts"].includes(item.slug) ? `/${item.slug}` : `/products/${item.slug}`}
                               onClick={() => setMegaMenuOpen(false)}
                               onMouseEnter={() => handleCategoryHover(item)}
                               className={`block px-3 py-3 text-sm rounded-md transition-colors ${
@@ -410,7 +219,7 @@ export default function Header() {
                           {secondCol.map((item, i) => (
                             <Link
                               key={i}
-                              href={`/products/${item.slug}`}
+                              href={["printer-heads", "printer-spare-parts"].includes(item.slug) ? `/${item.slug}` : `/products/${item.slug}`}
                               onClick={() => setMegaMenuOpen(false)}
                               onMouseEnter={() => handleCategoryHover(item)}
                               className={`block px-3 py-3 text-sm rounded-md transition-colors ${
@@ -461,28 +270,39 @@ export default function Header() {
                         Featured
                       </h4>
 
-                      <div className="bg-white/5 backdrop-blur-md rounded-xl p-4 border border-white/10 transition-all duration-300 flex flex-col h-full">
-                        <div className="relative h-48 w-full mb-4 bg-white/10 rounded-lg overflow-hidden flex items-center justify-center p-2">
-                          <img
-                            src={activeHoverProduct ? activeHoverProduct.image : activeCategory.image}
-                            className="w-full h-full object-contain"
-                            alt={activeHoverProduct ? activeHoverProduct.name : activeCategory.category}
-                          />
-                        </div>
+                      {(() => {
+                        const categoryData = productsData.find(c => c.slug === activeCategory.slug);
+                        const firstProduct = categoryData?.subProducts?.[0];
+                        
+                        const displayImage = activeHoverProduct?.image || firstProduct?.image || activeCategory.image;
+                        const displayName = activeHoverProduct?.name || firstProduct?.name || activeCategory.title;
+                        const displayDesc = activeHoverProduct?.description || firstProduct?.description || activeCategory.desc;
 
-                        {!activeHoverProduct && (
-                          <span className="text-xs px-3 py-1 bg-white/10 text-white rounded-full self-start mb-3 border border-white/20">
-                            {activeCategory.tag}
-                          </span>
-                        )}
+                        return (
+                          <div className="bg-white/5 backdrop-blur-md rounded-xl p-4 border border-white/10 transition-all duration-300 flex flex-col h-full">
+                            <div className="relative h-48 w-full mb-4 bg-white/10 rounded-lg overflow-hidden flex items-center justify-center p-2">
+                              <img
+                                src={displayImage}
+                                className="w-full h-full object-contain"
+                                alt={displayName}
+                              />
+                            </div>
 
-                        <h4 className="text-base font-semibold text-white mb-2 line-clamp-2">
-                          {activeHoverProduct ? activeHoverProduct.name : activeCategory.title}
-                        </h4>
-                        <p className="text-sm text-gray-400 line-clamp-3 leading-relaxed">
-                          {activeHoverProduct ? activeHoverProduct.description : activeCategory.desc}
-                        </p>
-                      </div>
+                            {!activeHoverProduct && (
+                              <span className="text-xs px-3 py-1 bg-white/10 text-white rounded-full self-start mb-3 border border-white/20">
+                                {activeCategory.tag}
+                              </span>
+                            )}
+
+                            <h4 className="text-base font-semibold text-white mb-2 line-clamp-2">
+                              {displayName}
+                            </h4>
+                            <p className="text-sm text-gray-400 line-clamp-3 leading-relaxed">
+                              {displayDesc}
+                            </p>
+                          </div>
+                        );
+                      })()}
                     </div>
 
                   </div>
@@ -500,24 +320,16 @@ export default function Header() {
             </Link>
 
             {/* Technical Support */}
-            <Link
+            {/* <Link
               href="/technical-support"
               className="font-medium h-full flex items-center transition-colors hover:text-[var(--primary)]"
             >
               Technical Support
-            </Link>
+            </Link> */}
           </div>
 
           {/* RIGHT */}
           <div className="flex items-center gap-3">
-             <Image
-    src="/images/SolventPrintingMachines/imgi_3_allwin.png"
-    alt="Mini Logo"
-    width={100}
-    height={40}
-    className="hidden sm:block object-contain"
-  />
-
             {/* CONTACT BUTTON */}
           
            
@@ -551,7 +363,7 @@ export default function Header() {
                            <div className="text-lg font-medium text-[var(--primary)] tracking-wide">Products</div>
                            <div className="pl-4 border-l border-white/20 flex flex-col gap-4">
                               {menuData.map((item, i) => (
-                                  <Link key={i} href={`/products/${item.slug}`} onClick={() => setMenuOpen(false)} className="text-base text-gray-400 hover:text-white transition-colors">
+                                  <Link key={i} href={["printer-heads", "printer-spare-parts"].includes(item.slug) ? `/${item.slug}` : `/products/${item.slug}`} onClick={() => setMenuOpen(false)} className="text-base text-gray-400 hover:text-white transition-colors">
                                       {item.category}
                                   </Link>
                               ))}
