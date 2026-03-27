@@ -96,7 +96,7 @@ export default function ProductPage({
 </div>
 
     {product.subProducts.map((item, index) => (
-      <div key={index} className="sticky top-[100px] mb-12 lg:mb-20">
+      <div key={index} className="md:sticky md:top-[100px] mb-12 lg:mb-20">
 
         <div className="container-main">
           
@@ -152,11 +152,22 @@ export default function ProductPage({
               </p>
 
               {/* BUTTON */}
-              <Link href={`/products/${product.slug}/${item.slug}`}>
-                <button className="bg-[#483249] hover:bg-[#342435] text-white font-semibold py-3 px-8 rounded-full transition-colors duration-300 text-lg shadow-xl cursor-pointer">
-                  Know more
-                </button>
-              </Link>
+              {item.slug && (
+                item.slug === "#" ? (
+                  <button 
+                    onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                    className="bg-[#483249] hover:bg-[#342435] text-white font-semibold py-3 px-8 rounded-full transition-colors duration-300 text-lg shadow-xl cursor-pointer"
+                  >
+                    Know more
+                  </button>
+                ) : (
+                  <Link href={`/products/${product.slug}/${item.slug}`}>
+                    <button className="bg-[#483249] hover:bg-[#342435] text-white font-semibold py-3 px-8 rounded-full transition-colors duration-300 text-lg shadow-xl cursor-pointer">
+                      Know more
+                    </button>
+                  </Link>
+                )
+              )}
               
             </div>
 

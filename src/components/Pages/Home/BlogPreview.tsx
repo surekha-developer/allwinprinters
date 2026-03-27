@@ -17,35 +17,35 @@ type Article = {
 
 const articles: Article[] = [
   {
-    title: "Cyber Warfare in Modern Conflicts: The Digital Battle Between Nations",
-    date: "2026-03-09",
-    image: "https://horizontal-sapphire-dlaawjnibj.edgeone.app/p2-removebg-preview.png",
-    category: "Cyber Security",
+    title: "ALLWIN Patented Technology Nozzle Laser Detection and Alignment",
+    date: "2024-03-25",
+    image: "/images/newsImages/imgi_10_20240325-1711334925197217.png",
+    category: "Company News",
     comments: "No Comments",
-    slug: "cyber-warfare",
+    slug: "patented-nozzle-laser-detection",
   },
   {
-    title: "The Future of Remote Teams in Offshore Talent: How They Improve Digital Delivery",
-    date: "2026-03-02",
-    image: "https://horizontal-sapphire-dlaawjnibj.edgeone.app/p2-removebg-preview.png",
-    category: "Cyber Security",
+    title: "Understanding the Difference Between UV Inkjet and Ordinary Inkjet Printers",
+    date: "2021-06-21",
+    image: "/images/newsImages/imgi_11_20210621-1624237318231597.jpg",
+    category: "Industry News",
     comments: "No Comments",
-    slug: "remote-teams",
+    slug: "uv-vs-ordinary-inkjet",
   },
   {
-    title: "A New Way to Keep Digital Businesses Safe with Zero Trust Security",
-    date: "2026-02-23",
-    image: "https://horizontal-sapphire-dlaawjnibj.edgeone.app/p2-removebg-preview.png",
-    category: "Cyber Security",
+    title: "Independent R&D: New UV Balancing Rubber Roller Technology",
+    date: "2021-06-21",
+    image: "/images/newsImages/imgi_12_20210621-1624237319902806.jpg",
+    category: "Technology",
     comments: "Comments Off",
-    slug: "zero-trust-security",
+    slug: "uv-balancing-rubber-roller",
   },
 ];
 
 export default function BlogPreview() {
   return (
-    <section className="py-20 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4">
+    <section className="section-padding bg-gray-50">
+      <div className="container-main">
 
         {/* Header */}
         <div className="text-center mb-14">
@@ -99,10 +99,10 @@ export default function BlogPreview() {
 
                   {/* Meta */}
                   <div className="flex items-center gap-4 text-sm text-gray-500 mb-3">
-                    <div className="flex items-center gap-1">
+                    {/* <div className="flex items-center gap-1">
                       <MessageCircle className="w-4 h-4" />
                       {item.comments}
-                    </div>
+                    </div> */}
                     <div className="flex items-center gap-1">
                       <Tag className="w-4 h-4" />
                       {item.category}

@@ -174,11 +174,14 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "AllwinTech",
-    template: "%s | AllwinTech",
+    default: "JK Enterprises",
+    template: "%s | JK Enterprises",
   },
   description:
-    "AllwinTech provides modern software development, web solutions, and digital services for businesses.",
+    "JK Enterprises provides high-performance industrial printing solutions, including UV, Eco-Solvent, and DTF printers.",
+  icons: {
+    icon: "/images/allwinjklogo.jpeg",
+  },
 };
 
 export default function RootLayout({

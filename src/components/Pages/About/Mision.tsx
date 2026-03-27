@@ -58,13 +58,13 @@ export default function Mission() {
     <section className="relative py-16 md:py-20 lg:py-24 overflow-hidden">
 
       {/* Background Image */}
-      <div className="absolute inset-0 -z-10">
+      {/* <div className="absolute inset-0 -z-10">
         <img
           src="\images\3d-abstract-background-with-low-poly-plexus-design.jpg"
           alt="background"
           className="w-full h-full object-cover opacity-20"
         />
-      </div>
+      </div> */}
 
       <div className="max-w-7xl mx-auto px-6">
 

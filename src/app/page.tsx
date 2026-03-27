@@ -261,8 +261,6 @@ export default function HomePage() {
       <PrinterCTA/>
 
     </div>
-    // <div>
-    //    <HeroSection/> <StickyServices/>
-    //  <FeaturedProducts/></div>
+   
   )
 }

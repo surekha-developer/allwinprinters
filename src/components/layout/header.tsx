@@ -15,33 +15,33 @@ import { productsData } from "@/data/productsData";
 
 
 const menuData = [
-  { category: "Solvent Printing Machines", slug: "solvent-printing-machines", products: ["DIGITAL INKJET PRINTER", "Digital Solvent Flex Printer", "Allwin 1024i Pro Series"], image: "/images/products/eco.jpg", tag: "Outdoor", title: "Eco solvent printing", desc: "Flex & banner printing" },
+  { category: "Solvent Printing Machines", slug: "solvent-printing-machines", products: ["DIGITAL INKJET PRINTER", "Digital Solvent Flex Printer", "Allwin 1024i Pro Series"], image: "/images/SolventPrintingMachines/imgi_2_1024.png", tag: "Solvent", title: "Solvent Printing", desc: "Industrial Flex Printing" },
 
-  { category: "Eco Solvent Printing Machines", slug: "eco-solvent-printing-machines", products: ["Eco Solvent Printer A-180", "ECO SOLVENT 2 HEAD 4 COLOUR PRINTER","Allwin Eco Solvent 3 Head 6 Colour Printer","Oric Single Head Eco Solvent Printer"], image: "/images/products/uv.jpg", tag: "Industrial", title: "UV printing", desc: "Multi-surface printing" },
+  { category: "Eco Solvent Printing Machines", slug: "eco-solvent-printing-machines", products: ["Eco Solvent Printer A-180", "ECO SOLVENT 2 HEAD 4 COLOUR PRINTER","Allwin Eco Solvent 3 Head 6 Colour Printer","Oric Single Head Eco Solvent Printer"], image: "/images/ecoSolventPrintingMachines/imgi_2_ALLWIN-ECO-SOLVENT-A-180.webp", tag: "Eco", title: "Eco Solvent", desc: "Signage & Vinyl" },
 
-  { category: "UV Printing Machines", slug: "uv-printing-machines", products: ["10 Feet Giant UV Hybrid Printer", "1.8 meter UV Hybrid Printer","Allwin Pinch Roller UV Printer","E 320 UV Balance Roller Machine","Konica & Richo 2513 UV Flatbed Printer","1.6 M UV Pinch Roller","10 FEET 2 Row Model Rubber Roller Printer","10 FEET 4 Row Model Rubber Roller Printer"], image: "/images/products/solvent.jpg", tag: "Bulk", title: "Heavy duty", desc: "High volume machines" },
+  { category: "UV Printing Machines", slug: "uv-printing-machines", products: ["10 Feet Giant UV Hybrid Printer", "1.8 meter UV Hybrid Printer","Allwin Pinch Roller UV Printer","E 320 UV Balance Roller Machine","Konica & Richo 2513 UV Flatbed Printer","1.6 M UV Pinch Roller","10 FEET 2 Row Model Rubber Roller Printer","10 FEET 4 Row Model Rubber Roller Printer"], image: "/images/UVPrinters/imgi_16_allwin-1.png", tag: "UV", title: "UV Printing", desc: "Rigid & Flexible Media" },
 
-  { category: "DTF Printing Machines", slug: "dtf-printing-machines", products: ["DTF Printer", "ORIC 2 Feet UV DTF Printer","ORIC 1 Feet UV DTF Printer"], image: "/images/products/sub.jpg", tag: "Textile", title: "Fabric printing", desc: "Garments printing" },
+  { category: "DTF Printing Machines", slug: "dtf-printing-machines", products: ["DTF Printer", "ORIC 2 Feet UV DTF Printer","ORIC 1 Feet UV DTF Printer"], image: "/images/dtfprinters/imgi_2_ALLWIN-DTF-Printer-1.png", tag: "Textile", title: "Fabric Printing", desc: "Direct to Film" },
 
-  { category: "Laser Cutting $ Engraving Machines", slug: "laser-cutting-engraving-machines", products: ["4X3 Laser Cutting & Engraving Machine", "8X4 Laser Cutting & Engraving Machine", "2x1.5 Ft laser cutting and engraving machine","8x4 Ft. Laser Cutting and Engraving Machine","4x3 Ft. Laser Cutting and Engraving Machine"], image: "/images/products/dtf.jpg", tag: "Garment", title: "Direct film", desc: "T-shirt printing" },
+  { category: "Laser Cutting & Engraving Machines", slug: "laser-cutting-engraving-machines", products: ["Yueming 4X3 Laser Cutting & Engraving Machine", "Yueming 8X4 Laser Cutting & Engraving Machine", "Rayt 2x1.5 Ft Laser Cutting and Engraving Machine", "Rayt 8x4 Ft. Laser Cutting and Engraving Machine", "Rayt 4x3 Ft. Laser Cutting and Engraving Machine"], image: "/images/LaserCutting&EngravingMachines/imgi_2_YuemingLaserCutting.png", tag: "Cutting", title: "Laser Cutting", desc: "Acrylic & Wood" },
 
-  { category: "CNC Router Machines", slug: "cnc-router-machines", products: ["Flatbed Oscilating Knife Cutting Machine", "CNC Router","CNC Router","CNC ROUTER","ECONOMY CNC ROUTER"], image: "/images/products/laser.jpg", tag: "Cutting", title: "Laser cutting", desc: "Wood & acrylic" },
+  { category: "CNC Router Machines", slug: "cnc-router-machines", products: ["KARTECH Flatbed Oscilating Knife Cutting Machine", "RAYT CNC Router NT 1325", "RAYT CNC Router NT 6090", "TigerTec CNC ROUTER TR 408 AD", "UTECH Economy CNC Router"], image: "/images/CNCRouterMachines/imgi_5_RAYT-CNC-ROUTER.png", tag: "Routing", title: "CNC Router", desc: "Precision Routing" },
 
-  { category: "Fiber Laser Machines", slug: "fiber-laser-machines", products: ["300 Watts Laser Welding Machine", "Fiber Laser Welding Marking Machine","Fiber Laser Welding Machine","Fiber Marking Machine","Portable Mini Marking Machine"], image: "/images/products/cnc.jpg", tag: "Routing", title: "CNC cutting", desc: "Precision routing" },
+  { category: "Fiber Laser Machines", slug: "fiber-laser-machines", products: ["300 Watts Laser Welding Machine", "Fiber Laser Welding Marking Machine","Fiber Laser Welding Machine","Fiber Marking Machine","Portable Mini Marking Machine"], image: "/images/FiberLaserMachines/imgi_3_DOBOSEN_300.png", tag: "Fiber", title: "Fiber Laser", desc: "Welding & Marking" },
 
-  { category: "Letter Bending Machines", slug: "letter-bending-machines", products: ["Alluminium Channel Letter Bending Machine", "Stainless Steel Channel Letter Bending Machine"], image: "/images/products/lam.jpg", tag: "Finish", title: "Lamination", desc: "Protection layer" },
+  { category: "Letter Bending Machines", slug: "letter-bending-machines", products: ["Dobosen Alluminium Channel Letter Bending Machine", "Dobosen Stainless Steel Channel Letter Bending Machine"], image: "/images/LetterBendingMachines/imgi_2_DOBOSEN-ALUMINIUM.png", tag: "Bending", title: "Letter Bending", desc: "Aluminum & SS Channel" },
 
-  { category: "Sheet Cutters", slug: "sheet-cutters", products: ["Adsorbed Sheet Cutter", "Camera Economy Sheet Cutting Machine","Sheet Cutter"], image: "/images/products/plot.jpg", tag: "Cutting", title: "Plotter cutting", desc: "Sticker cutting" },
+  { category: "Sheet Cutters", slug: "sheet-cutters", products: ["Saga Adsorbed Sheet Cutter", "Saga Camera Economy Sheet Cutting Machine","Saga Sheet Cutter"], image: "/images/sheetCutters/imgi_3_SAGA-ADSORBED-1.png", tag: "Cutting", title: "Sheet Cutting", desc: "Digital Finishing" },
 
-  { category: "Lamination Machines", slug: "lamination-machines", products: ["A3, A4 Desktop A4 Lamination", "Auto Hot/Cold Lamination"], image: "/images/products/ink.jpg", tag: "Supplies", title: "Printing ink", desc: "High quality" },
+  { category: "Lamination Machines", slug: "lamination-machines", products: ["Fayon A3, A4 Desktop A4 Lamination", "Fayon Auto Hot/Cold Lamination"], image: "/images/laminationmachines/imgi_4_FAYON2-1.png", tag: "Lamination", title: "Lamination", desc: "Hot & Cold Finishing" },
 
-  { category: "Vinyl Cutting Plotters", slug: "vinyl-cutting-plotters", products: ["Konica", "Xaar"], image: "/images/products/head.jpg", tag: "Parts", title: "Print heads", desc: "Original parts" },
+  { category: "Vinyl Cutting Plotters", slug: "vinyl-cutting-plotters", products: ["Mimaki ARIII Cutting Plotter", "Saga Vinyl Cutting Plotter with Camera", "Saga Cutting Plotter", "Saga Flatbed Cutter", "Saga Trimmer Cutter"], image: "/images/vinylcuttingplotters/imgi_2_vinyl1.png", tag: "Plotter", title: "Vinyl Plotter", desc: "Sticker & Vinyl Cutting" },
 
-  { category: "Printing Inks", slug: "printing-inks", products: ["Boards", "Motors"], image: "/images/products/spare.jpg", tag: "Parts", title: "Machine parts", desc: "All spare parts" },
+  { category: "Printing Inks", slug: "printing-inks", products: [], image: "/images/printingInks/imgi_2_toyo_eco_solvent_ink.png", tag: "Ink", title: "Printing Inks", desc: "Premium Inks" },
 
-  { category: "Printer Spare Parts", slug: "printer-spare-parts", products: ["Cutters", "Trimmers"], image: "/images/products/finish.jpg", tag: "Post", title: "Finishing tools", desc: "Better output" },
+  { category: "Printer Spare Parts", slug: "printer-spare-parts", products: [], image: "/images/printerspareparts/imgi_13_mother-board.jpg", tag: "Parts", title: "Spare Parts", desc: "All Machine Parts" },
 
-  { category: "Printer Heads", slug: "printer-heads", products: ["Manual", "Auto"], image: "/images/products/heat.jpg", tag: "Transfer", title: "Heat press", desc: "T-shirt printing" },
+  { category: "Printer Heads", slug: "printer-heads", products: [], image: "/images/Printer Heads – newcleartechnologies/imgi_3_original-konica-km1024mhb-14pl-uv-printhead_1445520.jpg", tag: "Heads", title: "Printer Heads", desc: "Original Print Heads" },
 ];
 
 
@@ -119,16 +119,16 @@ export default function Header() {
             <Image
               src="/images/jklogo-removebg-preview.png"
               alt="JK Enterprises Logo"
-              width={115}
-              height={80}
-              className="rounded-lg w-20 sm:w-[115px] h-auto"
+              width={100}
+              height={70}
+              className="rounded-lg w-16 sm:w-[100px] h-auto"
             />
             <Image
               src="/images/Screenshot_2026-03-26_103628-removebg-preview.png"
               alt="ALLWIN Logo"
-              width={120}
-              height={60}
-              className="object-contain w-16 sm:w-[100px] h-auto"
+              width={110}
+              height={55}
+              className="object-contain w-14 sm:w-[100px] h-auto"
             />
           </Link>
 

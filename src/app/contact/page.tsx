@@ -105,7 +105,7 @@ export default function ContactPage() {
     if (res.success) {
       setStatus({
         type: "success",
-        message: "✅ Message sent successfully! We will get back to you soon.",
+        message: "✅ Message done! We will get back to you soon.",
       });
       setFormData({
         name: "",
@@ -114,11 +114,22 @@ export default function ContactPage() {
         service: "",
         message: "",
       });
+      
+      // Auto-hide message after 10 seconds
+      setTimeout(() => {
+        setStatus({ type: "", message: "" });
+      }, 10000);
+
     } else {
       setStatus({
         type: "error",
         message: res.message || "❌ Failed to send message. Please contact us at +91-8712413159.",
       });
+
+      // Auto-hide error too
+      setTimeout(() => {
+        setStatus({ type: "", message: "" });
+      }, 10000);
     }
 
     setLoading(false);
@@ -144,19 +155,16 @@ export default function ContactPage() {
           <div>
             <div className="flex justify-between items-center border-b border-gray-200 pb-5 mb-8">
               <div className="flex items-center gap-3">
-                <Building2 className="text-blue-600 w-6 h-6" />
+                <Building2 className="text-primary w-6 h-6" />
                 <span className="font-semibold text-lg text-gray-900">Hyderabad</span>
               </div>
-              {/* <span className="text-xs border border-blue-600 text-blue-600 px-3 py-1 rounded-full bg-white">
-                Corporate Office
-              </span> */}
             </div>
 
             <div className="space-y-8">
               <div>
                 <h4 className="text-gray-500 text-sm font-medium mb-3">Location :</h4>
                 <div className="flex items-start gap-4">
-                  <MapPin className="text-blue-600 w-5 h-5 mt-0.5 flex-shrink-0" />
+                  <MapPin className="text-primary w-5 h-5 mt-0.5 flex-shrink-0" />
                   <p className="text-sm text-gray-700 leading-relaxed">
                     #11-126, Opp IDPL Colony,<br/> Sumitra Nagar, Hyderabad-37
                   </p>
@@ -166,8 +174,8 @@ export default function ContactPage() {
               <div>
                 <h4 className="text-gray-500 text-sm font-medium mb-3">Email :</h4>
                 <div className="flex items-center gap-4">
-                  <Mail className="text-blue-600 w-5 h-5 flex-shrink-0" />
-                  <a href="mailto:Jke.jayaram@gmail.com" className="text-sm text-gray-700 hover:text-blue-600 transition-colors">
+                  <Mail className="text-primary w-5 h-5 flex-shrink-0" />
+                  <a href="mailto:Jke.jayaram@gmail.com" className="text-sm text-gray-700 hover:text-primary transition-colors">
                     Jke.jayaram@gmail.com
                   </a>
                 </div>
@@ -176,8 +184,8 @@ export default function ContactPage() {
               <div>
                 <h4 className="text-gray-500 text-sm font-medium mb-3">Sales Enquiry :</h4>
                 <div className="flex items-center gap-4">
-                  <Phone className="text-blue-600 w-5 h-5 flex-shrink-0" />
-                  <a href="tel:8712413159" className="text-sm text-gray-700 hover:text-blue-600 transition-colors">
+                  <Phone className="text-primary w-5 h-5 flex-shrink-0" />
+                  <a href="tel:8712413159" className="text-sm text-gray-700 hover:text-primary transition-colors font-bold">
                     +91-8712413159
                   </a>
                 </div>
@@ -185,19 +193,14 @@ export default function ContactPage() {
             </div>
           </div>
           
-          <div className="mt-12 flex justify-between items-center pt-6 border-t border-gray-200">
-             <Link href="#" className="flex items-center gap-2 px-4 py-2 border border-blue-600 text-blue-600 rounded-full text-sm font-medium hover:bg-blue-50 transition-colors">
-                Get Direction &rarr;
-             </Link>
-             <Link href="#" className="text-sm font-medium text-blue-600 hover:underline flex items-center gap-1">
-                View All &rarr;
-             </Link>
+          <div className="mt-12 flex flex-col gap-4 text-center items-center pt-6 border-t border-gray-200 italic text-gray-400 text-sm">
+             <p>Our experts are ready to assist you.</p>
           </div>
         </div>
 
         {/* Right Side: Form */}
         <div className="w-full lg:w-2/3 p-8 lg:p-10">
-          <h3 className="text-2xl font-bold text-gray-900 mb-6">Contact Info*</h3>
+          <h3 className="text-2xl font-bold text-gray-900 mb-6 font-primary">Contact Info*</h3>
           
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -210,7 +213,7 @@ export default function ContactPage() {
                   onChange={handleChange}
                   placeholder="Name *"
                   className={`w-full border rounded-lg p-3 text-sm outline-none transition-colors ${
-                    errors.name ? "border-red-500 focus:border-red-500 focus:ring-red-500" : "border-gray-300 focus:border-blue-500 focus:ring-blue-500"
+                    errors.name ? "border-red-500 focus:border-red-500 focus:ring-red-500" : "border-gray-300 focus:border-primary focus:ring-primary"
                   } focus:ring-1`}
                 />
                 {errors.name && <p className="text-red-500 text-xs mt-1">{errors.name}</p>}
@@ -225,7 +228,7 @@ export default function ContactPage() {
                   onChange={handleChange}
                   placeholder="Email Id *"
                   className={`w-full border rounded-lg p-3 text-sm outline-none transition-colors ${
-                    errors.email ? "border-red-500 focus:border-red-500 focus:ring-red-500" : "border-gray-300 focus:border-blue-500 focus:ring-blue-500"
+                    errors.email ? "border-red-500 focus:border-red-500 focus:ring-red-500" : "border-gray-300 focus:border-primary focus:ring-primary"
                   } focus:ring-1`}
                 />
                 {errors.email && <p className="text-red-500 text-xs mt-1">{errors.email}</p>}
@@ -241,7 +244,7 @@ export default function ContactPage() {
                   maxLength={10}
                   placeholder="Mobile No*"
                   className={`w-full border rounded-lg p-3 text-sm outline-none transition-colors ${
-                    errors.mobile ? "border-red-500 focus:border-red-500 focus:ring-red-500" : "border-gray-300 focus:border-blue-500 focus:ring-blue-500"
+                    errors.mobile ? "border-red-500 focus:border-red-500 focus:ring-red-500" : "border-gray-300 focus:border-primary focus:ring-primary"
                   } focus:ring-1`}
                 />
                 {errors.mobile && <p className="text-red-500 text-xs mt-1">{errors.mobile}</p>}
@@ -256,7 +259,7 @@ export default function ContactPage() {
                   className={`w-full border rounded-lg p-3 text-sm outline-none transition-colors bg-white ${
                     formData.service ? "text-gray-900" : "text-gray-500"
                   } ${
-                    errors.service ? "border-red-500 focus:border-red-500 focus:ring-red-500" : "border-gray-300 focus:border-blue-500 focus:ring-blue-500"
+                    errors.service ? "border-red-500 focus:border-red-500 focus:ring-red-500" : "border-gray-300 focus:border-primary focus:ring-primary"
                   } focus:ring-1`}
                 >
                   <option value="" disabled>
@@ -281,35 +284,15 @@ export default function ContactPage() {
                 placeholder="Type Your Message"
                 rows={5}
                 className={`w-full border rounded-lg p-3 text-sm outline-none transition-colors resize-none ${
-                  errors.message ? "border-red-500 focus:border-red-500 focus:ring-red-500" : "border-gray-300 focus:border-blue-500 focus:ring-blue-500"
+                  errors.message ? "border-red-500 focus:border-red-500 focus:ring-red-500" : "border-gray-300 focus:border-primary focus:ring-primary"
                 } focus:ring-1`}
               ></textarea>
               {errors.message && <p className="text-red-500 text-xs mt-1">{errors.message}</p>}
             </div>
 
-            {/* Checkbox */}
-            {/* <div className="flex items-start gap-3">
-              <div className="flex items-center h-5">
-                <input
-                  type="checkbox"
-                  name="agree"
-                  id="agree"
-                  checked={formData.agree}
-                  onChange={handleChange}
-                  className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 cursor-pointer"
-                />
-              </div>
-              <label htmlFor="agree" className="text-sm text-gray-600 cursor-pointer">
-                By registering here, I agree to JK Enterprises' {" "}
-                <Link href="#" className="text-blue-600 hover:underline">Terms of Service</Link> and {" "}
-                <Link href="#" className="text-blue-600 hover:underline">Privacy Policy</Link>.
-              </label>
-            </div> */}
-            {/* {errors.agree && <p className="text-red-500 text-xs mt-1">{errors.agree}</p>} */}
-
             {/* Status Messages */}
             {status.message && (
-              <div className={`p-4 rounded-lg text-sm ${status.type === "success" ? "bg-green-50 text-green-800 border border-green-200" : "bg-red-50 text-red-800 border border-red-200"}`}>
+              <div className={`p-4 rounded-lg text-sm transition-all duration-300 ${status.type === "success" ? "bg-green-50 text-green-800 border border-green-200" : "bg-red-50 text-red-800 border border-red-200"}`}>
                 {status.message}
               </div>
             )}
@@ -319,7 +302,7 @@ export default function ContactPage() {
               <button
                 type="submit"
                 disabled={loading}
-                className="bg-orange-500 hover:bg-orange-600 text-white font-medium py-3 px-8 rounded-full transition-colors disabled:opacity-70 disabled:cursor-not-allowed text-sm flex items-center justify-center min-w-[160px]"
+                className="btn-gradient text-white font-bold py-3 px-10 rounded-full transition-all hover:scale-105 disabled:opacity-70 disabled:cursor-not-allowed text-sm flex items-center justify-center min-w-[200px]"
               >
                 {loading ? (
                   <span className="flex items-center gap-2">
@@ -340,3 +323,4 @@ export default function ContactPage() {
     </div>
   );
 }
+ 
