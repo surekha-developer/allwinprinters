@@ -12,7 +12,7 @@ export default async function ProductDetailPage({
 
   const subProduct = product?.subProducts.find(
     (sp) => sp.slug === subSlug
-  );
+  ) as any;
 
   if (!subProduct) {
     return (
