@@ -11,97 +11,74 @@ export const productsData = [
       {
   "slug": "digital-inkjet-printer",
   "name": "DIGITAL INKJET PRINTER",
-  "description": "C8-1024iPlus - Digital Inkjet Printer",
-  "fullDescription": "ALLWIN HIGH SPEED FLEX PRINTING MACHINE: We, JK ENTERPRISES are the authorised and sole dealer of allwin flex printing machines in India.",
-  "image": "/images/SolventPrintingMachines/imgi_2_1024.png",
+  "description": "C8 PRO 1024I / 9888H Solvent Printer",
+  "fullDescription": "New generation KONICA 9888H High precision UV / Solvent printhead.",
+  "image": "/images/SolventPrintingMachines/SolventPrinter.jpeg",
   "bg": "bg-gray-100",
   "text": "text-gray-900",
   "features": [
-    "High Speed Flex Printing",
-    "Accurate Stepping with Pinch Roller",
-    "Industrial Grade Performance",
-    "Compatible with Multiple Ink Types"
+    "Linear motor and double guide rails",
+    "Intelligent infrared drying system",
+    "Built-in movable media fixing",
+    "Standard negative pressure system",
+    "Reflective photoelectric switch",
+    "Print head anti-collision system"
   ],
-  "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of allwin flex printing machines in India.",
-  "mainFeaturesTitle": "Main Features of allwin C1024i flex/textile machine",
+  "dealerInfo": "JK ENTERPRISES are the authorised and sole dealer of ALLWIN flex printing machines in India.",
+  "mainFeaturesTitle": "Main Features of C8 PRO Digital Inkjet Printer",
   "detailedFeatures": [
-    "The pinch roller is same as eco solvent printer which can achieve more accurate stepping and combination of the prints.",
-    "The upgraded printing bed vacuum structure to ensure the media flatness during printing.",
-    "Longer body design to achieve 3.2M full printing length in high speed mode of 2 pass/360dpi.",
-    "The computer and keyboard can be installed on the machine for more convenient operation and space saving.",
-    "Professional additional collecting system to ensure sufficient drying in fast printing and more convenient process after printing.",
-    "Special shaft on feeding rolls to fix the media to avoid the movement of media during feeding."
+    "Linear motor and double guide rails: High precision assembled and adjusted for more stable carriage movement, reducing maintenance costs.",
+    "Intelligent infrared drying system: Features printing start/stop and infrared automatic open/close for efficient media drying.",
+    "Advanced Feeding System: The feeding system adopts built-in movable media fixing structure to prevent material from deviation.",
+    "Standard negative pressure system: Ensures continuous printing without nozzle missing for high industrial reliability.",
+    "Reflective photoelectric switch: Adopts reflective photoelectric switch, capable of printing on black banners with high precision.",
+    "Anti-collision system: The print head anti-collision system can effectively prevent head damage during high-speed printing."
   ],
-  "speedTable": [
-    {
-      "pass": "1 PASS",
-      "resolution": "480 * 360 dpi",
-      "speed": "5166 Sq.Ft/ h"
-    },
-    {
-      "pass": "2 PASS",
-      "resolution": "360 * 720 dpi",
-      "speed": "3013 Sq.Ft/ h"
-    },
-    {
-      "pass": "3 PASS",
-      "resolution": "480 * 720 dpi",
-      "speed": "2583 Sq.Ft/ h"
-    },
-    {
-      "pass": "4 PASS",
-      "resolution": "360 * 1080 dpi",
-      "speed": "1937 Sq.Ft/ h"
-    }
-  ],
+  "speedTable": [],
   "techSpecs": [
     {
-      "label": "PRINTHEAD NAME",
-      "value": "KM1024i MHE/HS 1000"
+      "label": "Model",
+      "value": "C9888H PRO / C1024I PRO"
     },
     {
-      "label": "TECHNOLOGY",
-      "value": "Piezo Drop on Demand"
+      "label": "Head Model",
+      "value": "KONICA 9888H / HS1000/6988H"
     },
     {
-      "label": "DRIVE SYSTEM",
-      "value": "Independent drive system"
+      "label": "Printhead Quantity",
+      "value": "4 / 8"
     },
     {
-      "label": "RESOLUTION",
-      "value": "360 npi (90 npi * 4Lines)"
+      "label": "Drop Volume",
+      "value": "5PL/10PL/15PL / 30PL/13PL"
     },
     {
-      "label": "NUMBER OF NOZZLES",
-      "value": "1024 nozzles (256 nozzles * 4 Lines)"
+      "label": "Drying System",
+      "value": "Infrared- heater fan"
     },
     {
-      "label": "DROP SIZE",
-      "value": "13 PL, 30 PL"
+      "label": "Print Width",
+      "value": "3250mm"
     },
     {
-      "label": "MAX FREQUENCY",
-      "value": "45 KHz"
+      "label": "Rip Software",
+      "value": "MainTop / Photo Print"
     },
     {
-      "label": "PRINTING WIDTH",
-      "value": "72 mm"
+      "label": "Electricity Requirement",
+      "value": "220v/60A/50HZ"
     },
     {
-      "label": "DIMENSIONS",
-      "value": "W 131 mm * D18mm * H94mm"
+      "label": "Machine Max Power",
+      "value": "13295W"
     },
     {
-      "label": "WEIGHT",
-      "value": "Approx 150g"
+      "label": "Machine Body Size",
+      "value": "4840(L)*940(W)*1400(H)mm"
     },
     {
-      "label": "GREY SCALE",
-      "value": "8 Levels"
-    },
-    {
-      "label": "COMPATIBLE INK",
-      "value": "Solvent Ink, UV Ink, Oil Ink"
+      "label": "Weight (Gw/Nw)",
+      "value": "1135kg / 1035kg"
     }
   ]
 },
@@ -153,31 +130,7 @@ export const productsData = [
       "resolution": "480 * 720 dpi",
       "speed": "110 ㎡/h"
     },
-    {
-      "pass": "2 PASS",
-      "resolution": "180 * 720 dpi",
-      "speed": "160 ㎡/h"
-    },
-    {
-      "pass": "3 PASS",
-      "resolution": "240 * 720 dpi",
-      "speed": "120 ㎡/h"
-    },
-    {
-      "pass": "2 PASS",
-      "resolution": "180 * 1080 dpi",
-      "speed": "104 ㎡/h"
-    },
-    {
-      "pass": "3 PASS",
-      "resolution": "240 * 1080 dpi",
-      "speed": "80 ㎡/h"
-    },
-    {
-      "pass": "4 PASS",
-      "resolution": "180 * 720 dpi",
-      "speed": "80 ㎡/h"
-    }
+   
   ],
   "techSpecs": [
     {
@@ -295,7 +248,7 @@ export const productsData = [
         ]
       }
     ],
-    "bgImage": "/images/productbgimages/dummy2.jpg"
+    "bgImage": "/images/productbgimages/bg1.webp"
   },
   {
     "slug": "eco-solvent-printing-machines",
@@ -719,7 +672,7 @@ export const productsData = [
   ]
 },
     ],
-    "bgImage": "/images/productbgimages/bg2.jpg"
+    "bgImage": "/images/productbgimages/bg2.webp"
   },
   {
     "slug": "uv-printing-machines",
@@ -1971,7 +1924,7 @@ export const productsData = [
   ]
 }
     ],
-    "bgImage": "/images/productbgimages/bg3.jpg"
+    "bgImage": "/images/productbgimages/bg3.webp"
   },
   {
     "slug": "dtf-printing-machines",
@@ -2256,7 +2209,7 @@ export const productsData = [
         ]
       }
     ],
-    "bgImage": "/images/productbgimages/bg5.jpg"
+    "bgImage": "/images/productbgimages/bg5.webp"
   },
   {
     "slug": "laser-cutting-engraving-machines",
@@ -2675,7 +2628,7 @@ export const productsData = [
         ]
       }
     ],
-    "bgImage": "/images/productbgimages/bg7.jpg"
+    "bgImage": "/images/productbgimages/bg7.webp"
   },
   {
     "slug": "cnc-router-machines",
@@ -2982,7 +2935,7 @@ export const productsData = [
         ]
       }
     ],
-    "bgImage": "/images/productbgimages/dummy2.jpg"
+    "bgImage": "/images/productbgimages/bg3.webp"
   },
   {
     "slug": "fiber-laser-machines",
@@ -3137,7 +3090,7 @@ export const productsData = [
         ]
       }
     ],
-    "bgImage": "/images/productbgimages/dummy2.jpg"
+    "bgImage": "/images/productbgimages/bg1.webp"
   },
   {
     "slug": "letter-bending-machines",
@@ -3205,7 +3158,7 @@ export const productsData = [
         ]
       }
     ],
-    "bgImage": "/images/productbgimages/dummy2.jpg"
+    "bgImage": "/images/productbgimages/bg2.webp"
   },
   {
     "slug": "sheet-cutters",
@@ -3295,7 +3248,7 @@ export const productsData = [
         ]
       }
     ],
-    "bgImage": "/images/productbgimages/dummy2.jpg"
+    "bgImage": "/images/productbgimages/bg3.webp"
   },
   {
     "slug": "lamination-machines",
@@ -3356,7 +3309,7 @@ export const productsData = [
         ]
       }
     ],
-    "bgImage": "/images/productbgimages/dummy2.jpg"
+    "bgImage": "/images/productbgimages/bg5.webp"
   },
   {
     "slug": "vinyl-cutting-plotters",
@@ -3488,7 +3441,7 @@ export const productsData = [
         ]
       }
     ],
-    "bgImage": "/images/productbgimages/dummy2.jpg"
+    "bgImage": "/images/productbgimages/bg7.webp"
   },
   {
     "slug": "printing-inks",
@@ -3509,7 +3462,7 @@ export const productsData = [
       },
       {
         "slug": "",
-        "name": "RAYT Smell less Inks for all heads",
+        "name": "Smell less Inks for all heads",
         "description": "Odorless Solvent Ink",
         "fullDescription": "Environmentally friendly solvent inks with minimal odor, compatible with a wide range of industrial printheads.",
         "image": "/images/printingInks/imgi_4_smellless_inks_for_512_1024i.png",
@@ -3533,7 +3486,7 @@ export const productsData = [
       },
       {
         "slug": "",
-        "name": "RAYT UV Hybrid Ink",
+        "name": "UV Hybrid Ink",
         "description": "Versatile UV Ink for Hybrid Systems",
         "fullDescription": "Formulated for hybrid UV printing systems, offering high flexibility and scratch resistance.",
         "image": "/images/printingInks/imgi_6_ink_toyo_t_series_solvent__77k_ink.png",
@@ -3580,6 +3533,6 @@ export const productsData = [
         "techSpecs": []
       }
     ],
-    "bgImage": "/images/productbgimages/dummy2.jpg"
+    "bgImage": "/images/productbgimages/bg7.webp"
   }
 ];

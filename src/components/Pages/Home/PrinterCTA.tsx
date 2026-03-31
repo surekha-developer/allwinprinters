@@ -3,8 +3,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
-import { ArrowRight } from "lucide-react";
 import { FaAngleDoubleRight } from "react-icons/fa";
 
 export default function PrinterCTA() {
@@ -21,7 +19,7 @@ export default function PrinterCTA() {
         {/* Heading */}
         <h2 className="text-3xl md:text-5xl font-bold mb-6 leading-tight text-gray-900">
           Upgrade Your Printing Business with{" "}
-          <span className="text-primary italic">AllwinTech Printers</span>
+          <span className="text-primary italic">Allwin Printers</span>
         </h2>
 
         {/* Description */}

@@ -7,7 +7,7 @@
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Menu, Sun, Moon } from "lucide-react";
+import { Menu } from "lucide-react";
 import Image from "next/image";
 import { FaAngleDoubleRight, FaChevronDown } from "react-icons/fa";
 import { productsData } from "@/data/productsData";
@@ -47,16 +47,33 @@ const menuData = [
 
 
 
+interface MenuItem {
+  category: string;
+  slug: string;
+  products: string[];
+  image: string;
+  tag: string;
+  title: string;
+  desc: string;
+}
+
+interface ProductDetails {
+  slug?: string;
+  name: string;
+  image: string;
+  description: string;
+}
+
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [megaMenuOpen, setMegaMenuOpen] = useState(false);
-  const [activeCategory, setActiveCategory] = useState(menuData[0]);
-  const [activeHoverProduct, setActiveHoverProduct] = useState<any>(null);
+  const [activeCategory, setActiveCategory] = useState<MenuItem>(menuData[0]);
+  const [activeHoverProduct, setActiveHoverProduct] = useState<ProductDetails | null>(null);
   const hoverTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const mobileMenuRef = useRef<HTMLDivElement>(null);
 
-  const handleCategoryHover = (item: any) => {
+  const handleCategoryHover = (item: MenuItem) => {
     if (hoverTimeoutRef.current) {
       clearTimeout(hoverTimeoutRef.current);
     }
@@ -123,13 +140,17 @@ export default function Header() {
               height={70}
               className="rounded-lg w-16 sm:w-[100px] h-auto"
             />
-            <Image
-              src="/images/Screenshot_2026-03-26_103628-removebg-preview.png"
-              alt="ALLWIN Logo"
-              width={110}
-              height={55}
-              className="object-contain w-14 sm:w-[100px] h-auto"
-            />
+         
+
+            <div className="bg-[#03989E] p-3 rounded-none inline-block">
+  <Image
+    src="/images/allwinoriginallogo/imgi_32_logo.png"
+    alt="ALLWIN Logo"
+    width={110}
+    height={55}
+    className="object-contain w-14 sm:w-[100px] h-auto"
+  />
+</div>
           </Link>
 
           {/* NAV */}
@@ -281,9 +302,10 @@ export default function Header() {
                         return (
                           <div className="bg-white/5 backdrop-blur-md rounded-xl p-4 border border-white/10 transition-all duration-300 flex flex-col h-full">
                             <div className="relative h-48 w-full mb-4 bg-white/10 rounded-lg overflow-hidden flex items-center justify-center p-2">
-                              <img
+                              <Image
                                 src={displayImage}
-                                className="w-full h-full object-contain"
+                                fill
+                                className="object-contain"
                                 alt={displayName}
                               />
                             </div>

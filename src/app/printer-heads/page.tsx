@@ -1,7 +1,7 @@
 "use client";
-import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function PrinterHeadsPage() {
   return (
@@ -31,20 +31,20 @@ export default function PrinterHeadsPage() {
             className="text-gray-600 max-w-4xl mx-auto text-sm md:text-base leading-relaxed"
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5, duration: 0.6 }}
           >
-            Introducing our state-of-the-art Flex and Textile Solvent Printing Machine: the ultimate solution for vibrant, high-quality prints on a variety of materials. Engineered for precision and efficiency, this machine delivers stunning colors and sharp details with every print, whether you're working with flexible media or textiles. Its advanced solvent technology ensures long-lasting durability and resistance to fading, while its user-friendly interface and robust construction provide reliable performance in any production environment. Elevate your printing capabilities and bring your creative visions to life with unparalleled ease and excellence.
+            Introducing our state-of-the-art Flex and Textile Solvent Printing Machine: the ultimate solution for vibrant, high-quality prints on a variety of materials. Engineered for precision and efficiency, this machine delivers stunning colors and sharp details with every print, whether you&apos;re working with flexible media or textiles. Its advanced solvent technology ensures long-lasting durability and resistance to fading, while its user-friendly interface and robust construction provide reliable performance in any production environment. Elevate your printing capabilities and bring your creative visions to life with unparalleled ease and excellence.
           </motion.p>
         </div>
 
         {/* TWO HEADINGS & IMAGES */}
         <div className="flex flex-col md:flex-row justify-center items-center gap-12 md:gap-32 mb-16 text-center">
           <div>
-            <h3 className="text-[#00AEEF] text-lg font-semibold mb-4">Add Your Heading Text Here</h3>
+            <h3 className="text-[#00AEEF] text-lg font-semibold mb-4">KM 1024i</h3>
             <div className="w-48 h-32 relative mx-auto">
-              <Image src="/images/Printer Heads – newcleartechnologies/imgi_2_print_head.jpg" alt="Printer Head 1" fill className="object-contain" />
+              <Image src="/images/Printer Heads – newcleartechnologies/imgi_3_original-konica-km1024mhb-14pl-uv-printhead_1445520.jpg" alt="Printer Head 1" fill className="object-contain" />
             </div>
           </div>
           <div>
-            <h3 className="text-[#00AEEF] text-lg font-semibold mb-4">Add Your Heading Text Here</h3>
+            <h3 className="text-[#00AEEF] text-lg font-semibold mb-4">KM 512i</h3>
             <div className="w-48 h-32 relative mx-auto">
                <Image src="/images/Printer Heads – newcleartechnologies/imgi_3_original-konica-km1024mhb-14pl-uv-printhead_1445520.jpg" alt="Printer Head 2" fill className="object-contain" />
             </div>
@@ -54,10 +54,10 @@ export default function PrinterHeadsPage() {
         {/* TABLE 1: KM 1024 */}
         <div className="mb-20 grid grid-cols-1 lg:grid-cols-4 gap-0 items-stretch border border-gray-300 shadow-sm bg-white">
           <div className="lg:col-span-1 bg-[#b9bbbd] p-6 flex flex-col items-center justify-start h-full min-h-[300px]">
-             <span className="bg-[#666666] text-white px-8 py-1.5 rounded-sm text-sm font-bold mb-6 tracking-wide shadow-sm border border-black/10">KM 1024</span>
+             <span className="bg-[#666666] text-white px-8 py-1.5 rounded-sm text-sm font-bold mb-6 tracking-wide shadow-sm border border-black/10">KM 1024i</span>
              <div className="relative w-full aspect-square mb-4">
                <div className="w-full h-full border border-gray-400 rounded-md flex flex-col items-center justify-center overflow-hidden bg-white/50">
-                 <Image src="/images/Printer Heads – newcleartechnologies/imgi_4_spec_pict0012.jpg" alt="KM 1024" fill className="object-contain p-4" />
+                 <Image src="/images/Printer Heads – newcleartechnologies/imgi_5_spec_pict001.jpg" fill className="object-contain p-4" />
                  <span className="absolute bottom-2 text-xs font-semibold text-gray-700 bg-white/80 px-2 rounded"></span>
                </div>
              </div>
@@ -99,7 +99,7 @@ export default function PrinterHeadsPage() {
         {/* TABLE 2: KM 512 */}
         <div className="mb-20 grid grid-cols-1 lg:grid-cols-4 gap-0 items-stretch border border-gray-300 shadow-sm bg-white">
           <div className="lg:col-span-1 bg-[#b9bbbd] p-6 flex flex-col items-center justify-start h-full min-h-[300px]">
-             <span className="bg-[#666666] text-white px-8 py-1.5 rounded-sm text-sm font-bold mb-6 tracking-wide shadow-sm border border-black/10">KM 512</span>
+             <span className="bg-[#666666] text-white px-8 py-1.5 rounded-sm text-sm font-bold mb-6 tracking-wide shadow-sm border border-black/10">KM 512i</span>
              <div className="relative w-full aspect-square mb-4">
                <div className="w-full h-full border border-gray-400 rounded-md flex flex-col items-center justify-center overflow-hidden bg-white/50">
                  <Image src="/images/Printer Heads – newcleartechnologies/imgi_5_spec_pict001.jpg" alt="KM 512" fill className="object-contain p-4" />

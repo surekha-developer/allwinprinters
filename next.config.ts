@@ -1,38 +1,6 @@
-// import type { NextConfig } from "next";
+import type { NextConfig } from "next";
 
-// const nextConfig: NextConfig = {
-//   /* config options here */
-//   reactCompiler: true,
-// };
-
-// export default nextConfig;
-
-//...........
-
-
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   images: {
-//     remotePatterns: [
-//       {
-//         protocol: "https",
-//         hostname: "newcleartechnologies.com",
-//       },
-//       {
-//         protocol: "https",
-//         hostname: "images.unsplash.com",
-//       }
-//     ],
-//   },
-// };
-
-// module.exports = nextConfig;
-
-//....above code is good
-
-
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
@@ -47,12 +15,16 @@ const nextConfig = {
         protocol: "https",
         hostname: "cdn.prod.website-files.com",
       },
-       {
+      {
         protocol: "https",
         hostname: "www.allwintech.com",
       },
+      {
+        protocol: "https",
+        hostname: "randomuser.me",
+      },
     ],
   },
-}
+};
 
-module.exports = nextConfig
+export default nextConfig;

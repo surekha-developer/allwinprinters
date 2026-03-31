@@ -81,7 +81,7 @@ export default function HeroSection() {
             </motion.p>
 
             {/* Buttons */}
-            <div className="flex flex-wrap gap-4">
+            {/* <div className="flex flex-wrap gap-4">
               <a
   href="tel:8712413159"
   className="px-6 py-2 rounded-4xl flex items-center gap-3"
@@ -109,25 +109,58 @@ export default function HeroSection() {
                 </button>
               </Link>
 
-       {/* <a
-  href="tel:8712413159"
-  className="px-6 py-2 rounded-4xl flex items-center gap-3"
->
- <motion.div
-  animate={{ rotate: [0, -15, 15, -10, 10, 0] }}
-  transition={{
-    duration: 0.4,
-    repeat: Infinity,
-    repeatDelay: 2,
-  }}
->
-  <BiSolidPhoneCall size={30} />
-</motion.div>
-  87124 13159
-</a> */}
+   
 
 
 
+            </div> */}
+
+            <div className="flex flex-col gap-6 mb-10">
+              {/* Phone Numbers - Top Row */}
+              <div className="flex items-center gap-4 bg-background/50 backdrop-blur-sm p-3 px-6 rounded-2xl border border-border/50 shadow-sm w-fit">
+                <motion.div
+                  animate={{ rotate: [0, -15, 15, -10, 10, 0] }}
+                  transition={{
+                    duration: 0.5,
+                    repeat: Infinity,
+                    repeatDelay: 3,
+                  }}
+                  className="bg-sky-500/10 p-2 rounded-full text-sky-500"
+                >
+                  <BiSolidPhoneCall size={28} />
+                </motion.div>
+                
+                <div className="flex flex-col">
+                  <span className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground font-bold mb-0.5">
+                    Call Now
+                  </span>
+                  <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-2xl sm:text-3xl font-black tracking-tight leading-none">
+                    <a 
+                      href="tel:8712413159" 
+                      className="bg-gradient-to-r from-sky-600 to-cyan-500 bg-clip-text text-transparent hover:from-sky-400 hover:to-sky-400 transition-all duration-300"
+                    >
+                      87124 13159
+                    </a>
+                    <span className="hidden sm:inline text-muted-foreground/30 font-light select-none">|</span>
+                    <a 
+                      href="tel:8686242499" 
+                      className="bg-gradient-to-r from-sky-600 to-cyan-500 bg-clip-text text-transparent hover:from-sky-400 hover:to-sky-400 transition-all duration-300"
+                    >
+                      86862 42499
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              {/* Explore Products Button - Bottom Row */}
+              <div className="w-fit">
+                <Link href="/products/solvent-printing-machines">
+                  <Button className="btn-gradient px-8 py-6 rounded-full text-lg font-bold flex items-center gap-2 shadow-lg hover:shadow-xl transition-all duration-300">
+                    Explore Products
+                    <FaAngleDoubleRight className="text-xl" />
+                  </Button>
+                </Link>
+              </div>
             </div>
 
           </div>
@@ -208,7 +241,7 @@ export default function HeroSection() {
                       alt={name}
                       width={140}
                       height={60}
-                      className="h-30 w-auto object-contain"
+                      className="h-28 w-auto object-contain"
                     />
 
                     <span className="logo-name">

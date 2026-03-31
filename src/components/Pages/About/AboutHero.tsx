@@ -1,4 +1,4 @@
-"use client"
+import Image from "next/image"
 
 export default function AboutHero() {
   return (
@@ -6,10 +6,11 @@ export default function AboutHero() {
 
       {/* Background Image */}
       <div className="absolute inset-0">
-        <img
-          src="\images\home-printer-based-toner.jpg" // 👉 replace with your image
+        <Image
+          src="/images/home-printer-based-toner.jpg"
           alt="About Allwin"
-          className="w-full h-full object-cover"
+          fill
+          className="object-cover"
         />
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/60"></div>

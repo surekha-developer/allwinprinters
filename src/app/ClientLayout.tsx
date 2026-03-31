@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 
 import Loader from "@/components/Loader";
-import CustomCursor from "@/components/CustomCursor";
 import UIButtons from "@/components/UIButtons";
 import RouteScrollReset from "@/components/RouteScrollReset";
 
@@ -15,11 +14,15 @@ export default function ClientLayout({
 }) {
   const [loading, setLoading] = useState(false);
   const pathname = usePathname();
+  const [prevPathname, setPrevPathname] = useState(pathname);
+
+  // 🔥 Trigger loader on route change immediately
+  if (pathname !== prevPathname) {
+    setPrevPathname(pathname);
+    setLoading(true);
+  }
 
   useEffect(() => {
-    // 🔥 show loader on route change
-    setLoading(true);
-
     const timer = setTimeout(() => {
       setLoading(false);
     }, 800); // smooth professional delay

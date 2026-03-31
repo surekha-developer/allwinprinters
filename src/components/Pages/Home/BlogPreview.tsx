@@ -4,7 +4,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { MessageCircle, Tag } from "lucide-react";
+import { Tag } from "lucide-react";
 
 type Article = {
   title: string;

@@ -39,6 +39,16 @@ const featuredProducts: Product[] = [
     slug: "allwin-1024i-pro-series",
     categorySlug: "solvent-printing-machines",
   },
+   {
+    name: "Allwin 5128 Pro 9888H",
+    category: "UV Printing",
+    description:
+      "Industrial hybrid UV printer for both rigid and flexible media.",
+    image:
+      "/images/UVPrinters/imgi_19_UVHybrid.png",
+    slug: "10-feet-giant-uv-hybrid-printer",
+    categorySlug: "uv-printing-machines",
+  },
   {
     name: "UV Flatbed Printer 2513",
     category: "UV Printing",
@@ -49,16 +59,7 @@ const featuredProducts: Product[] = [
     slug: "konica-richo-2513-uv-flatbed-printer",
     categorySlug: "uv-printing-machines",
   },
-  {
-    name: "10 Feet Giant UV Hybrid Printer",
-    category: "UV Printing",
-    description:
-      "Industrial hybrid UV printer for both rigid and flexible media.",
-    image:
-      "/images/UVPrinters/imgi_16_allwin-1.png",
-    slug: "10-feet-giant-uv-hybrid-printer",
-    categorySlug: "uv-printing-machines",
-  },
+ 
   {
     name: "Allwin 988H CNC Printer",
     category: "CNC & Laser",

@@ -1,8 +1,5 @@
 "use client"
 
-import Image from "next/image"
-import { Star } from "lucide-react"
-
 export default function WhoWeAre() {
   const description =
     "Since its establishment, Allwin Technology has been a global leader in high-end digital inkjet printing. With over 22 years of industry-leading expertise, we operate from our massive 35,200㎡ manufacturing hub, delivering world-class industrial solutions to over 50 countries.";

@@ -1,6 +1,30 @@
 import { productsData } from "@/data/productsData";
 import Image from "next/image";
 
+interface SpeedTableRow {
+  pass: string;
+  resolution: string;
+  speed: string;
+}
+
+interface TechSpecRow {
+  label: string;
+  value: string;
+}
+
+interface SubProduct {
+  slug: string;
+  name: string;
+  description: string;
+  fullDescription: string;
+  image: string;
+  dealerInfo?: string;
+  mainFeaturesTitle?: string;
+  detailedFeatures?: string[];
+  speedTable?: SpeedTableRow[];
+  techSpecs?: TechSpecRow[];
+}
+
 export default async function ProductDetailPage({
   params,
 }: {
@@ -12,7 +36,7 @@ export default async function ProductDetailPage({
 
   const subProduct = product?.subProducts.find(
     (sp) => sp.slug === subSlug
-  ) as any;
+  ) as SubProduct | undefined;
 
   if (!subProduct) {
     return (
@@ -82,7 +106,7 @@ export default async function ProductDetailPage({
                   <h4 className="font-bold text-gray-800 text-sm tracking-widest">SPEED TABLE(30PL)</h4>
                 </div>
                 <div>
-                  {subProduct.speedTable.map((row: any, i: number) => (
+                  {subProduct.speedTable.map((row: SpeedTableRow, i: number) => (
                     <div key={i} className={`grid grid-cols-3 text-sm text-gray-700 border-b border-gray-200 ${i % 2 === 0 ? 'bg-white' : 'bg-[#fafafa]'}`}>
                       <div className="p-4 border-r border-gray-200 font-medium">{row.pass}</div>
                       <div className="p-4 border-r border-gray-200">{row.resolution}</div>
@@ -102,7 +126,7 @@ export default async function ProductDetailPage({
                   <h4 className="font-bold text-gray-800 text-sm tracking-widest">HEAD TECHNICAL SPECIFICATIONS</h4>
                 </div>
                 <div>
-                  {subProduct.techSpecs.map((row: any, i: number) => (
+                  {subProduct.techSpecs.map((row: TechSpecRow, i: number) => (
                     <div key={i} className={`grid grid-cols-1 md:grid-cols-[1fr_2fr] text-sm text-gray-700 border-b border-gray-200 ${i % 2 === 0 ? 'bg-white' : 'bg-[#fafafa]'}`}>
                       <div className="p-4 border-r border-gray-200 font-medium text-xs md:text-sm tracking-wide">{row.label}</div>
                       <div className="p-4">{row.value}</div>

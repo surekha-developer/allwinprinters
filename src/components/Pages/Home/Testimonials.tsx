@@ -1,8 +1,19 @@
 
 "use client"
 
-import { useState, useEffect, useRef } from "react"
+import { useState, useEffect, useRef, useCallback } from "react"
 import { Star, Quote, ChevronLeft, ChevronRight } from "lucide-react"
+import Image from "next/image";
+// import Image from "next/image"
+
+interface Testimonial {
+  id: number;
+  text: string;
+  name: string;
+  role: string;
+  company: string;
+  image: string;
+}
 
 const testimonials = [
   {
@@ -59,7 +70,7 @@ export default function TestimonialSection() {
   const [current, setCurrent] = useState(0)
   const [visibleSlides, setVisibleSlides] = useState(3)
 
-  const autoPlayRef = useRef<any>(null)
+  const autoPlayRef = useRef<NodeJS.Timeout | null>(null)
 
   useEffect(() => {
     const handleResize = () => {
@@ -74,14 +85,14 @@ export default function TestimonialSection() {
   }, [])
 
   // ✅ FIXED NEXT
-  const nextSlide = () => {
+  const nextSlide = useCallback(() => {
     setCurrent((prev) => {
       if (prev >= testimonials.length - visibleSlides) {
         return 0
       }
       return prev + 1
     })
-  }
+  }, [visibleSlides])
 
   // ✅ FIXED PREV
   const prevSlide = () => {
@@ -99,8 +110,10 @@ export default function TestimonialSection() {
       nextSlide()
     }, 5000)
 
-    return () => clearTimeout(autoPlayRef.current)
-  }, [current, visibleSlides])
+    return () => {
+      if (autoPlayRef.current) clearTimeout(autoPlayRef.current)
+    }
+  }, [current, nextSlide])
 
   return (
     <section className="section-padding bg-white">
@@ -169,7 +182,7 @@ export default function TestimonialSection() {
 }
 
 // Card
-function Card({ item }: any) {
+function Card({ item }: { item: Testimonial }) {
   return (
    <div className="card-soft h-full flex flex-col justify-between border-2 border-border/80 hover:border-primary/40 shadow-sm hover:shadow-lg transition-all duration-300">
 
@@ -187,10 +200,14 @@ function Card({ item }: any) {
       </div>
 
       <div className="mt-6 flex items-center gap-3">
-        <img
-          src={item.image}
-          className="w-12 h-12 rounded-full object-cover"
-        />
+        <div className="relative w-12 h-12 rounded-full overflow-hidden">
+          <Image
+            src={item.image}
+            alt={item.name}
+            fill
+            className="object-cover"
+          />
+        </div>
 
         <div>
           <h4 className="text-sm font-semibold">{item.name}</h4>

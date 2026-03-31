@@ -5,8 +5,6 @@
 import { useState } from "react";
 import { sendEmail } from "../action";
 import { MapPin, Mail, Phone, Building2 } from "lucide-react";
-import Link from "next/link";
-import Image from "next/image";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -62,7 +60,7 @@ export default function ContactPage() {
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
   ) => {
-    const { name, value, type } = e.target as any;
+    const { name, value, type } = e.target;
     const checked = (e.target as HTMLInputElement).checked;
 
     if (name === "mobile") {
@@ -140,7 +138,7 @@ export default function ContactPage() {
       {/* Header Section */}
       <div className="text-center max-w-2xl mx-auto mb-12">
         <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl mb-4">
-          Let's Do Great Work Together
+          Let&apos;s Do Great Work Together
         </h1>
         <p className="text-lg text-gray-600">
           Get in touch with our experts today

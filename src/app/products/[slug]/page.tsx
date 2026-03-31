@@ -3,8 +3,6 @@
 import { productsData } from "@/data/productsData";
 import Link from "next/link";
 import Image from "next/image";
-import AboutHero from "@/components/Pages/About/AboutHero";
-import FeaturedProducts from "@/components/Pages/Home/Featured-products";
 import { motion } from "framer-motion";
 import { use } from "react";
 
@@ -22,9 +20,6 @@ export default function ProductPage({
   );
 
   const product = categoryIndex !== -1 ? productsData[categoryIndex] : undefined;
-  
-  // Choose layout based on the category's position in the array (0 to 3)
-  const layoutStyle = categoryIndex !== -1 ? categoryIndex % 4 : 0;
 
   if (!product) {
     return (
@@ -119,10 +114,10 @@ export default function ProductPage({
               
               {/* LOGO */}
               <div className="mb-6 flex items-center">
-                {(item as any).logoImage ? (
+                {'logoImage' in item && item.logoImage ? (
                   <div className="relative w-32 h-12 md:w-40 md:h-16">
                     <Image
-                      src={(item as any).logoImage}
+                      src={item.logoImage as string}
                       alt={`${item.name} logo`}
                       fill
                       className="object-contain object-left"
@@ -136,7 +131,7 @@ export default function ProductPage({
                         <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
                       </svg>
                     </div>
-                    {(item as any).logoText || (item.name.toLowerCase().includes("oric") ? "ORIC" : "ALLWIN")}<sup className="text-lg">®</sup>
+                    {('logoText' in item && (item.logoText as string)) || (item.name.toLowerCase().includes("oric") ? "ORIC" : "ALLWIN")}<sup className="text-lg">®</sup>
                   </span>
                 )}
               </div>

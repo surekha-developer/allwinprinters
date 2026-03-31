@@ -1,9 +1,3 @@
-// // import Image from "next/image";
-
-import StackScrollCards from "@/components/DummyStackCards";
-import StickyServices from "@/components/DummyStackCards";
-import DummyStackCards from "@/components/DummyStackCards";
-import AboutHomeSection from "@/components/Pages/Home/AboutHomeSection";
 import BlogPreview from "@/components/Pages/Home/BlogPreview";
 import FeaturedProducts from "@/components/Pages/Home/Featured-products";
 import HeroSection from "@/components/Pages/Home/HeroSection";
