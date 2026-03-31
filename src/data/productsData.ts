@@ -2222,7 +2222,6 @@ export const productsData = [
         "description": "(100 watts laser tube) | CMH1309",
         "fullDescription": "Newclear Technologies introducing a new era of intelligent manufacturing in laser technology, the RAYT. We, here by declare that we are the sole dealer and supplier of RAYT laser in india. We chose bodor because of its high efficient and error free machines with good finish designs with more stability.",
         "image": "/images/LaserCutting&EngravingMachines/imgi_2_YuemingLaserCutting.png",
-        "logoImage": "/images/LaserCutting&EngravingMachines/imgi_3_yueming.png",
         "bg": "bg-gray-100",
         "text": "text-gray-900",
         "features": [
@@ -2307,7 +2306,6 @@ export const productsData = [
         "description": "(150 watts laser tube) | CMA1325C-B-A",
         "fullDescription": "Newclear Technologies introducing a new era of intelligent manufacturing in laser technology, the RAYT. We, here by declare that we are the sole dealer and supplier of RAYT laser in india.",
         "image": "/images/LaserCutting&EngravingMachines/imgi_4_8x4YUEMING-LASER-18.png",
-        "logoImage": "/images/LaserCutting&EngravingMachines/imgi_3_yueming.png",
         "bg": "bg-white",
         "text": "text-black",
         "features": [
@@ -2392,7 +2390,6 @@ export const productsData = [
         "description": "(50 watts laser tube)",
         "fullDescription": "The Rayt 2x1.5 Ft Laser Cutting and Engraving Machine provides precise engraving. Professional engraving optical lens with more stable light beam. Equipped with red light position, making locating more convenient and precise.",
         "image": "/images/LaserCutting&EngravingMachines/imgi_5_rayt2x1dot5.png",
-        "logoImage": "/images/LaserCutting&EngravingMachines/imgi_6_rayth-1.png",
         "bg": "bg-gray-100",
         "text": "text-gray-900",
         "features": [
@@ -2489,7 +2486,6 @@ export const productsData = [
         "description": "(150 watts laser tube)",
         "fullDescription": "Details currently unavailable. Please contact us for more information about the Rayt 8x4 Ft. Laser Cutting and Engraving Machine.",
         "image": "/images/LaserCutting&EngravingMachines/imgi_7_RaytLaser.png",
-        "logoImage": "/images/LaserCutting&EngravingMachines/imgi_6_rayth-1.png",
         "bg": "bg-white",
         "text": "text-black",
         "features": [
@@ -2524,7 +2520,6 @@ export const productsData = [
         "description": "(100 watts laser tube) | NT 1006V / NT 1309V",
         "fullDescription": "Rayt 4x3 Ft features a drive system with high precision linear guide and slide block, high precision, wear resistance, small resistance, high speed; arc gear synchronous belt 3m. Equipped with manual modulation focused laser head.",
         "image": "/images/LaserCutting&EngravingMachines/imgi_8_RAYT_NT_1309_V_web2.png",
-        "logoImage": "/images/LaserCutting&EngravingMachines/imgi_6_rayth-1.png",
         "bg": "bg-gray-100",
         "text": "text-gray-900",
         "features": [
@@ -2641,7 +2636,6 @@ export const productsData = [
         "description": "KT-1625/1325/1313",
         "fullDescription": "Details currently unavailable. Please contact us for more information about the KARTECH Flatbed Oscilating Knife Cutting Machine.",
         "image": "/images/CNCRouterMachines/imgi_2_KARTECH.png",
-        "logoImage": "/images/CNCRouterMachines/imgi_3_KARTECH_logo.png",
         "bg": "bg-gray-100",
         "text": "text-gray-900",
         "features": [
@@ -2675,7 +2669,6 @@ export const productsData = [
         "description": "Advanced CNC Router for wood & acrylic.",
         "fullDescription": "The RAYT CNC Router NT 1325 is an industry-standard solution offering unparalleled performance, durability, and cost-efficiency for your professional wood & acrylic needs. Equipped with state-of-the-art cutting technology.",
         "image": "/images/CNCRouterMachines/imgi_5_RAYT-CNC-ROUTER.png",
-        "logoImage": "/images/CNCRouterMachines/imgi_14_RAYT-CNC-300x113.png",
         "bg": "bg-white",
         "text": "text-black",
         "features": [
@@ -2740,7 +2733,6 @@ export const productsData = [
         "description": "Compact CNC Router for detailed engraving.",
         "fullDescription": "The RAYT CNC Router NT 6090 offers compact precision routing with an excellent structural configuration suitable for smaller workpieces and detailed engraving.",
         "image": "/images/CNCRouterMachines/imgi_6_RAYT-CNC-NT6090.png",
-        "logoImage": "/images/CNCRouterMachines/imgi_14_RAYT-CNC-300x113.png",
         "bg": "bg-gray-100",
         "text": "text-gray-900",
         "features": [
@@ -2809,7 +2801,6 @@ export const productsData = [
         "description": "High performance CNC routing machine.",
         "fullDescription": "Details currently unavailable. Please contact us for more information about the TigerTec CNC ROUTER TR 408 AD.",
         "image": "/images/CNCRouterMachines/imgi_8_TIGER-TEC-CNC.png",
-        "logoImage": "/images/CNCRouterMachines/imgi_7_TIGER-TEC_logo.png",
         "bg": "bg-white",
         "text": "text-black",
         "features": [
@@ -2843,7 +2834,6 @@ export const productsData = [
         "description": "ECO 1325/1530/2030/2040",
         "fullDescription": "The UTECH Economy CNC Router (ECO Series) delivers excellent quality processing capabilities ideal for wood and acrylic. Featuring robust mechanics and control systems.",
         "image": "/images/CNCRouterMachines/imgi_9_UTECH-ECONOMY-CNC-ROUTER-.png",
-        "logoImage": "/images/CNCRouterMachines/imgi_10_utech.png",
         "bg": "bg-gray-100",
         "text": "text-gray-900",
         "features": [
@@ -2948,7 +2938,6 @@ export const productsData = [
         "description": "Dobosen 300 Watts Laser Welding Machine",
         "fullDescription": "Precision laser welding machine with imported ceramic cavity and Nci YAG pulsed-xenon lamp, designed for high-accuracy industrial welding tasks.",
         "image": "/images/FiberLaserMachines/imgi_3_DOBOSEN_300.png",
-        "logoImage": "/images/FiberLaserMachines/imgi_2_DOBOSEN_logo.png",
         "bg": "bg-white",
         "text": "text-gray-900",
         "features": [
@@ -2984,7 +2973,6 @@ export const productsData = [
         "description": "RT 1000 W / 1500 W / 2000 W",
         "fullDescription": "Versatile fiber laser system capable of both high-power welding and marking, featuring double axis swing welding head and advanced fiber technology.",
         "image": "/images/FiberLaserMachines/imgi_4_RAYT-HAND-HELD.png",
-        "logoImage": "/images/FiberLaserMachines/imgi_5_RAYT_logo.png",
         "bg": "bg-gray-100",
         "text": "text-gray-900",
         "features": [
@@ -3013,7 +3001,6 @@ export const productsData = [
         "description": "Yueming HW Series",
         "fullDescription": "Yueming industrial fiber laser welding machine offering high efficiency and stability for production-grade welding applications.",
         "image": "/images/FiberLaserMachines/imgi_7_YuemingFIber.png",
-        "logoImage": "/images/FiberLaserMachines/imgi_6_yueming.png",
         "bg": "bg-white",
         "text": "text-gray-900",
         "features": [
@@ -3037,7 +3024,6 @@ export const productsData = [
         "description": "Yueming MF-E-A",
         "fullDescription": "High-speed fiber laser marking machine with superior repositioning accuracy and versatile format support for precise industrial marking.",
         "image": "/images/FiberLaserMachines/imgi_8_fiberMarking.png",
-        "logoImage": "/images/FiberLaserMachines/imgi_6_yueming.png",
         "bg": "bg-gray-100",
         "text": "text-gray-900",
         "features": [
@@ -3065,7 +3051,6 @@ export const productsData = [
         "description": "RAYT Portable Mini Marking Machine",
         "fullDescription": "Compact and portable fiber laser marking solution featuring Sino galvanometer and air cooling, ideal for flexible marking across different locations.",
         "image": "/images/FiberLaserMachines/imgi_9_MARKING.png",
-        "logoImage": "/images/FiberLaserMachines/imgi_5_RAYT_logo.png",
         "bg": "bg-white",
         "text": "text-gray-900",
         "features": [
@@ -3103,7 +3088,6 @@ export const productsData = [
         "description": "Double Size Swing Slotting - 1500W",
         "fullDescription": "High-precision aluminium channel letter bending machine featuring auto feed, auto slot, and auto bend capabilities with computer control for professional signage fabrication.",
         "image": "/images/LetterBendingMachines/imgi_2_DOBOSEN-ALUMINIUM.png",
-        "logoImage": "/images/LetterBendingMachines/imgi_3_DOBOSEN_logo.png",
         "bg": "bg-white",
         "text": "text-gray-900",
         "features": [
@@ -3135,7 +3119,6 @@ export const productsData = [
         "description": "Heavy Duty Steel Fabrication - 3000W",
         "fullDescription": "Robust stainless steel channel letter bending machine designed for heavy-duty fabrication of stainless steel, galvanized sheet, and iron signage components.",
         "image": "/images/LetterBendingMachines/imgi_4_STEEL.png",
-        "logoImage": "/images/LetterBendingMachines/imgi_3_DOBOSEN_logo.png",
         "bg": "bg-gray-100",
         "text": "text-gray-900",
         "features": [
@@ -3171,7 +3154,6 @@ export const productsData = [
         "description": "SG-ASC 2301 - High-Power Servo Control",
         "fullDescription": "Advanced adsorbed sheet cutter featuring vacuum suction, CCD positioning, and double tool holders for precise finish cutting on various media including PVC and PET.",
         "image": "/images/sheetCutters/imgi_3_SAGA-ADSORBED-1.png",
-        "logoImage": "/images/sheetCutters/imgi_2_Saga.png",
         "bg": "bg-white",
         "text": "text-gray-900",
         "features": [
@@ -3200,7 +3182,6 @@ export const productsData = [
         "description": "SG-SC 30II - Compact & Precise",
         "fullDescription": "Economical yet powerful sheet cutting solution with friction feed and adaptive dimming camera, ideal for small-to-medium production of stickers and labels.",
         "image": "/images/sheetCutters/imgi_4_camera.png",
-        "logoImage": "/images/sheetCutters/imgi_2_Saga.png",
         "bg": "bg-gray-100",
         "text": "text-gray-900",
         "features": [
@@ -3227,7 +3208,6 @@ export const productsData = [
         "description": "SG-SC 1907 - Precision Performance",
         "fullDescription": "Professional-grade sheet cutter with dual-axis brushless servo motors and CCD positioning, optimized for high-speed A3+ finishing applications.",
         "image": "/images/sheetCutters/imgi_5_SHEET-CUTTER.png",
-        "logoImage": "/images/sheetCutters/imgi_2_Saga.png",
         "bg": "bg-white",
         "text": "text-gray-900",
         "features": [
@@ -3261,7 +3241,6 @@ export const productsData = [
         "description": "FY-350DL - Automatic Desktop Laminator",
         "fullDescription": "Compact and efficient desktop laminator featuring automatic speed control, reversible lamination, and high-precision temperature control up to 180°C for professional sheet finishing.",
         "image": "/images/laminationmachines/imgi_2_Fy350.png",
-        "logoImage": "/images/laminationmachines/imgi_3_fayol.png",
         "bg": "bg-white",
         "text": "text-gray-900",
         "features": [
@@ -3286,7 +3265,6 @@ export const productsData = [
         "description": "FY-1600DA - Industrial Hot & Cold Laminator",
         "fullDescription": "Industrial-grade 1.6m laminator with infrared heating and air cylinder roller upgrade, providing versatile hot and cold lamination for wide-format signage and graphics.",
         "image": "/images/laminationmachines/imgi_4_FAYON2-1.png",
-        "logoImage": "/images/laminationmachines/imgi_3_fayol.png",
         "bg": "bg-gray-100",
         "text": "text-gray-900",
         "features": [
@@ -3322,7 +3300,6 @@ export const productsData = [
         "description": "CG-AR Series - High Speed & Stability",
         "fullDescription": "Professional cutting plotter series with up to 550g pressure and 73cm/s speed, featuring versatile tool support for vinyl, cardstock, and reflective sheets.",
         "image": "/images/vinylcuttingplotters/imgi_2_vinyl1.png",
-        "logoImage": "/images/vinylcuttingplotters/imgi_3_mimaki2.png",
         "bg": "bg-white",
         "text": "text-gray-900",
         "features": [
@@ -3347,7 +3324,6 @@ export const productsData = [
         "description": "1400IIP CAM - Precise Contour Cutting",
         "fullDescription": "Advanced vinyl plotter featuring CCD positioning for pinpoint contour accuracy, DC servo drive for smooth operation, and multi-interface connectivity.",
         "image": "/images/vinylcuttingplotters/imgi_5_SAGA-VINYL-CUTTING-PLOTTER-WITH-CAMERA.png",
-        "logoImage": "/images/vinylcuttingplotters/imgi_4_Saga.png",
         "bg": "bg-gray-100",
         "text": "text-gray-900",
         "features": [
@@ -3372,7 +3348,6 @@ export const productsData = [
         "description": "SAGA-720I / 1350I Series - Versatile & Robust",
         "fullDescription": "Durable and reliable cutting plotters available in multiple widths with both stepper and DC servo motor options to suit various production requirements.",
         "image": "/images/vinylcuttingplotters/imgi_6_SAGA-CUTTING-PLOTTER.png",
-        "logoImage": "/images/vinylcuttingplotters/imgi_4_Saga.png",
         "bg": "bg-white",
         "text": "text-gray-900",
         "features": [
@@ -3396,7 +3371,6 @@ export const productsData = [
         "description": "SG-ASF420 - High-Precision Sheet Finishing",
         "fullDescription": "Professional flatbed cutter with dual brushless servo motors and CCD positioning, optimized for high-speed finish cutting on cardstock, PVC, and corrugated paper.",
         "image": "/images/vinylcuttingplotters/imgi_7_SAGA-FLATBED-CUTTER-420-4.png",
-        "logoImage": "/images/vinylcuttingplotters/imgi_4_Saga.png",
         "bg": "bg-gray-100",
         "text": "text-gray-900",
         "features": [
@@ -3421,7 +3395,6 @@ export const productsData = [
         "description": "TM1600B - High-Speed Advertising Slitter",
         "fullDescription": "Automatic x/y slitting correction system with double round knives, ideal for rapid trimming of advertising coils, plastic films, and decorative materials.",
         "image": "/images/vinylcuttingplotters/imgi_8_SAGA-TRIMMER.png",
-        "logoImage": "/images/vinylcuttingplotters/imgi_4_Saga.png",
         "bg": "bg-white",
         "text": "text-gray-900",
         "features": [
@@ -3454,7 +3427,6 @@ export const productsData = [
         "description": "Premium Eco-Solvent Ink",
         "fullDescription": "High-quality eco-solvent inks specifically formulated for Epson DX5 printheads, delivering exceptional color gamut and outdoor durability.",
         "image": "/images/printingInks/imgi_2_toyo_eco_solvent_ink.png",
-        "logoImage": "/images/printingInks/imgi_5_ink_toyo_uv_high_quality.png",
         "bg": "bg-white",
         "text": "text-gray-900",
         "features": [],
@@ -3466,7 +3438,6 @@ export const productsData = [
         "description": "Odorless Solvent Ink",
         "fullDescription": "Environmentally friendly solvent inks with minimal odor, compatible with a wide range of industrial printheads.",
         "image": "/images/printingInks/imgi_4_smellless_inks_for_512_1024i.png",
-        "logoImage": "/images/printingInks/imgi_3_rayth.png",
         "bg": "bg-white",
         "text": "text-gray-900",
         "features": [],
@@ -3478,7 +3449,6 @@ export const productsData = [
         "description": "Superior UV Curable Ink",
         "fullDescription": "Advanced UV-curable inks providing instant drying and excellent adhesion on both rigid and flexible substrates.",
         "image": "/images/printingInks/imgi_5_ink_toyo_uv_high_quality.png",
-        "logoImage": "/images/printingInks/imgi_5_ink_toyo_uv_high_quality.png",
         "bg": "bg-white",
         "text": "text-gray-900",
         "features": [],
@@ -3490,7 +3460,6 @@ export const productsData = [
         "description": "Versatile UV Ink for Hybrid Systems",
         "fullDescription": "Formulated for hybrid UV printing systems, offering high flexibility and scratch resistance.",
         "image": "/images/printingInks/imgi_6_ink_toyo_t_series_solvent__77k_ink.png",
-        "logoImage": "/images/printingInks/imgi_3_rayth.png",
         "bg": "bg-white",
         "text": "text-gray-900",
         "features": [],
@@ -3502,7 +3471,6 @@ export const productsData = [
         "description": "Economical Solvent Ink",
         "fullDescription": "Cost-effective solvent ink solution for Konica 512 and 512i printheads without compromising on color vibrancy.",
         "image": "/images/printingInks/imgi_7_ink_new_sign_budgeted_inks_for_512_512i.png",
-        "logoImage": "/images/printingInks/imgi_8_allwin_white.png",
         "bg": "bg-white",
         "text": "text-gray-900",
         "features": [],
@@ -3514,7 +3482,6 @@ export const productsData = [
         "description": "Value UV Ink",
         "fullDescription": "Affordable UV ink for high-volume production, ensuring reliable performance and consistent quality.",
         "image": "/images/printingInks/imgi_9_ink_allwin_uv_budgeted_ink.png",
-        "logoImage": "/images/printingInks/imgi_8_allwin_white.png",
         "bg": "bg-white",
         "text": "text-gray-900",
         "features": [],
@@ -3526,7 +3493,6 @@ export const productsData = [
         "description": "High-Density Solvent Ink",
         "fullDescription": "Industrial 14PL solvent ink designed for high-resolution printing with superior outdoor longevity.",
         "image": "/images/printingInks/imgi_10_c_type.png",
-        "logoImage": "/images/printingInks/imgi_8_allwin_white.png",
         "bg": "bg-white",
         "text": "text-gray-900",
         "features": [],

@@ -5,20 +5,23 @@ import { motion } from "framer-motion";
 const spareParts = [
   { name: "Servo Motor", image: "/images/printerspareparts/imgi_2_Leadshine.jpg" },
   { name: "Driver", image: "/images/printerspareparts/imgi_3_acsdriver606.jpg" },
+  // {name:"Mother Board", image:"/images/printerspareparts/motherboard.jpeg"},
   { name: "Encoder Strip", image: "/images/printerspareparts/imgi_4_filmstripeencoder.jpg" },
-  // { name: "Cap Top", image: "/images/printerspareparts/imgi_10_konicaxaar.jpg" },
-  // { name: "Data Cable", image: "/images/printerspareparts/imgi_5_flatdatacable.jpg" },
-  // { name: "Head Cable", image: "/images/printerspareparts/imgi_6_headcable.jpg" },
+  
+  
   { name: "Ink Pump", image: "/images/printerspareparts/imgi_7_inkpump.jpg" },
   { name: "Ink Tube", image: "/images/printerspareparts/imgi_8_inktube.jpg" },
-  // { name: "Konica Head", image: "/images/printerspareparts/imgi_9_konica-head.jpg" },
+   { name: "Mother Board", image: "/images/printerspareparts/motherboardnew.jpeg" },
+
   { name: "Long Belt (Konica)", image: "/images/printerspareparts/imgi_11_longbeltkonica.jpg" },
-  // { name: "Long Belt (Xaar)", image: "/images/printerspareparts/imgi_12_longbeltxaar.jpg" },
-  { name: "Mother Board", image: "/images/printerspareparts/imgi_13_mother-board.jpg" },
+ 
+ 
+  
   { name: "Original BYHX", image: "/images/printerspareparts/imgi_14_original-byhx.jpg" },
   { name: "Power Supply", image: "/images/printerspareparts/imgi_15_powersupply.jpg" },
   { name: "Small Belts", image: "/images/printerspareparts/imgi_16_small-belts.jpg" },
-  // { name: "Cleaning Swab", image: "/images/printerspareparts/imgi_17_wipingcleaning.jpg" },
+  { name: "Data Cables", image: "/images/printerspareparts/datacables.jpeg" },
+  { name: "Tissue Clothes", image: "/images/printerspareparts/tissueClothes.jpeg" },
 ];
 
 export default function PrinterSparePartsPage() {

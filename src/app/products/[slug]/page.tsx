@@ -112,29 +112,6 @@ export default function ProductPage({
             {/* CONTENT SECTION */}
             <div className="w-full md:w-1/2 bg-white p-10 md:p-16 flex flex-col justify-center items-start text-[#483249]">
               
-              {/* LOGO */}
-              <div className="mb-6 flex items-center">
-                {'logoImage' in item && item.logoImage ? (
-                  <div className="relative w-32 h-12 md:w-40 md:h-16">
-                    <Image
-                      src={item.logoImage as string}
-                      alt={`${item.name} logo`}
-                      fill
-                      className="object-contain object-left"
-                    />
-                  </div>
-                ) : (
-                  <span className="text-3xl md:text-4xl font-extrabold tracking-widest text-[#483249] flex items-center gap-2">
-                    <div className="bg-[#483249]/10 p-1 md:p-2 rounded-full backdrop-blur-sm">
-                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-6 h-6 md:w-8 md:h-8 text-[#483249]">
-                        <circle cx="12" cy="12" r="10" />
-                        <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
-                      </svg>
-                    </div>
-                    {('logoText' in item && (item.logoText as string)) || (item.name.toLowerCase().includes("oric") ? "ORIC" : "ALLWIN")}<sup className="text-lg">®</sup>
-                  </span>
-                )}
-              </div>
 
               {/* TITLE */}
               <h2 className="text-2xl md:text-3xl lg:text-[40px] font-extrabold mb-4 leading-tight drop-shadow-sm text-[#483249]">
