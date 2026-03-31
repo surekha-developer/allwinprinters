@@ -57,7 +57,7 @@ export default function PrinterHeadsPage() {
              <span className="bg-[#666666] text-white px-8 py-1.5 rounded-sm text-sm font-bold mb-6 tracking-wide shadow-sm border border-black/10">KM 1024i</span>
              <div className="relative w-full aspect-square mb-4">
                <div className="w-full h-full border border-gray-400 rounded-md flex flex-col items-center justify-center overflow-hidden bg-white/50">
-                 <Image src="/images/Printer Heads – newcleartechnologies/imgi_5_spec_pict001.jpg" fill className="object-contain p-4" />
+                 <Image src="/images/Printer Heads – newcleartechnologies/imgi_5_spec_pict001.jpg" fill className="object-contain" alt="image" p-4 />
                  <span className="absolute bottom-2 text-xs font-semibold text-gray-700 bg-white/80 px-2 rounded"></span>
                </div>
              </div>
