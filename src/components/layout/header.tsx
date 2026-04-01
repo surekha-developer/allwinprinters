@@ -128,27 +128,27 @@ export default function Header() {
           : "bg-background"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-2">
         <div className="flex items-center justify-between h-24">
 
           {/* LOGO */}
-          <Link href="/" className="flex items-center gap-2 sm:gap-4 flex-shrink-0">
+          <Link href="/" className="flex items-center gap-0 sm:gap-0 flex-shrink-0">
             <Image
-              src="/images/jklogo-removebg-preview.png"
+              src="/images/logos/WhatsApp_Image_2026-03-31_at_6.03.07_PM-removebg-preview.png"
               alt="JK Enterprises Logo"
-              width={100}
-              height={70}
-              className="rounded-lg w-16 sm:w-[100px] h-auto"
+              width={130}
+              height={100}
+              
             />
          
 
-            <div className="bg-[#03989E] p-3 rounded-none inline-block">
+            <div>
   <Image
-    src="/images/allwinoriginallogo/imgi_32_logo.png"
+    src="/images/logos/allwinlogoimage-removebg-preview.png"
     alt="ALLWIN Logo"
-    width={110}
-    height={55}
-    className="object-contain w-14 sm:w-[100px] h-auto"
+    width={150}
+    height={95}
+    
   />
 </div>
           </Link>
@@ -319,9 +319,9 @@ export default function Header() {
                             <h4 className="text-base font-semibold text-white mb-2 line-clamp-2">
                               {displayName}
                             </h4>
-                            <p className="text-sm text-gray-400 line-clamp-3 leading-relaxed">
+                            {/* <p className="text-sm text-gray-400 line-clamp-3 leading-relaxed">
                               {displayDesc}
-                            </p>
+                            </p> */}
                           </div>
                         );
                       })()}

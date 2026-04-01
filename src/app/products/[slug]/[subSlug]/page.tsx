@@ -56,7 +56,7 @@ export default async function ProductDetailPage({
       </div>
 
       <div className="max-w-7xl mx-auto px-6 mt-12 grid grid-cols-1 lg:grid-cols-2 gap-12">
-        
+
         {/* LEFT COLUMN: IMAGE & DESCRIPTION */}
         <div>
           <div className="relative w-full h-[300px] md:h-[400px] mb-8 bg-white flex items-center justify-center">
@@ -79,7 +79,7 @@ export default async function ProductDetailPage({
             <h4 className="text-md font-bold mb-4">
               {subProduct.mainFeaturesTitle || `Main Features of ${subProduct.name}`}
             </h4>
-            
+
             <p className="mb-4 leading-relaxed">
               {subProduct.fullDescription}
             </p>

@@ -186,6 +186,13 @@ export default function ContactPage() {
                   <a href="tel:8712413159" className="text-sm text-gray-700 hover:text-primary transition-colors font-bold">
                     +91-8712413159
                   </a>
+                    <span className="hidden sm:inline text-muted-foreground/30 font-light select-none">|</span>
+                    <a 
+                      href="tel:8686242499" 
+                      className="text-sm text-gray-700 hover:text-primary transition-colors font-bold"
+                    >
+                      86862 42499
+                    </a>
                 </div>
               </div>
             </div>

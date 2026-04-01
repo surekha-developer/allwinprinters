@@ -16,14 +16,15 @@ type Product = {
   image: string
   slug: string
   categorySlug: string
+  customLink?: string
 }
 
 const featuredProducts: Product[] = [
   {
-    name: "Allwin Konica 512i Solvent Printer",
-    category: "Digital Printing",
+    name: "DIGITAL SOLVENT FLEX PRINTER",
+    category: "",
     description:
-      "High-speed solvent printer with Konica 512i heads for outdoor advertising.",
+      "C8-512i (KM512i/30pl)",
     image:
       "/images/SolventPrintingMachines/imgi_4_C8-512i_KM512i_30pl_KM1024_42pl.png",
     slug: "digital-solvent-flex-printer",
@@ -33,48 +34,50 @@ const featuredProducts: Product[] = [
     name: "Allwin 1024i Pro Series",
     category: "Digital Printing",
     description:
-      "Professional flex & banner printing with KM1024i industrial heads.",
+      "KM1024i-13pl/30pl",
     image:
       "/images/SolventPrintingMachines/imgi_9_allwin1024-768x337.png",
     slug: "allwin-1024i-pro-series",
     categorySlug: "solvent-printing-machines",
   },
-   {
-    name: "Allwin 5128 Pro 9888H",
-    category: "UV Printing",
+  {
+    name:"C8 PRO 512I Solvent Printer",
+    // name: "Allwin 512i Pro",
+    category: "Digital Printing",
     description:
       "Industrial hybrid UV printer for both rigid and flexible media.",
     image:
-      "/images/UVPrinters/imgi_19_UVHybrid.png",
-    slug: "10-feet-giant-uv-hybrid-printer",
+      "/images/Feature512iprosolventprinter/Feature512isolventprinter.png",
+    slug: "c8pro512isolventprinter",
     categorySlug: "uv-printing-machines",
+    customLink: "/c8pro512isolventprinter",
   },
   {
-    name: "UV Flatbed Printer 2513",
+    name: "Konica & Richo 2513 UV Flatbed Printer",
     category: "UV Printing",
     description:
-      "High-precision UV flatbed for glass, wood, metal, and acrylic printing.",
+      "Flagship Model UV2513/UV3225",
     image:
       "/images/UVPrinters/imgi_26_flatbed-768x364.png",
     slug: "konica-richo-2513-uv-flatbed-printer",
     categorySlug: "uv-printing-machines",
   },
- 
+
   {
-    name: "Allwin 988H CNC Printer",
-    category: "CNC & Laser",
+    name: "1.8 meter UV Hybrid Printer",
+    category: "UV Printing Machines",
     description:
-      "High-performance industrial machine for specialized applications.",
+      "ALWIN-E 180 4UV",
     image:
-      "/images/CNCRouterMachines/imgi_5_RAYT-CNC-ROUTER.png",
-    slug: "#",
-    categorySlug: "cnc-router-machines",
+      "/images/UVPrinters/imgi_19_UVHybrid.png",
+    slug: "1-8-meter-uv-hybrid-printer",
+    categorySlug: "uv-printing-machines",
   },
   {
     name: "Mimaki ARIII Cutting Plotter",
     category: "Signage & Finishing",
     description:
-      "High-speed professional cutting plotter with 550g pressure and superior stability.",
+      "",
     image:
       "/images/vinylcuttingplotters/imgi_2_vinyl1.png",
     slug: "mimaki-ariii-cutting-plotter",
@@ -138,9 +141,7 @@ export default function FeaturedProducts() {
 
               <div className="p-5">
 
-                <Badge variant="secondary" className="mb-3 text-xs">
-                  {product.category}
-                </Badge>
+               
 
                 <h3 className="text-base font-semibold text-foreground mb-2 line-clamp-1">
                   {product.name}
@@ -152,7 +153,7 @@ export default function FeaturedProducts() {
 
                 {/* Dynamic Route */}
 
-                <Link href={`/products/${product.categorySlug}/${product.slug}`}>
+                <Link href={product.customLink || `/products/${product.categorySlug}/${product.slug}`}>
 
                   <Button
                     variant="ghost"

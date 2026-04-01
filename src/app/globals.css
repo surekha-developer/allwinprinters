@@ -69,7 +69,7 @@ html {
 
 /* BUTTON */
 
---primary: #0EBAC4;
+--primary: #008FD7;
 --primary-foreground: #EBE3F6;
 
 /* BORDER */
@@ -106,7 +106,7 @@ DARK MODE
 
 /* BUTTON */
 
---primary: #0EBAC4;
+--primary: #008FD7;
 --primary-foreground: #F5F3FF;
 
 /* BORDER */
@@ -471,7 +471,7 @@ PREMIUM GRADIENT BACKGROUND
     padding: 10px 20px;
     border-radius: 8px;
 
-    background: linear-gradient(to right, var(--primary), black);
+    background: linear-gradient(to right,#008FD7, black);
     color: var(--primary-foreground);
 
     transition: background 0.3s ease;
@@ -497,7 +497,7 @@ PREMIUM GRADIENT BACKGROUND
     border-radius: 8px;
 
     border: 2px solid transparent;
-    background: linear-gradient(to right, var(--primary), black) border-box;
+    background: linear-gradient(to right, #008FD7, black) border-box;
 
     -webkit-mask:
       linear-gradient(#fff 0 0) padding-box,

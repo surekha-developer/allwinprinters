@@ -7,150 +7,166 @@ export const productsData = [
     "title": "Flex | Textile Solvent Printing Machines",
     "subtitle": "High-quality, efficient printing engineered for reliable performance in industrial environments.",
     "subProducts": [
-      
+
       {
-  "slug": "digital-inkjet-printer",
-  "name": "DIGITAL INKJET PRINTER",
-  "description": "C8 PRO 1024I / 9888H Solvent Printer",
-  "fullDescription": "New generation KONICA 9888H High precision UV / Solvent printhead.",
-  "image": "/images/SolventPrintingMachines/SolventPrinter.jpeg",
-  "bg": "bg-gray-100",
-  "text": "text-gray-900",
-  "features": [
-    "Linear motor and double guide rails",
-    "Intelligent infrared drying system",
-    "Built-in movable media fixing",
-    "Standard negative pressure system",
-    "Reflective photoelectric switch",
-    "Print head anti-collision system"
-  ],
-  "dealerInfo": "JK ENTERPRISES are the authorised and sole dealer of ALLWIN flex printing machines in India.",
-  "mainFeaturesTitle": "Main Features of C8 PRO Digital Inkjet Printer",
-  "detailedFeatures": [
-    "Linear motor and double guide rails: High precision assembled and adjusted for more stable carriage movement, reducing maintenance costs.",
-    "Intelligent infrared drying system: Features printing start/stop and infrared automatic open/close for efficient media drying.",
-    "Advanced Feeding System: The feeding system adopts built-in movable media fixing structure to prevent material from deviation.",
-    "Standard negative pressure system: Ensures continuous printing without nozzle missing for high industrial reliability.",
-    "Reflective photoelectric switch: Adopts reflective photoelectric switch, capable of printing on black banners with high precision.",
-    "Anti-collision system: The print head anti-collision system can effectively prevent head damage during high-speed printing."
-  ],
-  "speedTable": [],
-  "techSpecs": [
-    {
-      "label": "Model",
-      "value": "C9888H PRO / C1024I PRO"
-    },
-    {
-      "label": "Head Model",
-      "value": "KONICA 9888H / HS1000/6988H"
-    },
-    {
-      "label": "Printhead Quantity",
-      "value": "4 / 8"
-    },
-    {
-      "label": "Drop Volume",
-      "value": "5PL/10PL/15PL / 30PL/13PL"
-    },
-    {
-      "label": "Drying System",
-      "value": "Infrared- heater fan"
-    },
-    {
-      "label": "Print Width",
-      "value": "3250mm"
-    },
-    {
-      "label": "Rip Software",
-      "value": "MainTop / Photo Print"
-    },
-    {
-      "label": "Electricity Requirement",
-      "value": "220v/60A/50HZ"
-    },
-    {
-      "label": "Machine Max Power",
-      "value": "13295W"
-    },
-    {
-      "label": "Machine Body Size",
-      "value": "4840(L)*940(W)*1400(H)mm"
-    },
-    {
-      "label": "Weight (Gw/Nw)",
-      "value": "1135kg / 1035kg"
-    }
-  ]
-},
-{
-  "slug": "digital-solvent-flex-printer",
-  "name": "Digital Solvent Flex Printer",
-  "description": "ALLWIN C8-512i (KM512i/30pl) Digital Solvent Flex Printer",
-  "fullDescription": "We JK ENTERPRISES are the authorised and sole dealers of allwin flex printing machine all over India.",
-  "image": "/images/SolventPrintingMachines/imgi_4_C8-512i_KM512i_30pl_KM1024_42pl.png",
-  "bg": "bg-white",
-  "text": "text-gray-900",
-  "features": [
-    "Improved Function Configuration",
-    "Infrared Heating System",
-    "Auto Collecting System",
-    "Stable Multi-Level Ink Tank System"
-  ],
-  "dealerInfo": "We JK ENTERPRISES are the authorised and sole dealers of allwin flex printing machine all over India.",
-  "mainFeaturesTitle": "Main features includes, Improved Function Configuration compared with C4-512i flex printing machine",
-  "detailedFeatures": [
-    "It provides secondary ink tank and printhead plate heating system, suitable for low temperature in winter.",
-    "It is equipped with standard intelligent infrared heating system to speed up image drying.",
-    "It is equipped with standard auto collecting system.",
-    "It provides three levels ink tank, making printing more stable."
-  ],
-  "speedTable": [
-    {
-      "pass": "2 PASS",
-      "resolution": "360 * 360 dpi",
-      "speed": "260 ㎡/h"
-    },
-    {
-      "pass": "3 PASS",
-      "resolution": "360 * 540 dpi",
-      "speed": "180 ㎡/h"
-    },
-    {
-      "pass": "2 PASS",
-      "resolution": "480 * 360 dpi",
-      "speed": "210 ㎡/h"
-    },
-    {
-      "pass": "3 PASS",
-      "resolution": "480 * 540 dpi",
-      "speed": "140 ㎡/h"
-    },
-    {
-      "pass": "4 PASS",
-      "resolution": "480 * 720 dpi",
-      "speed": "110 ㎡/h"
-    },
-   
-  ],
-  "techSpecs": [
-    {
-      "label": "PRINTHEAD CONFIGURATION",
-      "value": "C512i/30pl - 8 Head"
-    },
-    {
-      "label": "INK TANK SYSTEM",
-      "value": "Three Level Ink Tank"
-    },
-    {
-      "label": "HEATING SYSTEM",
-      "value": "Printhead Plate Heating + Infrared Heating"
-    },
-    {
-      "label": "COLLECTING SYSTEM",
-      "value": "Auto Collecting System"
-    }
-  ]
-},
+        "slug": "solvent-printing-machine",
+        "name": "Solvent Printing Machine",
+        "description": "C8 PRO 1024I / 9888H Solvent Printer",
+        "fullDescription": "New generation KONICA 9888H High precision UV / Solvent printhead.",
+        "image": "/images/SolventPrintingMachines/SolventPrinter.jpeg",
+        "bg": "bg-gray-100",
+        "text": "text-gray-900",
+        "features": [
+          "Linear motor and double guide rails",
+          "Intelligent infrared drying system",
+          "Built-in movable media fixing",
+          "Standard negative pressure system",
+          "Reflective photoelectric switch",
+          "Print head anti-collision system"
+        ],
+        "dealerInfo": "JK ENTERPRISES are the authorised and sole dealer of ALLWIN flex printing machines in Telangana.",
+        "mainFeaturesTitle": "Main Features of C8 PRO Digital Inkjet Printer",
+        "detailedFeatures": [
+          "Linear motor and double guide rails: High precision assembled and adjusted for more stable carriage movement, reducing maintenance costs.",
+          "Intelligent infrared drying system: Features printing start/stop and infrared automatic open/close for efficient media drying.",
+          "Advanced Feeding System: The feeding system adopts built-in movable media fixing structure to prevent material from deviation.",
+          "Standard negative pressure system: Ensures continuous printing without nozzle missing for high industrial reliability.",
+          "Reflective photoelectric switch: Adopts reflective photoelectric switch, capable of printing on black banners with high precision.",
+          "Anti-collision system: The print head anti-collision system can effectively prevent head damage during high-speed printing."
+        ],
+        "speedTable": [],
+        "techSpecs": [
+          {
+            "label": "Model",
+            "value": "C8 PRO 9888H / C1024I PRO"
+          },
+          {
+            "label": "Head Model",
+            "value": "KONICA 9888H / HS1000/6988H"
+          },
+          {
+            "label": "Printhead Quantity",
+            "value": "4 / 8"
+          },
+          {
+            "label": "Drop Volume",
+            "value": "5PL/10PL/15PL / 30PL/13PL"
+          },
+          {
+            "label": "Drying System",
+            "value": "Infrared- heater fan"
+          },
+          {
+            "label": "Print Width",
+            "value": "3250mm"
+          },
+          {
+            "label": "Rip Software",
+            "value": "MainTop / Photo Print"
+          },
+          {
+            "label": "Electricity Requirement",
+            "value": "220v/60A/50HZ"
+          },
+          {
+            "label": "Machine Max Power",
+            "value": "13295W"
+          },
+           {
+            "label": "Printing System",
+            "value": "1145W"
+          },
+           {
+            "label": "Front & rear heater",
+            "value": "3750W"
+          },
+           {
+            "label": "Infrared heater",
+            "value": "8400W"
+          },
+          {
+            "label": "Machine Body Size",
+            "value": "4840(L)*940(W)*1400(H)mm"
+          },
+            {
+            "label": "Machine package Size",
+            "value": "5600(L)*760(W)*1270(H)mm"
+          },
+          {
+            "label": "Weight (Gw/Nw)",
+            "value": "1135kg / 1035kg"
+          }
+        ]
+      },
+      {
+        "slug": "digital-solvent-flex-printer",
+        "name": "Digital Solvent Flex Printer",
+        "description": "ALLWIN C8-512i (KM512i/30pl)",
+        "fullDescription": "We JK ENTERPRISES are the authorised and sole dealers of allwin flex printing machine all over Telangana.",
+        "image": "/images/SolventPrintingMachines/imgi_4_C8-512i_KM512i_30pl_KM1024_42pl.png",
+        "bg": "bg-white",
+        "text": "text-gray-900",
+        "features": [
+          "Improved Function Configuration",
+          "Infrared Heating System",
+          "Auto Collecting System",
+          "Stable Multi-Level Ink Tank System"
+        ],
+        "dealerInfo": "We JK ENTERPRISES are the authorised and sole dealers of allwin flex printing machine all over Telangana.",
+        "mainFeaturesTitle": "Main features includes, Improved Function Configuration compared with C4-512i flex printing machine",
+        "detailedFeatures": [
+          "It provides secondary ink tank and printhead plate heating system, suitable for low temperature in winter.",
+          "It is equipped with standard intelligent infrared heating system to speed up image drying.",
+          "It is equipped with standard auto collecting system.",
+          "It provides three levels ink tank, making printing more stable."
+        ],
+        "speedTable": [
+          {
+            "pass": "2 PASS",
+            "resolution": "360 * 360 dpi",
+            "speed": "260 ㎡/h"
+          },
+          {
+            "pass": "3 PASS",
+            "resolution": "360 * 540 dpi",
+            "speed": "180 ㎡/h"
+          },
+          {
+            "pass": "2 PASS",
+            "resolution": "480 * 360 dpi",
+            "speed": "210 ㎡/h"
+          },
+          {
+            "pass": "3 PASS",
+            "resolution": "480 * 540 dpi",
+            "speed": "140 ㎡/h"
+          },
+          {
+            "pass": "4 PASS",
+            "resolution": "480 * 720 dpi",
+            "speed": "110 ㎡/h"
+          },
+
+        ],
+        "techSpecs": [
+          {
+            "label": "PRINTHEAD CONFIGURATION",
+            "value": "C512i/30pl - 8 Head"
+          },
+          {
+            "label": "INK TANK SYSTEM",
+            "value": "Three Level Ink Tank"
+          },
+          {
+            "label": "HEATING SYSTEM",
+            "value": "Printhead Plate Heating + Infrared Heating"
+          },
+          {
+            "label": "COLLECTING SYSTEM",
+            "value": "Auto Collecting System"
+          }
+        ]
+      },
       {
         "slug": "allwin-1024i-pro-series",
         "name": "Allwin 1024i Pro Series",
@@ -165,7 +181,7 @@ export const productsData = [
           "Outdoor Grade Durability",
           "Low Maintenance Setup"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Allwin 1024i Pro Series machines in India.",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Allwin 1024i Pro Series machines in Telangana.",
         "mainFeaturesTitle": "Main Features of Allwin 1024i Pro Series machine",
         "detailedFeatures": [
           "The upgraded printing bed vacuum structure to ensure the media flatness during printing.",
@@ -252,425 +268,425 @@ export const productsData = [
   },
   {
     "slug": "eco-solvent-printing-machines",
-    "title": "Eco Solvent Printing Machines",
+    "title": "Eco Solvent Printing Machines ",
     "subtitle": "Versatile printing technologies delivering long-lasting quality for signage, textiles, and promotional products.",
     "subProducts": [
-      
+
       {
-  "slug": "eco-solvent-printer-a-180",
-  "name": "Eco Solvent Printer A-180",
-  "description": "i3200 Dual Head Economical Model",
-  "fullDescription": "ALLWIN Eco Solvent Printer A-180 is an economical dual head model designed for high-quality printing with advanced features and industrial-grade performance.",
-  "image": "/images/ecoSolventPrintingMachines/imgi_2_ALLWIN-ECO-SOLVENT-A-180.webp",
-  "bg": "bg-gray-100",
-  "text": "text-gray-900",
-  "features": [
-    "BYHX Board System",
-    "Integrated Motor",
-    "AL alloy Platform",
-    "With take up system"
-  ],
-  "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Eco Solvent Printer A-180 machines in India.",
-  "mainFeaturesTitle": "Main Features of Eco Solvent Printer A-180 machine",
-  "detailedFeatures": [
-    "Equipped with Epson i3200 dual print head technology for high precision printing.",
-    "Supports both single head and double head production modes.",
-    "Infrared heating system with fans for efficient drying.",
-    "Automatic cleaning system for easy maintenance.",
-    "Integrated media loading and take-up system for smooth operation."
-  ],
-  "speedTable": [
-    {
-      "pass": "3 PASS",
-      "resolution": "Production",
-      "speed": "Single Head: 340 sqm/h | Double Head: 650 sqm/h"
-    },
-    {
-      "pass": "4 PASS",
-      "resolution": "Precision",
-      "speed": "Single Head: 260 sqm/h | Double Head: 500 sqm/h"
-    },
-    {
-      "pass": "6 PASS",
-      "resolution": "Precision",
-      "speed": "Single Head: 160 sqm/h | Double Head: 300 sqm/h"
-    }
-  ],
-  "techSpecs": [
-    {
-      "label": "MODEL",
-      "value": "NC A180"
-    },
-    {
-      "label": "PRINT HEAD",
-      "value": "Epson i3200"
-    },
-    {
-      "label": "PRINT HEAD NUMBER",
-      "value": "2"
-    },
-    {
-      "label": "PRINT RESOLUTION",
-      "value": "Max 1440 dpi"
-    },
-    {
-      "label": "FEEDING WIDTH",
-      "value": "1890 mm"
-    },
-    {
-      "label": "PRINT WIDTH",
-      "value": "1800 mm"
-    },
-    {
-      "label": "INK TYPE",
-      "value": "Eco solvent ink / water based ink / sublimation ink"
-    },
-    {
-      "label": "COLOR",
-      "value": "CMYK 4 Color"
-    },
-    {
-      "label": "INK TANK",
-      "value": "1000 ml tank for each color"
-    },
-    {
-      "label": "PRINT MEDIA",
-      "value": "PP self-adhesive vinyl, backlit film, photo paper, movable PP, canvas, car sticker, reflective film"
-    },
-    {
-      "label": "HEATING SYSTEM",
-      "value": "Inside control heating system"
-    },
-    {
-      "label": "DRYING SYSTEM",
-      "value": "Infrared heating system with fans"
-    },
-    {
-      "label": "MEDIA SYSTEM",
-      "value": "Standard media loading and take up system"
-    },
-    {
-      "label": "CLEANING SYSTEM",
-      "value": "Automatic cleaning"
-    },
-    {
-      "label": "DATA TRANSMISSION",
-      "value": "1000M network port printing"
-    },
-    {
-      "label": "SOFTWARE",
-      "value": "Maintop"
-    },
-    {
-      "label": "POWER SUPPLY",
-      "value": "220V/110V, 50Hz/60Hz"
-    },
-    {
-      "label": "POWER",
-      "value": "750W-3000W"
-    },
-    {
-      "label": "MACHINE SIZE",
-      "value": "3000*500*650 mm"
-    },
-    {
-      "label": "MACHINE WEIGHT",
-      "value": "300±5%"
-    }
-  ]
-},
-      
+        "slug": "eco-solvent-printer-a-180",
+        "name": "Eco Solvent Printer A-180",
+        "description": "i3200 Dual Head Economical Model",
+        "fullDescription": "ALLWIN Eco Solvent Printer A-180 is an economical dual head model designed for high-quality printing with advanced features and industrial-grade performance.",
+        "image": "/images/ecoSolventPrintingMachines/imgi_2_ALLWIN-ECO-SOLVENT-A-180.webp",
+        "bg": "bg-gray-100",
+        "text": "text-gray-900",
+        "features": [
+          "BYHX Board System",
+          "Integrated Motor",
+          "AL alloy Platform",
+          "With take up system"
+        ],
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Eco Solvent Printer A-180 machines in Telangana.",
+        "mainFeaturesTitle": "Main Features of Eco Solvent Printer A-180 machine",
+        "detailedFeatures": [
+          "Equipped with Epson i3200 dual print head technology for high precision printing.",
+          "Supports both single head and double head production modes.",
+          "Infrared heating system with fans for efficient drying.",
+          "Automatic cleaning system for easy maintenance.",
+          "Integrated media loading and take-up system for smooth operation."
+        ],
+        "speedTable": [
+          {
+            "pass": "3 PASS",
+            "resolution": "Production",
+            "speed": "Single Head: 340 sqm/h | Double Head: 650 sqm/h"
+          },
+          {
+            "pass": "4 PASS",
+            "resolution": "Precision",
+            "speed": "Single Head: 260 sqm/h | Double Head: 500 sqm/h"
+          },
+          {
+            "pass": "6 PASS",
+            "resolution": "Precision",
+            "speed": "Single Head: 160 sqm/h | Double Head: 300 sqm/h"
+          }
+        ],
+        "techSpecs": [
+          {
+            "label": "MODEL",
+            "value": "NC A180"
+          },
+          {
+            "label": "PRINT HEAD",
+            "value": "Epson i3200"
+          },
+          {
+            "label": "PRINT HEAD NUMBER",
+            "value": "2"
+          },
+          {
+            "label": "PRINT RESOLUTION",
+            "value": "Max 1440 dpi"
+          },
+          {
+            "label": "FEEDING WIDTH",
+            "value": "1890 mm"
+          },
+          {
+            "label": "PRINT WIDTH",
+            "value": "1800 mm"
+          },
+          {
+            "label": "INK TYPE",
+            "value": "Eco solvent ink / water based ink / sublimation ink"
+          },
+          {
+            "label": "COLOR",
+            "value": "CMYK 4 Color"
+          },
+          {
+            "label": "INK TANK",
+            "value": "1000 ml tank for each color"
+          },
+          {
+            "label": "PRINT MEDIA",
+            "value": "PP self-adhesive vinyl, backlit film, photo paper, movable PP, canvas, car sticker, reflective film"
+          },
+          {
+            "label": "HEATING SYSTEM",
+            "value": "Inside control heating system"
+          },
+          {
+            "label": "DRYING SYSTEM",
+            "value": "Infrared heating system with fans"
+          },
+          {
+            "label": "MEDIA SYSTEM",
+            "value": "Standard-media loading and take up system"
+          },
+          {
+            "label": "CLEANING SYSTEM",
+            "value": "Automatic cleaning"
+          },
+          {
+            "label": "DATA TRANSMISSION",
+            "value": "1000M network port printing"
+          },
+          {
+            "label": "SOFTWARE",
+            "value": "Maintop"
+          },
+          {
+            "label": "POWER SUPPLY",
+            "value": "220V/110V, 50Hz/60Hz"
+          },
+          {
+            "label": "POWER",
+            "value": "750W-3000W"
+          },
+          {
+            "label": "MACHINE SIZE",
+            "value": "3000*500*650 mm"
+          },
+          {
+            "label": "MACHINE WEIGHT",
+            "value": "300±5%"
+          }
+        ]
+      },
+
       {
-  "slug": "eco-solvent-2-head-4-colour-printer",
-  "name": "ECO SOLVENT 2 HEAD 4 COLOUR PRINTER",
-  "description": "AW-EP1604 2 Head",
-  "fullDescription": "Allwin Eco Solvent 2 Head 4 Colour Printer is designed for high-quality indoor and outdoor printing applications with advanced Epson i3200 printhead technology and reliable performance.",
-  "image": "/images/ecoSolventPrintingMachines/imgi_4_ALLWIN-ECO-SOLVENT-2-HEAD-4-COLOUR-PRINTER-2.png",
-  "bg": "bg-white",
-  "text": "text-white",
-  "features": [
-    "Epson i3200 Print Head",
-    "2 Head 4 Color Printing",
-    "High Speed & Precision Output",
-    "Indoor & Outdoor Application Support"
-  ],
-  "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of ECO SOLVENT 2 HEAD 4 COLOUR PRINTER machines in India.",
-  "mainFeaturesTitle": "Main Features of ECO SOLVENT 2 HEAD 4 COLOUR PRINTER machine",
-  "detailedFeatures": [
-    "Supports indoor and outdoor printing on PP, photo paper, car stickers, and eco-solvent lamp materials.",
-    "Compatible with solvent, water-based, sublimation inks with CMYK 4 color system.",
-    "Integrated heater, infrared dryer and fan system for efficient drying.",
-    "Network interface with stable high-speed data transmission.",
-    "Heavy-duty structure with stable performance and long durability."
-  ],
-  "speedTable": [
-    {
-      "pass": "High Speed",
-      "resolution": "2 Head 4 Color",
-      "speed": "430 Sq.ft/h"
-    },
-    {
-      "pass": "High Precision",
-      "resolution": "2 Head 4 Color",
-      "speed": "340 Sq.ft/h"
-    },
-    {
-      "pass": "High Speed",
-      "resolution": "4 Head 4 Color",
-      "speed": "880 Sq.ft/h"
-    },
-    {
-      "pass": "High Precision",
-      "resolution": "4 Head 4 Color",
-      "speed": "680 Sq.ft/h"
-    }
-  ],
-  "techSpecs": [
-    {
-      "label": "MODEL",
-      "value": "AW-EP1602 / AW-EP1604"
-    },
-    {
-      "label": "HEAD MODEL",
-      "value": "EPSON i3200-A1 (water-based) / i3200-E1 (solvent)"
-    },
-    {
-      "label": "INK MODEL",
-      "value": "C, M, Y, K"
-    },
-    {
-      "label": "APPLICATION",
-      "value": "Indoor and outdoor PP, photo paper, car sticker, backlit film, canvas"
-    },
-    {
-      "label": "MEDIA",
-      "value": "Width: 1.62M, Thickness: 3MM, Weight: 60KG"
-    },
-    {
-      "label": "INK SYSTEM",
-      "value": "400ML sub ink tank + 5L main ink tank"
-    },
-    {
-      "label": "INK TYPE",
-      "value": "Solvent / Water-based / Sublimation / 4 Colors"
-    },
-    {
-      "label": "HEAD CONFIGURATION",
-      "value": "2 Head 4 Color / 4 Head 4 Color"
-    },
-    {
-      "label": "SIZE & WEIGHT",
-      "value": "EP1602: 2760*810*1580MM 350KG | EP1604: 3000*940*1500MM 440KG"
-    },
-    {
-      "label": "HEATING SYSTEM",
-      "value": "Integrated heater, infrared dryer and fan system"
-    },
-    {
-      "label": "INTERFACE / POWER",
-      "value": "Network interface / AC220V, 50/60HZ"
-    }
-  ]
-},
-      
+        "slug": "eco-solvent-2-head-4-colour-printer",
+        "name": "ECO SOLVENT 2 HEAD 4 COLOUR PRINTER",
+        "description": "AW-EP1602 / AW EP 1604",
+        "fullDescription": "Allwin Eco Solvent 2 Head 4 Colour Printer is designed for high-quality indoor and outdoor printing applications with advanced Epson i3200 printhead technology and reliable performance.",
+        "image": "/images/ecoSolventPrintingMachines/imgi_4_ALLWIN-ECO-SOLVENT-2-HEAD-4-COLOUR-PRINTER-2.png",
+        "bg": "bg-white",
+        "text": "text-white",
+        "features": [
+          "Epson i3200 Print Head",
+          "2 Head 4 Color Printing",
+          "High Speed & Precision Output",
+          "Indoor & Outdoor Application Support"
+        ],
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of ECO SOLVENT 2 HEAD 4 COLOUR PRINTER machines in Telangana.",
+        "mainFeaturesTitle": "Main Features of ECO SOLVENT 2 HEAD 4 COLOUR PRINTER machine",
+        "detailedFeatures": [
+          "Supports indoor and outdoor printing on PP, photo paper, car stickers, and eco-solvent lamp materials.",
+          "Compatible with solvent, water-based, sublimation inks with CMYK 4 color system.",
+          "Integrated heater, infrared dryer and fan system for efficient drying.",
+          "Network interface with stable high-speed data transmission.",
+          "Heavy-duty structure with stable performance and long durability."
+        ],
+        "speedTable": [
+          {
+            "pass": "High Speed",
+            "resolution": "2 Head 4 Color",
+            "speed": "430 Sq.ft/h"
+          },
+          {
+            "pass": "High Precision",
+            "resolution": "2 Head 4 Color",
+            "speed": "340 Sq.ft/h"
+          },
+          {
+            "pass": "High Speed",
+            "resolution": "4 Head 4 Color",
+            "speed": "880 Sq.ft/h"
+          },
+          {
+            "pass": "High Precision",
+            "resolution": "4 Head 4 Color",
+            "speed": "680 Sq.ft/h"
+          }
+        ],
+        "techSpecs": [
+          {
+            "label": "MODEL",
+            "value": "AW-EP1602 / AW-EP1604"
+          },
+          {
+            "label": "HEAD MODEL",
+            "value": "EPSON i3200-A1 (water-based) / i3200-E1 (solvent)"
+          },
+          {
+            "label": "INK MODEL",
+            "value": "C, M, Y, K"
+          },
+          {
+            "label": "APPLICATION",
+            "value": "Indoor and outdoor PP, photo paper, car sticker, backlit film, canvas, non-wovenCloth, digital printing materials, etc."
+          },
+          {
+            "label": "MEDIA",
+            "value": "Width: 1.62M, Thickness: 3MM, Weight: 60KG"
+          },
+          {
+            "label": "Volume",
+            "value": "400ML sub ink tank + 5L main ink tank"
+          },
+          {
+            "label": "INK TYPE",
+            "value": "Solvent / Water-based / Sublimation / 4 Colors"
+          },
+          {
+            "label": "HEAD CONFIGURATION",
+            "value": "2 Head 4 Color / 4 Head 4 Color"
+          },
+          {
+            "label": "SIZE & WEIGHT",
+            "value": "EP1602: 2760*810*1580MM 350KG | EP1604: 3000*940*1500MM 440KG"
+          },
+          {
+            "label": "HEATING SYSTEM",
+            "value": "Integrated heater, infrared dryer and fan system"
+          },
+          {
+            "label": "INTERFACE / POWER",
+            "value": "Network interface / AC220V, 50/60HZ"
+          }
+        ]
+      },
+
       {
-  "slug": "allwin-eco-solvent-3-head-6-colour-printer",
-  "name": "Allwin Eco Solvent 3 Head 6 Colour Printer",
-  "description": "AW EP1603 3 Head",
-  "fullDescription": "Allwin Eco Solvent 3 Head 6 Colour Printer is designed for high-quality indoor and outdoor printing with advanced Epson i3200 printhead technology and 6 color support for enhanced output quality.",
-  "image": "/images/ecoSolventPrintingMachines/imgi_4_ALLWIN-ECO-SOLVENT-2-HEAD-4-COLOUR-PRINTER-2.png",
-  "bg": "bg-gray-100",
-  "text": "text-gray-900",
-  "features": [
-    "Epson i3200 Print Head",
-    "3 Head 6 Color Printing",
-    "High Speed & High Precision",
-    "Indoor & Outdoor Application Support"
-  ],
-  "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Allwin Eco Solvent 3 Head 6 Colour Printer machines in India.",
-  "mainFeaturesTitle": "Main Features of Allwin Eco Solvent 3 Head 6 Colour Printer machine",
-  "detailedFeatures": [
-    "Supports indoor and outdoor printing on PP, photo paper, car stickers, backlit film, canvas and digital printing materials.",
-    "Compatible with solvent, water-based and sublimation inks with 6 color system (C, M, Y, K, LC, LM).",
-    "Integrated heater, infrared dryer and fan system for efficient drying.",
-    "Stable media support with width up to 1.62 meters.",
-    "Heavy-duty structure for long-term industrial performance."
-  ],
-  "speedTable": [
-    {
-      "pass": "High Speed",
-      "resolution": "3 Head 6 Color",
-      "speed": "375 Sq.ft/h"
-    },
-    {
-      "pass": "High Precision",
-      "resolution": "3 Head 6 Color",
-      "speed": "310 Sq.ft/h"
-    },
-    {
-      "pass": "High Speed",
-      "resolution": "6 Head 6 Color",
-      "speed": "750 Sq.ft/h"
-    },
-    {
-      "pass": "High Precision",
-      "resolution": "6 Head 6 Color",
-      "speed": "620 Sq.ft/h"
-    }
-  ],
-  "techSpecs": [
-    {
-      "label": "MODEL",
-      "value": "AW-EP1603 / 1606"
-    },
-    {
-      "label": "HEAD MODEL",
-      "value": "EPSON i3200-A1 (water-based) / i3200-E1 (solvent)"
-    },
-    {
-      "label": "INK MODEL",
-      "value": "C, M, Y, K, LC, LM"
-    },
-    {
-      "label": "APPLICATION",
-      "value": "Indoor and outdoor PP, photo paper, car sticker, backlit film, eco-solvent lamp, canvas, non-woven cloth"
-    },
-    {
-      "label": "MEDIA",
-      "value": "Width: 1.62M, Thickness: 3MM, Weight: 60KG"
-    },
-    {
-      "label": "INK SYSTEM",
-      "value": "220ML sub ink tank + 3L main ink tank"
-    },
-    {
-      "label": "INK TYPE",
-      "value": "Solvent / Water-based / Sublimation / 6 Colors"
-    },
-    {
-      "label": "HEAD CONFIGURATION",
-      "value": "3 Head 6 Color / 6 Head 6 Color"
-    },
-    {
-      "label": "SIZE & WEIGHT",
-      "value": "EP1603: 2760*810*1580MM 350KG | EP1606: 3286*970*1725MM 420KG"
-    },
-    {
-      "label": "HEATING SYSTEM",
-      "value": "Integrated heater, infrared dryer and fan system"
-    },
-    {
-      "label": "INTERFACE / POWER",
-      "value": "Network interface / AC220V, 50/60HZ"
-    }
-  ]
-},
-      
+        "slug": "allwin-eco-solvent-3-head-6-colour-printer",
+        "name": "Allwin Eco Solvent 3 Head 6 Colour Printer",
+        "description": "AW EP1603 3 Head",
+        "fullDescription": "Allwin Eco Solvent 3 Head 6 Colour Printer is designed for high-quality indoor and outdoor printing with advanced Epson i3200 printhead technology and 6 color support for enhanced output quality.",
+        "image": "/images/ecoSolventPrintingMachines/imgi_4_ALLWIN-ECO-SOLVENT-2-HEAD-4-COLOUR-PRINTER-2.png",
+        "bg": "bg-gray-100",
+        "text": "text-gray-900",
+        "features": [
+          "Epson i3200 Print Head",
+          "3 Head 6 Color Printing",
+          "High Speed & High Precision",
+          "Indoor & Outdoor Application Support"
+        ],
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Allwin Eco Solvent 3 Head 6 Colour Printer machines in Telangana.",
+        "mainFeaturesTitle": "Main Features of Allwin Eco Solvent 3 Head 6 Colour Printer machine",
+        "detailedFeatures": [
+          "Supports indoor and outdoor printing on PP, photo paper, car stickers, backlit film, canvas and digital printing materials.",
+          "Compatible with solvent, water-based and sublimation inks with 6 color system (C, M, Y, K, LC, LM).",
+          "Integrated heater, infrared dryer and fan system for efficient drying.",
+          "Stable media support with width up to 1.62 meters.",
+          "Heavy-duty structure for long-term industrial performance."
+        ],
+        "speedTable": [
+          {
+            "pass": "High Speed",
+            "resolution": "3 Head 6 Color",
+            "speed": "375 Sq.ft/h"
+          },
+          {
+            "pass": "High Precision",
+            "resolution": "3 Head 6 Color",
+            "speed": "310 Sq.ft/h"
+          },
+          {
+            "pass": "High Speed",
+            "resolution": "6 Head 6 Color",
+            "speed": "750 Sq.ft/h"
+          },
+          {
+            "pass": "High Precision",
+            "resolution": "6 Head 6 Color",
+            "speed": "620 Sq.ft/h"
+          }
+        ],
+        "techSpecs": [
+          {
+            "label": "MODEL",
+            "value": "AW-EP1603 / 1606"
+          },
+          {
+            "label": "HEAD MODEL",
+            "value": "EPSON i3200-A1 (water-based) / i3200-E1 (solvent)"
+          },
+          {
+            "label": "INK MODEL",
+            "value": "C, M, Y, K, LC, LM"
+          },
+          {
+            "label": "APPLICATION",
+            "value": "Indoor and outdoor PP, photo paper, car sticker, backlit film, eco-solvent lamp, canvas, non-woven cloth"
+          },
+          {
+            "label": "MEDIA",
+            "value": "Width: 1.62M, Thickness: 3MM, Weight: 60KG"
+          },
+          {
+            "label": "INK SYSTEM",
+            "value": "220ML sub ink tank + 3L main ink tank"
+          },
+          {
+            "label": "INK TYPE",
+            "value": "Solvent / Water-based / Sublimation / 6 Colors"
+          },
+          {
+            "label": "HEAD CONFIGURATION",
+            "value": "3 Head 6 Color / 6 Head 6 Color"
+          },
+          {
+            "label": "SIZE & WEIGHT",
+            "value": "EP1603: 2760*810*1580MM 350KG | EP1606: 3286*970*1725MM 420KG"
+          },
+          {
+            "label": "HEATING SYSTEM",
+            "value": "Integrated heater, infrared dryer and fan system"
+          },
+          {
+            "label": "INTERFACE / POWER",
+            "value": "Network interface / AC220V, 50/60HZ"
+          }
+        ]
+      },
+
       {
-  "slug": "oric-single-head-eco-solvent-printer",
-  "name": "Oric Single Head Eco Solvent Printer",
-  "description": "OR-1601 (with single Epson i3200-A1/E1)",
-  "fullDescription": "Oric Single Head Eco Solvent Printer OR-1601 is designed for high-quality eco solvent printing with Epson i3200 printhead, delivering stable performance and efficient output for indoor and outdoor applications.",
-  "image": "/images/ecoSolventPrintingMachines/imgi_5_ORIC-SINGLE-HEAD-ECO-SOLVENT-PRINTER-1.png",
-  "bg": "bg-white",
-  "text": "text-white",
-  "features": [
-    "Single Epson i3200 Print Head",
-    "High Precision Printing",
-    "Eco Solvent / Water Based Ink Support",
-    "Stable Industrial Performance"
-  ],
-  "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Oric Single Head Eco Solvent Printer machines in India.",
-  "mainFeaturesTitle": "Main Features of Oric Single Head Eco Solvent Printer machine",
-  "detailedFeatures": [
-    "Equipped with Epson i3200-A1/E1 printhead for high-quality output.",
-    "Supports eco solvent and water-based dye inks.",
-    "Stable printing performance with direct supply ink system.",
-    "LAN connectivity for smooth data transmission.",
-    "Designed for indoor and outdoor printing applications."
-  ],
-  "speedTable": [
-    {
-      "pass": "4 PASS",
-      "resolution": "360 x 2400 dpi",
-      "speed": "225 Sq.ft/h"
-    }
-  ],
-  "techSpecs": [
-    {
-      "label": "MODEL",
-      "value": "OR-1601"
-    },
-    {
-      "label": "PRINTHEAD",
-      "value": "Epson i3200-A1 / E1 x 1"
-    },
-    {
-      "label": "COLOR",
-      "value": "CMYK"
-    },
-    {
-      "label": "PRINTING MODE",
-      "value": "Piezoelectric inkjet printing"
-    },
-    {
-      "label": "BROAD WIDTH",
-      "value": "1620 mm"
-    },
-    {
-      "label": "MEDIA",
-      "value": "Thickness: 1 mm | Weight: 60 kg"
-    },
-    {
-      "label": "PRINT WIDTH",
-      "value": "1600 mm"
-    },
-    {
-      "label": "INK TYPE",
-      "value": "Eco solvent ink / Water-based dye ink"
-    },
-    {
-      "label": "INK SYSTEM",
-      "value": "Direct supply system (1.5 liter ink barrel)"
-    },
-    {
-      "label": "POWER",
-      "value": "3000W"
-    },
-    {
-      "label": "PRINTING ACCURACY",
-      "value": "2400 dpi"
-    },
-    {
-      "label": "PORT",
-      "value": "LAN"
-    },
-    {
-      "label": "VOLTAGE",
-      "value": "AC 220V ±10%, 50/60Hz"
-    },
-    {
-      "label": "SOFTWARE",
-      "value": "RIP / PhotoPrint"
-    },
-    {
-      "label": "MACHINE SIZE",
-      "value": "2585 x 685 x 1482 mm / 220 kg"
-    },
-    {
-      "label": "PACKING SIZE",
-      "value": "2700 x 760 x 760 mm / 250 kg"
-    },
-    {
-      "label": "ENVIRONMENT",
-      "value": "Temperature 15°C–32°C, Humidity 35%–80% (No condensation)"
-    },
-    {
-      "label": "ATTACHMENT",
-      "value": "Data cable, paper press, user manual, waste ink cartridge, ink cartridge, RIP software"
-    }
-  ]
-},
+        "slug": "oric-single-head-eco-solvent-printer",
+        "name": "Oric Single Head Eco Solvent Printer",
+        "description": "OR-1601 (with single Epson i3200-A1/E1)",
+        "fullDescription": "Oric Single Head Eco Solvent Printer OR-1601 is designed for high-quality eco solvent printing with Epson i3200 printhead, delivering stable performance and efficient output for indoor and outdoor applications.",
+        "image": "/images/ecoSolventPrintingMachines/imgi_5_ORIC-SINGLE-HEAD-ECO-SOLVENT-PRINTER-1.png",
+        "bg": "bg-white",
+        "text": "text-white",
+        "features": [
+          "Single Epson i3200 Print Head",
+          "High Precision Printing",
+          "Eco Solvent / Water Based Ink Support",
+          "Stable Industrial Performance"
+        ],
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Oric Single Head Eco Solvent Printer machines in Telangana.",
+        "mainFeaturesTitle": "Main Features of Oric Single Head Eco Solvent Printer machine",
+        "detailedFeatures": [
+          "Equipped with Epson i3200-A1/E1 printhead for high-quality output.",
+          "Supports eco solvent and water-based dye inks.",
+          "Stable printing performance with direct supply ink system.",
+          "LAN connectivity for smooth data transmission.",
+          "Designed for indoor and outdoor printing applications."
+        ],
+        "speedTable": [
+          {
+            "pass": "4 PASS",
+            "resolution": "360 x 2400 dpi",
+            "speed": "225 Sq.ft/h"
+          }
+        ],
+        "techSpecs": [
+          {
+            "label": "MODEL",
+            "value": "OR-1601"
+          },
+          {
+            "label": "PRINTHEAD",
+            "value": "Epson i3200-A1 / E1 x 1"
+          },
+          {
+            "label": "COLOR",
+            "value": "CMYK"
+          },
+          {
+            "label": "PRINTING MODE",
+            "value": "Piezoelectric inkjet printing"
+          },
+          {
+            "label": "BROAD WIDTH",
+            "value": "1620 mm"
+          },
+          {
+            "label": "MEDIA",
+            "value": "Thickness: 1 mm | Weight: 60 kg"
+          },
+          {
+            "label": "PRINT WIDTH",
+            "value": "1600 mm"
+          },
+          {
+            "label": "INK TYPE",
+            "value": "Eco solvent ink / Water-based dye ink"
+          },
+          {
+            "label": "INK SYSTEM",
+            "value": "Direct supply system (1.5 liter ink barrel)"
+          },
+          {
+            "label": "POWER",
+            "value": "3000W"
+          },
+          {
+            "label": "PRINTING ACCURACY",
+            "value": "2400 dpi"
+          },
+          {
+            "label": "PORT",
+            "value": "LAN"
+          },
+          {
+            "label": "VOLTAGE",
+            "value": "AC 220V ±10%, 50/60Hz"
+          },
+          {
+            "label": "SOFTWARE",
+            "value": "RIP / PhotoPrint"
+          },
+          {
+            "label": "MACHINE SIZE",
+            "value": "2585 x 685 x 1482 mm / 220 kg"
+          },
+          {
+            "label": "PACKING SIZE",
+            "value": "2700 x 760 x 760 mm / 250 kg"
+          },
+          {
+            "label": "ENVIRONMENT",
+            "value": "Temperature 15°C–32°C, Humidity 35%–80% (No condensation)"
+          },
+          {
+            "label": "ATTACHMENT",
+            "value": "Data cable, paper press, user manual, waste ink cartridge, ink cartridge, RIP software"
+          }
+        ]
+      },
     ],
     "bgImage": "/images/productbgimages/bg2.webp"
   },
@@ -679,584 +695,645 @@ export const productsData = [
     "title": "UV Printing Machines",
     "subtitle": "Advanced UV printing systems delivering consistent, high-quality results across diverse applications.",
     "subProducts": [
+
+
+      {
+        "slug": "10-feet-giant-uv-hybrid-printer",
+        "name": "10 Feet Giant UV Hybrid Printer",
+        "description": "Allwin 5m / 3.2m Giant Hybrid UV Printer",
+        "fullDescription": "ALLWIN 5m / 3.2m Giant Hybrid UV Printer is designed for high-volume industrial printing with advanced UV curing technology, delivering high resolution, stability, and continuous production efficiency.",
+        "image": "/images/UVPrinters/imgi_16_allwin-1.png",
+        "bg": "bg-gray-100",
+        "text": "text-gray-900",
+        "features": [
+          "Magnetic Linear Motion System",
+          "High Resolution & Stability",
+          "Continuous Printing Without Pause",
+          "Dual Roll Printing Capability"
+        ],
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of 10 Feet Giant UV Hybrid Printer machines in Telangana.",
+        "mainFeaturesTitle": "Main Features of 10 Feet Giant UV Hybrid Printer machine",
+        "detailedFeatures": [
+          "Adopt metal raster with magnetic linear motion system for higher printing resolution and longer lifespan.",
+          "Supports continuous board printing without pause, improving production efficiency.",
+          "Roll-to-roll printing allows continuous output without media waste.",
+          "Capable of printing two rolls of 1.52M media simultaneously to save time and labor.",
+          "Suitable for both rigid and flexible media printing applications."
+        ],
+        "speedTable": [
+          {
+            "pass": "5m Model",
+            "resolution": "4 Rows, 4 Color",
+            "speed": "169 m²/h"
+          },
+          {
+            "pass": "3.2m Model",
+            "resolution": "3 Rows, 4 Color",
+            "speed": "105 m²/h"
+          }
+        ],
+        "techSpecs": [
+          {
+            "label": "model",
+            "value": "ALLWIN 5m / 3.2m Giant Hybrid UV Printer"
+          },
+          {
+            "label": "printhead",
+            "value": "5m: KM1024aSHE (4-24H) / 3.2m: KM1024aSHE (4-14H)"
+          },
+          {
+            "label": "resolution",
+            "value": "1440 DPI"
+          },
+          {
+            "label": "Color option",
+            "value": "CMYK / Double CMYK / CMYK LC LM (White & Varnish optional)"
+          },
+          {
+            "label": "Media thickness",
+            "value": "0mm - 25mm"
+          },
+          {
+            "label": "Lamp",
+            "value": "LED Lamp"
+          },
+          {
+            "label": "Platform section",
+            "value": "8-zone suction / 4-zone suction (adapted to different sizes of materials)"
+          },
+          {
+            "label": "Print type",
+            "value": "Roll to roll / Rigid media"
+          },
+          {
+            "label": "Print width",
+            "value": "5000 mm / 3200 mm"
+          },
+          {
+            "label": "option",
+            "value": "Front and rear extensional frame desk"
+          },
+          {
+            "label": "Ink type",
+            "value": "UV curing ink"
+          },
+          {
+            "label": "Bulk Volume",
+            "value": "3L bottle with ink alarm, ink filling without pause"
+          },
+          {
+            "label": "Ink supply system",
+            "value": "Automatic negative ink supply system"
+          },
+          {
+            "label": "Media type",
+            "value": "Glass, ceramic, metal, paper board, leather, wall paper, PVC, PP, PE"
+          },
+          {
+            "label": "operating system",
+            "value": "Windows 7/10 64bit. RAW>=500G. SSD>=128G.CPU >= Inte i5"
+          },
+          {
+            "label": "RIP Software",
+            "value": "Photoprint / Print Factory (Caldera for option)"
+          },
+          {
+            "label": "Work environment",
+            "value": "Temp: 18–26°C to reduce the static, Humidity: 40%~70% to reduce the static"
+          },
+          {
+            "label": "Power",
+            "value": "Max power:10KW; AC,50HZ/60HZ:220V(+10% or -10%)>45A "
+          },
+          {
+            "label": "File format",
+            "value": "Tiff, JPEG, EPS, PDF"
+          },
+          {
+            "label": "Machine size",
+            "value": "5m: 8194×2162×1772mm | 3.2m: 5970×1600×1640mm"
+          },
+          {
+            "label": "Weight",
+            "value": "6000kg (5m) / 2200kg (3.2m)"
+          },
+          {
+            "label": "certification",
+            "value": "CE"
+          }
+        ]
+      },
+
+      {
+        "slug": "1-8-meter-uv-hybrid-printer",
+        "name": "1.8 meter UV Hybrid Printer",
+        "description": "ALWIN-E 180 4UV",
+        "fullDescription": "The 1.8 meter UV Hybrid Printer is an industry-standard solution offering unparalleled performance, durability, and cost-efficiency for your professional high volume machines needs. Equipped with state-of-the-art bulk technology.",
+        "image": "/images/UVPrinters/imgi_19_UVHybrid.png",
+        "bg": "bg-white",
+        "text": "text-white",
       
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of 1.8 meter UV Hybrid Printer machines in Telangana.",
+        "mainFeaturesTitle": "Main Features of 1.8 meter UV Hybrid Printer machine",
+        "detailedFeatures": [
+          "The upgraded printing bed vacuum structure to ensure the media flatness during printing.",
+          "Longer body design to achieve full printing length in high speed mode.",
+          "The computer and keyboard can be installed on the machine for more convenient operation and space saving.",
+          "Professional additional collecting system to ensure sufficient drying in fast printing and more convenient process after printing.",
+          "Special shaft on feeding rolls to fix the media to avoid the movement of media during feeding."
+        ],
+        "speedTable": [
+          {
+            "pass": "6 PASS",
+            "resolution": "-",
+            "speed": "700 Sq.Ft/ h"
+          },
+          {
+            "pass": "4 PASS",
+            "resolution": "-",
+            "speed": "140 Sq.Ft/ h"
+          }
+        ],
+        "techSpecs": [
+          {
+            "label": "Model",
+            "value": "ALWIN Hybrid machine ALWIN-E 180 4UV"
+          },
+          {
+            "label": "Print width",
+            "value": "1850/1800 mm"
+          },
+          {
+            "label": "HEAD QTY",
+            "value": "4 head CMYK / 3 head white color"
+          },
+          {
+            "label": "Printing speed",
+            "value": "6 pass: 700 Sq.Ft/h / 4 pass: 140 Sq.Ft/h"
+          },
+          {
+            "label": "Ink Model",
+            "value": "UV ink / 4 color (YMCK) 5 color (YMCKW)"
+          },
+          {
+            "label": "Ink supply method",
+            "value": "Digital Inkjet System"
+          },
+          {
+            "label": "Applicable media",
+            "value": "Rigid and Roller media support (leather, KT board, wallpaper, film, car sticker, PVC film etc.)"
+          },
+          {
+            "label": "Maximum media thickness",
+            "value": "Adjustable height 2-30 mm"
+          },
+          {
+            "label": "UV CUrving method",
+            "value": "Water cooling LED lamp"
+          },
+          {
+            "label": "Media system",
+            "value": "Adjustable table vacuum zones / infrared dryer and fan system"
+          },
+          {
+            "label": "Auto Feeding Device",
+            "value": "Industrial media feeding & collecting system"
+          },
+          {
+            "label": "Auto Head Cleaning",
+            "value": "Auto cleaning and keep head wet"
+          },
+          {
+            "label": "RIP Software",
+            "value": "Maintop, Photoprint (optional)"
+          },
+          {
+            "label": "Operating System",
+            "value": "WINXP, WIN7, WIN10"
+          },
+          {
+            "label": "Work Environment",
+            "value": "Temperature: 18–32°C, Humidity: 46–65%"
+          },
+          {
+            "label": "Machine Size",
+            "value": "3330×1320×1420 mm"
+          },
+          {
+            "label": "Package size",
+            "value": "3050×1300×1500 mm"
+          },
+          {
+            "label": "Weight",
+            "value": "320 KG"
+          },
+          {
+            "label": "Package weight",
+            "value": "370 KG"
+          }
+        ]
+      },
+
 
       {
-  "slug": "10-feet-giant-uv-hybrid-printer",
-  "name": "10 Feet Giant UV Hybrid Printer",
-  "description": "Allwin 5m / 3.2m Giant Hybrid UV Printer",
-  "fullDescription": "ALLWIN 5m / 3.2m Giant Hybrid UV Printer is designed for high-volume industrial printing with advanced UV curing technology, delivering high resolution, stability, and continuous production efficiency.",
-  "image": "/images/UVPrinters/imgi_16_allwin-1.png",
-  "bg": "bg-gray-100",
-  "text": "text-gray-900",
-  "features": [
-    "Magnetic Linear Motion System",
-    "High Resolution & Stability",
-    "Continuous Printing Without Pause",
-    "Dual Roll Printing Capability"
-  ],
-  "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of 10 Feet Giant UV Hybrid Printer machines in India.",
-  "mainFeaturesTitle": "Main Features of 10 Feet Giant UV Hybrid Printer machine",
-  "detailedFeatures": [
-    "Adopt metal raster with magnetic linear motion system for higher printing resolution and longer lifespan.",
-    "Supports continuous board printing without pause, improving production efficiency.",
-    "Roll-to-roll printing allows continuous output without media waste.",
-    "Capable of printing two rolls of 1.52M media simultaneously to save time and labor.",
-    "Suitable for both rigid and flexible media printing applications."
-  ],
-  "speedTable": [
-    {
-      "pass": "5m Model",
-      "resolution": "4 Rows, 4 Color",
-      "speed": "169 m²/h"
-    },
-    {
-      "pass": "3.2m Model",
-      "resolution": "3 Rows, 4 Color",
-      "speed": "105 m²/h"
-    }
-  ],
-  "techSpecs": [
-    {
-      "label": "MODEL",
-      "value": "ALLWIN 5m / 3.2m Giant Hybrid UV Printer"
-    },
-    {
-      "label": "PRINTHEAD",
-      "value": "5m: KM1024aSHE (4-24H) / 3.2m: KM1024aSHE (4-14H)"
-    },
-    {
-      "label": "RESOLUTION",
-      "value": "1440 DPI"
-    },
-    {
-      "label": "COLOR OPTION",
-      "value": "CMYK / Double CMYK / CMYK LC LM (White & Varnish optional)"
-    },
-    {
-      "label": "MEDIA THICKNESS",
-      "value": "0mm - 25mm"
-    },
-    {
-      "label": "LAMP",
-      "value": "LED Lamp"
-    },
-    {
-      "label": "PLATFORM",
-      "value": "8-zone suction / 4-zone suction system"
-    },
-    {
-      "label": "PRINT TYPE",
-      "value": "Roll to roll / Rigid media"
-    },
-    {
-      "label": "PRINT WIDTH",
-      "value": "5000 mm / 3200 mm"
-    },
-    {
-      "label": "INK TYPE",
-      "value": "UV curing ink"
-    },
-    {
-      "label": "BULK INK SYSTEM",
-      "value": "3L bottle with ink alarm, continuous ink supply"
-    },
-    {
-      "label": "INK SUPPLY",
-      "value": "Automatic negative ink supply system"
-    },
-    {
-      "label": "MEDIA TYPE",
-      "value": "Glass, ceramic, metal, paper board, leather, wall paper, PVC, PP, PE"
-    },
-    {
-      "label": "OPERATING SYSTEM",
-      "value": "Windows 7/10 64bit"
-    },
-    {
-      "label": "RIP SOFTWARE",
-      "value": "Photoprint / Print Factory (Caldera optional)"
-    },
-    {
-      "label": "WORK ENVIRONMENT",
-      "value": "Temp: 18–26°C, Humidity: 40%–70%"
-    },
-    {
-      "label": "POWER",
-      "value": "Max 10KW, AC220V, 50/60Hz"
-    },
-    {
-      "label": "FILE FORMAT",
-      "value": "Tiff, JPEG, EPS, PDF"
-    },
-    {
-      "label": "MACHINE SIZE",
-      "value": "5m: 8194×2162×1772mm | 3.2m: 5970×1600×1640mm"
-    },
-    {
-      "label": "WEIGHT",
-      "value": "6000kg (5m) / 2200kg (3.2m)"
-    },
-    {
-      "label": "CERTIFICATION",
-      "value": "CE"
-    }
-  ]
-},
-     
-      {
-  "slug": "1-8-meter-uv-hybrid-printer",
-  "name": "1.8 meter UV Hybrid Printer",
-  "description": "ALWIN-E 180 4UV",
-  "fullDescription": "The 1.8 meter UV Hybrid Printer is an industry-standard solution offering unparalleled performance, durability, and cost-efficiency for your professional high volume machines needs. Equipped with state-of-the-art bulk technology.",
-  "image": "/images/UVPrinters/imgi_19_UVHybrid.png",
-  "bg": "bg-white",
-  "text": "text-white",
-  "features": [
-    "Heavy duty Excellence",
-    "High Speed Processing",
-    "Bulk Grade Durability",
-    "Low Maintenance Setup"
-  ],
-  "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of 1.8 meter UV Hybrid Printer machines in India.",
-  "mainFeaturesTitle": "Main Features of 1.8 meter UV Hybrid Printer machine",
-  "detailedFeatures": [
-    "The upgraded printing bed vacuum structure to ensure the media flatness during printing.",
-    "Longer body design to achieve full printing length in high speed mode.",
-    "The computer and keyboard can be installed on the machine for more convenient operation and space saving.",
-    "Professional additional collecting system to ensure sufficient drying in fast printing and more convenient process after printing.",
-    "Special shaft on feeding rolls to fix the media to avoid the movement of media during feeding."
-  ],
-  "speedTable": [
-    {
-      "pass": "6 PASS",
-      "resolution": "-",
-      "speed": "700 Sq.Ft/ h"
-    },
-    {
-      "pass": "4 PASS",
-      "resolution": "-",
-      "speed": "140 Sq.Ft/ h"
-    }
-  ],
-  "techSpecs": [
-    {
-      "label": "MODEL",
-      "value": "ALWIN Hybrid machine ALWIN-E 180 4UV"
-    },
-    {
-      "label": "PRINT WIDTH",
-      "value": "1850/1800 mm"
-    },
-    {
-      "label": "HEAD QTY",
-      "value": "4 head CMYK / 3 head white color"
-    },
-    {
-      "label": "PRINTING SPEED",
-      "value": "6 pass: 700 Sq.Ft/h / 4 pass: 140 Sq.Ft/h"
-    },
-    {
-      "label": "INK MODEL",
-      "value": "UV ink / 4 color (YMCK) 5 color (YMCKW)"
-    },
-    {
-      "label": "INK SUPPLY METHOD",
-      "value": "Digital Inkjet System"
-    },
-    {
-      "label": "APPLICABLE MEDIA",
-      "value": "Rigid and Roller media support (leather, KT board, wallpaper, film, car sticker, PVC film etc.)"
-    },
-    {
-      "label": "MAX MEDIA THICKNESS",
-      "value": "Adjustable height 2-30 mm"
-    },
-    {
-      "label": "UV CURING METHOD",
-      "value": "Water cooling LED lamp"
-    },
-    {
-      "label": "MEDIA SYSTEM",
-      "value": "Adjustable table vacuum zones / infrared dryer and fan system"
-    },
-    {
-      "label": "AUTO FEEDING DEVICE",
-      "value": "Industrial media feeding & collecting system"
-    },
-    {
-      "label": "AUTO HEAD CLEANING",
-      "value": "Auto cleaning and keep head wet"
-    },
-    {
-      "label": "RIP SOFTWARE",
-      "value": "Maintop, Photoprint (optional)"
-    },
-    {
-      "label": "OPERATING SYSTEM",
-      "value": "WINXP, WIN7, WIN10"
-    },
-    {
-      "label": "WORK ENVIRONMENT",
-      "value": "Temperature: 18–32°C, Humidity: 46–65%"
-    },
-    {
-      "label": "MACHINE SIZE",
-      "value": "3330×1320×1420 mm"
-    },
-    {
-      "label": "PACKAGE SIZE",
-      "value": "3050×1300×1500 mm"
-    },
-    {
-      "label": "WEIGHT",
-      "value": "320 KG"
-    },
-    {
-      "label": "PACKAGE WEIGHT",
-      "value": "370 KG"
-    }
-  ]
-},
-      
+        "slug": "allwin-pinch-roller-uv-printer",
+        "name": "Allwin Pinch Roller UV Printer",
+        "description": "3.2M Pinch Roller UV Machine",
+        "fullDescription": "The Allwin Pinch Roller UV Printer is an industry-standard solution offering unparalleled performance, durability, and cost-efficiency for your professional high volume machines needs. Equipped with state-of-the-art bulk technology.",
+        "image": "/images/UVPrinters/imgi_24_pichroller.png",
+        "bg": "bg-gray-100",
+        "text": "text-gray-900",
+        "features": [
+          "Heavy duty Excellence",
+          "High Speed Processing",
+          "Bulk Grade Durability",
+          "Low Maintenance Setup"
+        ],
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Allwin Pinch Roller UV Printer machines in Telangana.",
+        "mainFeaturesTitle": "Main Features of Allwin Pinch Roller UV Printer machine",
+        "detailedFeatures": [
+          "Optimized design of the unwinding structure to meet the printing needs of various materials of external light, internal light and soft film;",
+          "Compared with the four rubber roller machine, the media loading and unloading is convenient and flexible, reducing the operator workload and material waste;",
+          "The whole machine cost is low, suitable for handling small production orders efficiently;",
+          "External computer support, saving installation space;",
+          "Densely pinch roller arrangement;",
+          "Professional feeding system ensures accurate stepping."
+        ],
+        "speedTable": [
+          {
+            "pass": "Max speed",
+            "resolution": "-",
+            "speed": "700 Sq/h"
+          }
+        ],
+        "techSpecs": [
+          {
+            "label": "MACHINE MODEL",
+            "value": "10 ft. Pinch roller UV Machine"
+          },
+          {
+            "label": "PRINTHEAD MODEL",
+            "value": "KONICA 1024i 13/6pl"
+          },
+          {
+            "label": "PRINTHEAD CONTROL",
+            "value": "Software adjust printhead temperature and voltage"
+          },
+          {
+            "label": "PRINTHEAD CONFIGURATION",
+            "value": "CMYK+W / CMYK+LCLM"
+          },
+          {
+            "label": "MAX PRINTING WIDTH",
+            "value": "10 ft"
+          },
+          {
+            "label": "MAX PRINTING RESOLUTION",
+            "value": "2160 DPI"
+          },
+          {
+            "label": "MAX PRINTING SPEED",
+            "value": "700 Sq/h"
+          },
+          {
+            "label": "INK TYPE",
+            "value": "UV ink"
+          },
+          {
+            "label": "COLOR CONFIGURATION",
+            "value": "CMYK+W or CMYK+LCLM (Optional)"
+          },
+          {
+            "label": "INK SUPPLY METHOD",
+            "value": "Vacuum negative pressure automatic continuous ink supply"
+          },
+          {
+            "label": "DRYING DEVICE",
+            "value": "UV LED Curing"
+          },
+          {
+            "label": "PACKAGE SIZE",
+            "value": "5000mm(0*1050mm(W)*1630mm(H))"
+          },
+          {
+            "label": "MACHINE SIZE",
+            "value": "4840mm(0*1320mm(W)*1560mm(H))"
+          },
+          {
+            "label": "MACHINE WEIGHT",
+            "value": "1135 KGS"
+          },
+          {
+            "label": "MACHINE VOLTAGE",
+            "value": "220 V"
+          },
+          {
+            "label": "RIP SOFTWARE",
+            "value": "Print factory / Photoprint / Caldera"
+          }
+        ]
+      },
+
 
       {
-  "slug": "allwin-pinch-roller-uv-printer",
-  "name": "Allwin Pinch Roller UV Printer",
-  "description": "3.2M Pinch Roller UV Machine",
-  "fullDescription": "The Allwin Pinch Roller UV Printer is an industry-standard solution offering unparalleled performance, durability, and cost-efficiency for your professional high volume machines needs. Equipped with state-of-the-art bulk technology.",
-  "image": "/images/UVPrinters/imgi_24_pichroller.png",
-  "bg": "bg-gray-100",
-  "text": "text-gray-900",
-  "features": [
-    "Heavy duty Excellence",
-    "High Speed Processing",
-    "Bulk Grade Durability",
-    "Low Maintenance Setup"
-  ],
-  "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Allwin Pinch Roller UV Printer machines in India.",
-  "mainFeaturesTitle": "Main Features of Allwin Pinch Roller UV Printer machine",
-  "detailedFeatures": [
-    "Optimized design of the unwinding structure to meet the printing needs of various materials of external light, internal light and soft film;",
-    "Compared with the four rubber roller machine, the media loading and unloading is convenient and flexible, reducing the operator workload and material waste;",
-    "The whole machine cost is low, suitable for handling small production orders efficiently;",
-    "External computer support, saving installation space;",
-    "Densely pinch roller arrangement;",
-    "Professional feeding system ensures accurate stepping."
-  ],
-  "speedTable": [
-    {
-      "pass": "MAX SPEED",
-      "resolution": "-",
-      "speed": "700 Sq/h"
-    }
-  ],
-  "techSpecs": [
-    {
-      "label": "MACHINE MODEL",
-      "value": "10 ft. Pinch roller UV Machine"
-    },
-    {
-      "label": "PRINTHEAD MODEL",
-      "value": "KONICA 1024i 13/6pl"
-    },
-    {
-      "label": "PRINTHEAD CONTROL",
-      "value": "Software adjust printhead temperature and voltage"
-    },
-    {
-      "label": "PRINTHEAD CONFIGURATION",
-      "value": "CMYK+W / CMYK+LCLM"
-    },
-    {
-      "label": "MAX PRINTING WIDTH",
-      "value": "10 ft"
-    },
-    {
-      "label": "MAX PRINTING RESOLUTION",
-      "value": "2160 DPI"
-    },
-    {
-      "label": "MAX PRINTING SPEED",
-      "value": "700 Sq/h"
-    },
-    {
-      "label": "INK TYPE",
-      "value": "UV ink"
-    },
-    {
-      "label": "COLOR CONFIGURATION",
-      "value": "CMYK+W or CMYK+LCLM (Optional)"
-    },
-    {
-      "label": "INK SUPPLY METHOD",
-      "value": "Vacuum negative pressure automatic continuous ink supply"
-    },
-    {
-      "label": "DRYING DEVICE",
-      "value": "UV LED Curing"
-    },
-    {
-      "label": "PACKAGE SIZE",
-      "value": "5000mm(L) × 1050mm(W) × 1630mm(H)"
-    },
-    {
-      "label": "MACHINE SIZE",
-      "value": "4840mm(L) × 1320mm(W) × 1560mm(H)"
-    },
-    {
-      "label": "MACHINE WEIGHT",
-      "value": "1135 KGS"
-    },
-    {
-      "label": "MACHINE VOLTAGE",
-      "value": "220 V"
-    },
-    {
-      "label": "RIP SOFTWARE",
-      "value": "Print factory / Photoprint / Caldera"
-    }
-  ]
-},
-     
+        "slug": "e-320-uv-balance-roller-machine",
+        "name": "E 320 UV Balance Roller Machine",
+        "description": "E320UV Konica 1024A 10 Ft",
+        "fullDescription": "The E 320 UV Balance Roller Machine is an industry-standard solution offering unparalleled performance, durability, and cost-efficiency for your professional high volume machines needs. Equipped with state-of-the-art bulk technology.",
+        "image": "/images/UVPrinters/imgi_7_002-1.png",
+        "bg": "bg-white",
+        "text": "text-white",
+        "features": [
+          "Heavy duty Excellence",
+          "High Speed Processing",
+          "Bulk Grade Durability",
+          "Low Maintenance Setup"
+        ],
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of E 320 UV Balance Roller Machine machines in Telangana.",
+        "mainFeaturesTitle": "Main Features of E 320 UV Balance Roller Machine machine",
+        "detailedFeatures": [
+          
+          // "Patented technology with stable performance for roll media printing.",
+          // "Supports high-speed printing up to 1270 Sq.Ft/h for efficient production.",
+          // "Handles soft and hard backlit film media with high-quality output.",
+          // "Water cooling platform ensures consistent media condition and prevents wrinkles.",
+          // "Supports up to 16 PCS print heads with variable ink drop control (6–24 PL).",
+          // "Adopted metal raster improves printing resolution.",
+          // "High integration control system ensures stable and reliable operation.",
+          // "Balance mechanism ensures smooth media loading.",
+          // "Supports double 6 color, double white color, or double 8 colors.",
+          // "Supports Mercury UV or LED UV options."
+
+           
+  "PATENTED TECHNOLOGY – Counterfeiting is strongly prohibited.",
+  "From the ALLWIN brand, the E320UV is a high-performance industrial UV printer designed for roll media printing with exceptional stability.",
+  "Delivers high-speed printing up to 1270 Sq.Ft/h, ensuring timely delivery and increased productivity.",
+  "Capable of handling ultra-thin soft film materials as thin as 0.18 mm without wrinkles or deformation.",
+  "Ensures high-quality output on both soft and hard backlit film media.",
+  "Advanced water cooling platform maintains consistent media condition, preventing stretching, wrinkles, and heat deformation.",
+  "Supports multiple configurations to suit different production needs.",
+  
+  "ADVANTAGES:",
+  "Prints entire roll media in a single pass with precise ink placement for superior image quality.",
+  "Ideal for backlit printing with accurate ink drop positioning.",
+  "Outperforms traditional UV printers (4 roller systems) which struggle with media below 0.22 mm thickness.",
+  "Ensures wrinkle-free printing across all supported media types.",
+  
+  "MAIN FEATURES:",
+  "Large rubber roller media feeding system for smooth and stable operation.",
+  "Supports up to 16 PCS KM1024A high-speed printheads with variable ink drop control (6–24 PL).",
+  "Metal raster technology enhances printing resolution.",
+  "Equipped with patented technology for automatic image matching and double-sided printing.",
+  "High integration control system for reliable, stable, and user-friendly operation.",
+  "New balance mechanism ensures smooth and efficient media loading.",
+  "Supports double 6 color + double white color or double 8 color configurations.",
+  "Supports both Mercury UV and LED UV curing systems.",
+  
+  "KEY ADVANTAGES:",
+  "Variable ink drop control for precision printing.",
+  "Dual feeding and collecting structures for efficiency.",
+  "Rubber roller media feeding system for stability.",
+  "High-quality imported spare parts for durability.",
+  "Professional water cooling platform for heat-sensitive media handling.",
+  "2 rows, 8 heads KM1024A configuration for high-speed production.",
+  "High-speed mode: 720×540 dpi – 1270 Sq.Ft/h.",
+  "Standard mode: 720×720 dpi – 950 Sq.Ft/h.",
+  "High-resolution mode: 720×1080 dpi – 650 Sq.Ft/h."
+
+        ],
+        "speedTable": [
+          {
+            "pass": "HIGH PRINTING MODE",
+            "resolution": "720×540 dpi",
+            "speed": "1270 Ft²/h"
+          },
+          {
+            "pass": "STANDARD MODE",
+            "resolution": "720×720 dpi",
+            "speed": "950 Ft²/h"
+          },
+          {
+            "pass": "HIGH RESOLUTION MODE",
+            "resolution": "720×1080 dpi",
+            "speed": "650 Ft²/h"
+          }
+        ],
+        "techSpecs": [
+          {
+            "label": "HEAD MODEL",
+            "value": "1024i-SHE / 1024i-SAE (Water) / 1024A-MHE / 1024A"
+          },
+          {
+            "label": "NOZZLE NUMBER",
+            "value": "1024"
+          },
+          {
+            "label": "INK DROP",
+            "value": "6-12PL / 13PL / 6-24PL"
+          },
+          {
+            "label": "MAX FREQUENCY",
+            "value": "50K / 45K / 40K / 36K"
+          },
+          {
+            "label": "APPLICATION FREQUENCY",
+            "value": "18.6K / 18.6K(6/12PL) / 37K(working 18/24PL) / 24K(6/12)"
+          },
+          {
+            "label": "HEAD LENGTH",
+            "value": "72.25 mm"
+          },
+          {
+            "label": "PHYSICAL PRECISION",
+            "value": "360 dpi"
+          },
+          {
+            "label": "FIRING SPEED",
+            "value": "5.5–7 m/s"
+          }
+        ]
+      },
+
 
       {
-  "slug": "e-320-uv-balance-roller-machine",
-  "name": "E 320 UV Balance Roller Machine",
-  "description": "E320UV Konica 1024A 10 Ft",
-  "fullDescription": "The E 320 UV Balance Roller Machine is an industry-standard solution offering unparalleled performance, durability, and cost-efficiency for your professional high volume machines needs. Equipped with state-of-the-art bulk technology.",
-  "image": "/images/UVPrinters/imgi_7_002-1.png",
-  "bg": "bg-white",
-  "text": "text-white",
-  "features": [
-    "Heavy duty Excellence",
-    "High Speed Processing",
-    "Bulk Grade Durability",
-    "Low Maintenance Setup"
-  ],
-  "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of E 320 UV Balance Roller Machine machines in India.",
-  "mainFeaturesTitle": "Main Features of E 320 UV Balance Roller Machine machine",
-  "detailedFeatures": [
-    "Patented technology with stable performance for roll media printing.",
-    "Supports high-speed printing up to 1270 Sq.Ft/h for efficient production.",
-    "Handles soft and hard backlit film media with high-quality output.",
-    "Water cooling platform ensures consistent media condition and prevents wrinkles.",
-    "Supports up to 16 PCS print heads with variable ink drop control (6–24 PL).",
-    "Adopted metal raster improves printing resolution.",
-    "High integration control system ensures stable and reliable operation.",
-    "Balance mechanism ensures smooth media loading.",
-    "Supports double 6 color, double white color, or double 8 colors.",
-    "Supports Mercury UV or LED UV options."
-  ],
-  "speedTable": [
-    {
-      "pass": "HIGH PRINTING MODE",
-      "resolution": "720×540 dpi",
-      "speed": "1270 Ft²/h"
-    },
-    {
-      "pass": "STANDARD MODE",
-      "resolution": "720×720 dpi",
-      "speed": "950 Ft²/h"
-    },
-    {
-      "pass": "HIGH RESOLUTION MODE",
-      "resolution": "720×1080 dpi",
-      "speed": "650 Ft²/h"
-    }
-  ],
-  "techSpecs": [
-    {
-      "label": "HEAD MODEL",
-      "value": "1024i-SHE / 1024i-SAE (Water) / 1024A-MHE / 1024A"
-    },
-    {
-      "label": "NOZZLE NUMBER",
-      "value": "1024"
-    },
-    {
-      "label": "INK DROP",
-      "value": "6-12PL / 13PL / 6-24PL"
-    },
-    {
-      "label": "MAX FREQUENCY",
-      "value": "50K / 45K / 40K / 36K"
-    },
-    {
-      "label": "APPLICATION FREQUENCY",
-      "value": "18.6K / 18.6K(6/12PL) / 37K(working 18/24PL) / 24K(6/12)"
-    },
-    {
-      "label": "HEAD LENGTH",
-      "value": "72.25 mm"
-    },
-    {
-      "label": "PHYSICAL PRECISION",
-      "value": "360 dpi"
-    },
-    {
-      "label": "FIRING SPEED",
-      "value": "5.5–7 m/s"
-    }
-  ]
-},
-      
+        "slug": "konica-richo-2513-uv-flatbed-printer",
+        "name": "Konica & Richo 2513 UV Flatbed Printer",
+        "description": "Flagship Model UV2513/UV3225",
+        "fullDescription": "The Konica & Richo 2513 UV Flatbed Printer is an industry-standard solution offering unparalleled performance, durability, and cost-efficiency for your professional high volume machines needs. Equipped with state-of-the-art bulk technology.",
+        "image": "/images/UVPrinters/imgi_26_flatbed-768x364.png",
+        "bg": "bg-gray-100",
+        "text": "text-gray-900",
+        "features": [
+          "Heavy duty Excellence",
+          "High Speed Processing",
+          "Bulk Grade Durability",
+          "Low Maintenance Setup"
+        ],
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Konica & Richo 2513 UV Flatbed Printer machines in Telangana.",
+        "mainFeaturesTitle": "Main Features of Konica & Richo 2513 UV Flatbed Printer machine",
+        "detailedFeatures": [
+          // "Adopt high resolution and mute double linear rail to achieve smooth printing.",
+          // "Hard oxidized platform prevents scratching by material and knife.",
+          // "Anti-static equipment removes static on machine surface for better printing.",
+          // "750W high power LED curing system ensures fast curing and energy saving.",
+          // "Compact design with suction fan improves material adsorption.",
+          // "Supports up to 14 PCS print heads for efficient production.",
+          // "Imported LED UV solidify system for low energy consumption.",
+          // "Water-cooled compressor cycle ensures stable temperature control.",
+          // "Integrated beam lift and auto measure height system for different media thickness.",
+          // "Photoelectric sensor ensures high resolution and high speed."
 
-      {
-  "slug": "konica-richo-2513-uv-flatbed-printer",
-  "name": "Konica & Richo 2513 UV Flatbed Printer",
-  "description": "Flagship Model UV2513/UV3225",
-  "fullDescription": "The Konica & Richo 2513 UV Flatbed Printer is an industry-standard solution offering unparalleled performance, durability, and cost-efficiency for your professional high volume machines needs. Equipped with state-of-the-art bulk technology.",
-  "image": "/images/UVPrinters/imgi_26_flatbed-768x364.png",
-  "bg": "bg-gray-100",
-  "text": "text-gray-900",
-  "features": [
-    "Heavy duty Excellence",
-    "High Speed Processing",
-    "Bulk Grade Durability",
-    "Low Maintenance Setup"
-  ],
-  "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Konica & Richo 2513 UV Flatbed Printer machines in India.",
-  "mainFeaturesTitle": "Main Features of Konica & Richo 2513 UV Flatbed Printer machine",
-  "detailedFeatures": [
-    "Adopt high resolution and mute double linear rail to achieve smooth printing.",
-    "Hard oxidized platform prevents scratching by material and knife.",
-    "Anti-static equipment removes static on machine surface for better printing.",
-    "750W high power LED curing system ensures fast curing and energy saving.",
-    "Compact design with suction fan improves material adsorption.",
-    "Supports up to 14 PCS print heads for efficient production.",
-    "Imported LED UV solidify system for low energy consumption.",
-    "Water-cooled compressor cycle ensures stable temperature control.",
-    "Integrated beam lift and auto measure height system for different media thickness.",
-    "Photoelectric sensor ensures high resolution and high speed."
-  ],
-  "speedTable": [
-    {
-      "pass": "HIGH SPEED (Double colour + Double white)",
-      "resolution": "720×1440 dpi / 4 pass",
-      "speed": "300 sq.ft/h"
-    },
-    {
-      "pass": "PRODUCE (Double colour + Double white)",
-      "resolution": "720×2160 dpi / 6 pass",
-      "speed": "210 sq.ft/h"
-    },
-    {
-      "pass": "PRECISE (Double colour + Double white)",
-      "resolution": "720×1440 dpi / 8 pass",
-      "speed": "-"
-    },
-    {
-      "pass": "HIGH SPEED (Four colours)",
-      "resolution": "720×1440 dpi / 4 pass",
-      "speed": "600 sq.ft/h"
-    },
-    {
-      "pass": "PRODUCE (Four colours)",
-      "resolution": "720×2160 dpi / 6 pass",
-      "speed": "430 sq.ft/h"
-    },
-    {
-      "pass": "PRECISE (Four colours)",
-      "resolution": "720×1440 dpi / 8 pass",
-      "speed": "300 sq.ft/h"
-    }
-  ],
-  "techSpecs": [
-    {
-      "label": "MACHINE MODEL",
-      "value": "Flagship Model AW-UV2513 / UV3225 (Special Order)"
-    },
-    {
-      "label": "PRINTHEAD BRAND",
-      "value": "KONICA high performance heads in AW-UV2513 / RICOH GEN5/GEN6 in UV3225"
-    },
-    {
-      "label": "PRINT HEAD ARRANGEMENT",
-      "value": "4+2+6 / 2 Double 4 Colour"
-    },
-    {
-      "label": "COLOR OPTION",
-      "value": "C/M/Y/K/LC/LM/W/V"
-    },
-    {
-      "label": "PRINTING SIZE",
-      "value": "1300mm × 2500mm or 2000mm × 3000mm"
-    },
-    {
-      "label": "PRINTING HEIGHT",
-      "value": "100mm"
-    },
-    {
-      "label": "PRINTING MEDIA",
-      "value": "Acrylic, Wooden Board, Leather, Phone Shell, Ceramic, Glass, Metal etc"
-    },
-    {
-      "label": "NEGATIVE PRESSURE CONTROL SYSTEM",
-      "value": "Double Negative Pressure / Positive & negative pressure alternative control"
-    },
-    {
-      "label": "PRINT HEAD CLEANING",
-      "value": "Separate color purge, automatic cleaning system"
-    },
-    {
-      "label": "PLATFORM TYPE AND RESOLUTION",
-      "value": "Sectional aluminum alloy platform with scale deviation less than 0.1mm"
-    },
-    {
-      "label": "INK CIRCULATION SYSTEM",
-      "value": "White ink circulation, automatic stirring system"
-    },
-    {
-      "label": "INK TANK VOLUME & ALARM",
-      "value": "1.5L ink tank with ink level alarm equipment"
-    },
-    {
-      "label": "DATA TRANSFER",
-      "value": "USB 3.0 standard port"
-    },
-    {
-      "label": "RATED VOLTAGE AND POWER",
-      "value": "220V / 3600W"
-    },
-    {
-      "label": "CURING LAMP",
-      "value": "LED"
-    },
-    {
-      "label": "SERVO MOTOR",
-      "value": "Imported motor"
-    },
-    {
-      "label": "LINEAR RAIL",
-      "value": "Famous brand muted double linear"
-    },
-    {
-      "label": "CARRIAGE HEIGHT ADJUSTMENT",
-      "value": "Automatic"
-    },
-    {
-      "label": "PRINT HEAD PROTECTION",
-      "value": "Intelligent anti-crash equipment"
-    },
-    {
-      "label": "WORKING ENVIRONMENT",
-      "value": "Temperature: 20–35°C, Humidity: 30%–70%"
-    },
-    {
-      "label": "RIP SOFTWARE",
-      "value": "Photo Print 12, ONYX, Caldera, PF"
-    },
-    {
-      "label": "PICTURE FORMAT",
-      "value": "TIFF, JPEG, EPS, PSD, JPG"
-    },
-    {
-      "label": "PACKAGE DIMENSION",
-      "value": "2513: 4300×2150×1150mm / 3225: 5400×2500×1140mm"
-    }
-  ]
-},
+  "From the ALLWIN brand, known for highly stable machines, the UV3225 UV Flatbed Printer features a new design that enhances overall stability and precision.",
+  "Delivers industrial high-speed printing up to 1050 Sq.Ft/h with excellent output quality.",
+  "Equipped with a 1500W platform suction fan to support media of varying thickness.",
+  "High-precision media loading mechanism ensures accurate and smooth printing.",
+  "Built-in anti-scratching system protects materials and maintains print quality.",
+  "Anti-static components remove surface static for improved printing results.",
+  "High-power LED curing lamp ensures faster curing and better ink adhesion.",
+  "Designed for consistent, long-term performance with higher productivity and reliability.",
+  "Available in multiple configurations with Ricoh Gen 5/Gen 6 heads (UV2513) and Konica high-speed heads (UV3225).",
+
+  "MAIN FEATURES:",
+  "High-resolution mute double linear rail system ensures smooth and stable printing.",
+  "Hard oxidized platform prevents scratches caused by materials and cutting tools.",
+  "Anti-static system improves print quality by eliminating static interference.",
+  "750W high-power LED curing system enables faster curing and energy efficiency.",
+  "Optional computer stand and 1500W suction fan for better material handling.",
+  "Supports up to 4 PCS Ricoh Gen 5 print heads, configurable based on requirements.",
+  "Imported LED UV curing system ensures low energy consumption and excellent output.",
+  "Water-cooled compressor cycle maintains consistent temperature and stable performance.",
+  "Integrated beam lift system with automatic height measurement for media thickness from 1mm to 80mm.",
+  "Photoelectric sensor-based height detection ensures high precision and speed."
+
+
+        ],
+        "speedTable": [
+          {
+            "pass": "HIGH SPEED (Double colour + Double white)",
+            "resolution": "720×1440 dpi / 4 pass",
+            "speed": "300 sq.ft/h"
+          },
+          {
+            "pass": "PRODUCE (Double colour + Double white)",
+            "resolution": "720×2160 dpi / 6 pass",
+            "speed": "210 sq.ft/h"
+          },
+          {
+            "pass": "PRECISE (Double colour + Double white)",
+            "resolution": "720×1440 dpi / 8 pass",
+            "speed": "-"
+          },
+          {
+            "pass": "HIGH SPEED (Four colours)",
+            "resolution": "720×1440 dpi / 4 pass",
+            "speed": "600 sq.ft/h"
+          },
+          {
+            "pass": "PRODUCE (Four colours)",
+            "resolution": "720×2160 dpi / 6 pass",
+            "speed": "430 sq.ft/h"
+          },
+          {
+            "pass": "PRECISE (Four colours)",
+            "resolution": "720×1440 dpi / 8 pass",
+            "speed": "300 sq.ft/h"
+          }
+        ],
+        "techSpecs": [
+          {
+            "label": "MACHINE MODEL",
+            "value": "Flagship Model AW-UV2513 / UV3225 (Special Order)"
+          },
+          {
+            "label": "PRINTHEAD BRAND",
+            "value": "KONICA high performance heads in AW-UV2513 / RICOH GEN5/GEN6 in UV3225"
+          },
+          {
+            "label": "PRINT HEAD ARRANGEMENT",
+            "value": "4+2/6+2/Double 4 Colour"
+          },
+          {
+            "label": "COLOR OPTION",
+            "value": "C/M/Y/K/LC/LM/W/V"
+          },
+          {
+            "label": "PRINTING SIZE",
+            "value": "1300mm × 2500mm or 2000mm × 3000mm"
+          },
+          {
+            "label": "PRINTING HEIGHT",
+            "value": "100mm"
+          },
+          {
+            "label": "PRINTING MEDIA",
+            "value": "Acrylic, Wooden Board, Leather, Phone Shell, Ceramic, Glass, Metal etc"
+          },
+          {
+            "label": "NEGATIVE PRESSURE CONTROL SYSTEM",
+            "value": "Double Negative Pressure / Positive & negative pressure alternative control"
+          },
+          {
+            "label": "PRINT HEAD CLEANING",
+            "value": "Separate color purge, automatic cleaning system"
+          },
+          {
+            "label": "PLATFORM TYPE AND RESOLUTION",
+            "value": "Sectional aluminum alloy platform with scale deviation less than 0.1mm"
+          },
+          {
+            "label": "INK CIRCULATION SYSTEM",
+            "value": "White ink circulation, automatic stirring system to avoid print head clog"
+          },
+          {
+            "label": "INK TANK VOLUME & ALARM",
+            "value": "1.5L ink tank with ink level alarm equipment"
+          },
+          {
+            "label": "DATA TRANSFER",
+            "value": "USB 3.0 standard port"
+          },
+          {
+            "label": "RATED VOLTAGE AND POWER",
+            "value": "220V / 3600W"
+          },
+          {
+            "label": "CURING LAMP",
+            "value": "LED"
+          },
+          {
+            "label": "SERVO MOTOR",
+            "value": "Imported motor"
+          },
+          {
+            "label": "LINEAR RAIL",
+            "value": "Famous brand muted double linear"
+          },
+          {
+            "label": "CARRIAGE HEIGHT ADJUSTMENT",
+            "value": "Automatic"
+          },
+          {
+            "label": "PRINT HEAD PROTECTION",
+            "value": "Intelligent anti-crash equipment"
+          },
+          {
+            "label": "WORKING ENVIRONMENT",
+            "value": "Temperature: 20–35°C, Humidity: 30%–70%"
+          },
+          {
+            "label": "RIP SOFTWARE",
+            "value": "Photo Print 12, ONYX, Caldera, PF"
+          },
+          {
+            "label": "PICTURE FORMAT",
+            "value": "TIFF, JPEG, EPS, PSD, JPG"
+          },
+          {
+            "label": "PACKAGE DIMENSION",
+            "value": "2513: 4300×2150×1150mm / 3225: 5400×2500×1140mm"
+          }
+        ]
+      },
       // {
       //   "slug": "1-6-m-uv-pinch-roller",
       //   "name": "1.6 M UV Pinch Roller",
@@ -1271,7 +1348,7 @@ export const productsData = [
       //     "Bulk Grade Durability",
       //     "Low Maintenance Setup"
       //   ],
-      //   "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of 1.6 M UV Pinch Roller machines in India.",
+      //   "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of 1.6 M UV Pinch Roller machines in Telangana.",
       //   "mainFeaturesTitle": "Main Features of 1.6 M UV Pinch Roller machine",
       //   "detailedFeatures": [
       //     "The upgraded printing bed vacuum structure to ensure the media flatness during printing.",
@@ -1355,127 +1432,162 @@ export const productsData = [
       // },
 
       {
-  "slug": "1-6-m-uv-pinch-roller",
-  "name": "Allwin 1.6M UV Pinch Roller",
-  "description": "E160UV UV Printer",
-  "fullDescription": "The Allwin 1.6M UV Pinch Roller (E160UV) is a professional UV printer designed for indoor and outdoor applications including PP, photo paper, car stickers, backlit film, eco-solvent lamp materials, canvas, and non-woven cloth. It supports high-quality digital printing with stable performance and efficient production output.",
-  "image": "/images/UVPrinters/imgi_10_pinchroller.png",
-  "bg": "bg-white",
-  "text": "text-white",
-  "features": [
-    "1.6M Print Width",
-    "UV Ink Technology",
-    "High Speed Printing",
-    "Integrated Heating & Drying System"
-  ],
-  "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of 1.6 M UV Pinch Roller machines in India.",
-  "mainFeaturesTitle": "Main Features of 1.6 M UV Pinch Roller machine",
-  "detailedFeatures": [
-    "Supports indoor and outdoor media including PP, photo paper, and car stickers.",
-    "Compatible with backlit film, canvas, and non-woven cloth materials.",
-    "Uses Epson I3200-U printhead for precision printing.",
-    "Integrated heater, infrared dryer, and fan system for efficient drying.",
-    "Network interface support for easy operation."
-  ],
-  "speedTable": [
-    {
-      "pass": "4 PASS",
-      "resolution": "-",
-      "speed": "42 m²/h"
-    },
-    {
-      "pass": "6 PASS",
-      "resolution": "-",
-      "speed": "39 m²/h"
-    },
-    {
-      "pass": "8 PASS",
-      "resolution": "-",
-      "speed": "20 m²/h"
-    },
-    {
-      "pass": "4 PASS (CMYKW)",
-      "resolution": "-",
-      "speed": "21 m²/h"
-    },
-    {
-      "pass": "6 PASS (CMYKW)",
-      "resolution": "-",
-      "speed": "13 m²/h"
-    },
-    {
-      "pass": "8 PASS (CMYKW)",
-      "resolution": "-",
-      "speed": "10 m²/h"
-    }
-  ],
-  "techSpecs": [
-    {
-      "label": "MODEL",
-      "value": "E160UV"
-    },
-    {
-      "label": "HEAD MODEL",
-      "value": "EPSON I3200-U"
-    },
-    {
-      "label": "INK MODEL",
-      "value": "C, M, Y, K, W"
-    },
-    {
-      "label": "PRINT WIDTH",
-      "value": "1.6M"
-    },
-    {
-      "label": "MEDIA WIDTH",
-      "value": "1.6M"
-    },
-    {
-      "label": "MEDIA THICKNESS",
-      "value": "1MM"
-    },
-    {
-      "label": "MEDIA WEIGHT",
-      "value": "60KG"
-    },
-    {
-      "label": "INK TYPE",
-      "value": "UV"
-    },
-    {
-      "label": "INK VOLUME",
-      "value": "220cc cartridge + 3.0L bulk ink bottle"
-    },
-    {
-      "label": "HEAD QTY",
-      "value": "2 PCS CMYK / 3 PCS CMYKW"
-    },
-    {
-      "label": "SIZE",
-      "value": "3286mm × 970mm × 1725mm"
-    },
-    {
-      "label": "NET WEIGHT",
-      "value": "420KG"
-    },
-    {
-      "label": "GROSS WEIGHT",
-      "value": "490KG"
-    },
-    {
-      "label": "HEATING SYSTEM",
-      "value": "Integrated heater, infrared dryer and fan system"
-    },
-    {
-      "label": "INTERFACE",
-      "value": "Network interface"
-    },
-    {
-      "label": "POWER",
-      "value": "AC220V, 50/60HZ"
-    }
-  ]
-},
+        "slug": "1-6-m-uv-pinch-roller",
+        "name": "1.6M UV Pinch Roller",
+        "description": "E 160 UV FOUR HEAD PRINTER",
+        "fullDescription": "The Allwin 1.6M UV Pinch Roller (E160UV) is a professional UV printer designed for indoor and outdoor applications including PP, photo paper, car stickers, backlit film, eco-solvent lamp materials, canvas, and non-woven cloth. It supports high-quality digital printing with stable performance and efficient production output.",
+        "image": "/images/UVPrinters/imgi_10_pinchroller.png",
+        "bg": "bg-white",
+        "text": "text-white",
+        "features": [
+          "1.6M Print Width",
+          "UV Ink Technology",
+          "High Speed Printing",
+          "Integrated Heating & Drying System"
+        ],
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of 1.6 M UV Pinch Roller machines in Telangana.",
+        "mainFeaturesTitle": "Main Features of 1.6 M UV Pinch Roller machine",
+        "detailedFeatures": [
+          "Supports indoor and outdoor media including PP, photo paper, and car stickers.",
+          "Compatible with backlit film, canvas, and non-woven cloth materials.",
+          "Uses Epson I3200-U printhead for precision printing.",
+          "Integrated heater, infrared dryer, and fan system for efficient drying.",
+          "Network interface support for easy operation."
+        ],
+        "speedTable": [
+          // {
+          //   "pass": "4 PASS",
+          //   "resolution": "-",
+          //   "speed": "42 m²/h"
+          // },
+          // {
+          //   "pass": "6 PASS",
+          //   "resolution": "-",
+          //   "speed": "39 m²/h"
+          // },
+          // {
+          //   "pass": "8 PASS",
+          //   "resolution": "-",
+          //   "speed": "20 m²/h"
+          // },
+          // {
+          //   "pass": "4 PASS (CMYKW)",
+          //   "resolution": "-",
+          //   "speed": "21 m²/h"
+          // },
+          // {
+          //   "pass": "6 PASS (CMYKW)",
+          //   "resolution": "-",
+          //   "speed": "13 m²/h"
+          // },
+          // {
+          //   "pass": "8 PASS (CMYKW)",
+          //   "resolution": "-",
+          //   "speed": "10 m²/h"
+          // }
+
+              {
+            "pass": "2 PCS CMYK",
+            "resolution": "4 pass",
+            "speed": "42 m²/h"
+          },
+          {
+            "pass": "",
+            "resolution": "6 Pass",
+            "speed": "39 m²/h"
+          },
+          {
+            "pass": "",
+            "resolution": "8 Pass",
+            "speed": "20 m²/h"
+          },
+          {
+            "pass": "3 PCS CMYKW",
+            "resolution": "4 pass",
+            "speed": "21 m²/h"
+          },
+          {
+            "pass": "",
+            "resolution": "6 pass",
+            "speed": "13 m²/h"
+          },
+          {
+            "pass": "",
+            "resolution": "8 pass",
+            "speed": "10 m²/h"
+          }
+        ],
+        "techSpecs": [
+          {
+            "label": "MODEL",
+            "value": "E160UV"
+          },
+          {
+            "label": "HEAD MODEL",
+            "value": "EPSON I3200-U"
+          },
+          {
+            "label": "INK MODEL",
+            "value": "C, M, Y, K, W"
+          },
+           {
+            "label": "Wide application",
+            "value": "Indoor and outdoor PP and photo paper, car sticker, water-based backlit film, eco-solvent lamp, canvas, non-wovenCloth, digital printing materials, etc"
+          },
+          {
+            "label": "PRINT WIDTH",
+            "value": "1.6M"
+          },
+          {
+            "label": "MEDIA WIDTH",
+            "value": "1.6M"
+          },
+          {
+            "label": "MEDIA THICKNESS",
+            "value": "1MM"
+          },
+          {
+            "label": "MEDIA WEIGHT",
+            "value": "60KG"
+          },
+          {
+            "label": "INK TYPE",
+            "value": "UV"
+          },
+          {
+            "label": "INK VOLUME",
+            "value": "220cc 2nd cartridge + 3.0L Big volume ink-bottle with float"
+          },
+          {
+            "label": "HEAD QTY",
+            "value": "2 PCS CMYK / 3 PCS CMYKW"
+          },
+          {
+            "label": "SIZE",
+            "value": "3286mm × 970mm × 1725mm"
+          },
+          {
+            "label": "NET WEIGHT",
+            "value": "420KG"
+          },
+          {
+            "label": "GROSS WEIGHT",
+            "value": "490KG"
+          },
+          {
+            "label": "HEATING SYSTEM",
+            "value": "Integrated heater, infrared dryer and fan system"
+          },
+          {
+            "label": "INTERFACE",
+            "value": "Network interface"
+          },
+          {
+            "label": "POWER",
+            "value": "AC220V, 50/60HZ"
+          }
+        ]
+      },
       // {
       //   "slug": "10-feet-2-row-model-rubber-roller-printer",
       //   "name": "10 FEET 2 Row Model Rubber Roller Printer",
@@ -1490,7 +1602,7 @@ export const productsData = [
       //     "Bulk Grade Durability",
       //     "Low Maintenance Setup"
       //   ],
-      //   "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of 10 FEET 2 Row Model Rubber Roller Printer machines in India.",
+      //   "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of 10 FEET 2 Row Model Rubber Roller Printer machines in Telangana.",
       //   "mainFeaturesTitle": "Main Features of 10 FEET 2 Row Model Rubber Roller Printer machine",
       //   "detailedFeatures": [
       //     "The upgraded printing bed vacuum structure to ensure the media flatness during printing.",
@@ -1574,132 +1686,132 @@ export const productsData = [
       // },
 
       {
-  "slug": "10-feet-2-row-model-rubber-roller-printer",
-  "name": "Allwin 10Feet 2 Row Model Rubber Roller Printer",
-  "description": "3.2m Large Format 2 Rubber Roller UV RTR Printer",
-  "fullDescription": "The Allwin 10Feet 2 Row Model Rubber Roller Printer is a 3.2m large format UV RTR printer designed for high-speed and high-precision printing. It supports soft film, knife scraping cloth, car stickers, banners, lamp film, and various coil materials, making it suitable for industrial-scale production environments.",
-  "image": "/images/UVPrinters/imgi_11_MODEL_RUBBER_ROLLER.png",
-  "bg": "bg-gray-100",
-  "text": "text-gray-900",
-  "features": [
-    "3.2m Large Format Printing",
-    "2 Row Rubber Roller System",
-    "High Speed Output Modes",
-    "LED UV Curing Technology"
-  ],
-  "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of 10 FEET 2 Row Model Rubber Roller Printer machines in India.",
-  "mainFeaturesTitle": "Main Features of 10 FEET 2 Row Model Rubber Roller Printer machine",
-  "detailedFeatures": [
-    "Supports soft film, knife scraping cloth, car stickers, banners, and lamp film materials.",
-    "Uses KONICA 1024i series printheads with multiple configuration options.",
-    "Equipped with LED UV curing system for efficient drying.",
-    "High-speed USB 3.0 data transmission for fast processing.",
-    "Compatible with PHOTOPRINT and CALDERA RIP software."
-  ],
-  "speedTable": [
-    {
-      "pass": "Draft Mode",
-      "resolution": "",
-      "speed": "100 m²/h"
-    },
-    {
-      "pass": "Production Mode",
-      "resolution": "",
-      "speed": "910 Sq.ft/h"
-    },
-    {
-      "pass": "High Precision Mode",
-      "resolution": "",
-      "speed": "480 Sq.ft/h"
-    }
-  ],
-  "techSpecs": [
-    {
-      "label": "MACHINE MODEL",
-      "value": "3.2m large format 2 rubber roller UV RTR printer"
-    },
-    {
-      "label": "PRINTHEAD MODEL",
-      "value": "KONICA1024i-6PL / 1024i-13PL / 1024A"
-    },
-    {
-      "label": "PRINTHEAD NO.",
-      "value": "Optional 14 pcs, 2ROW CMYK + 2*LC, LM + 2W"
-    },
-    {
-      "label": "RESOLUTION",
-      "value": "1440 dpi, 2160 dpi"
-    },
-    {
-      "label": "MAXIMUM MEDIA WIDTH",
-      "value": "3300 MM"
-    },
-    {
-      "label": "MAXIMUM MEDIA THICKNESS",
-      "value": "1.5MM"
-    },
-    {
-      "label": "APPLICABLE MEDIA",
-      "value": "Soft film, knife scraping cloth, car sticker, banner, lamp film and various coils"
-    },
-    {
-      "label": "INK TYPE",
-      "value": "Soft UV ink"
-    },
-    {
-      "label": "INK COLOR",
-      "value": "C, M, Y, K, LC, LM, W"
-    },
-    {
-      "label": "CLEANING SYSTEM",
-      "value": "Positive purge each colour"
-    },
-    {
-      "label": "MACHINE SIZE (L*W*H)",
-      "value": "5540mm * 1040mm * 1700mm"
-    },
-    {
-      "label": "MACHINE NW",
-      "value": "2200KG"
-    },
-    {
-      "label": "MACHINE GW",
-      "value": "2400KG"
-    },
-    {
-      "label": "POWER",
-      "value": "10.6KW (46A)"
-    },
-    {
-      "label": "ELECTRICITY",
-      "value": "230VAC, 50HZ/60HZ L/N/PE"
-    },
-    {
-      "label": "RIP SOFTWARE",
-      "value": "PHOTOPRINT, CALDERA"
-    },
-    {
-      "label": "UV CURING METHOD",
-      "value": "LED lamp"
-    },
-    {
-      "label": "DATA TRANSMISSION",
-      "value": "High-speed USB3.0 transmission"
-    },
-    {
-      "label": "ENVIRONMENT",
-      "value": "Clean, low-light, well-ventilated workplace"
-    },
-    {
-      "label": "TEMPERATURE",
-      "value": "18°C ~ 30°C (64°F ~ 86°F)"
-    },
-    {
-      "label": "HUMIDITY",
-      "value": "30% ~ 70% (no condensed)"
-    }
-  ]
-},
+        "slug": "10-feet-2-row-model-rubber-roller-printer",
+        "name": "10Feet 2 Row Model Rubber Roller Printer",
+        "description": "1075Sq.Ft/h 2 Raw KM1024A",
+        "fullDescription": "The Allwin 10Feet 2 Row Model Rubber Roller Printer is a 3.2m large format UV RTR printer designed for high-speed and high-precision printing. It supports soft film, knife scraping cloth, car stickers, banners, lamp film, and various coil materials, making it suitable for industrial-scale production environments.",
+        "image": "/images/UVPrinters/imgi_11_MODEL_RUBBER_ROLLER.png",
+        "bg": "bg-gray-100",
+        "text": "text-gray-900",
+        "features": [
+          "3.2m Large Format Printing",
+          "2 Row Rubber Roller System",
+          "High Speed Output Modes",
+          "LED UV Curing Technology"
+        ],
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of 10 FEET 2 Row Model Rubber Roller Printer machines in Telangana.",
+        "mainFeaturesTitle": "Main Features of 10 FEET 2 Row Model Rubber Roller Printer machine",
+        "detailedFeatures": [
+          "Supports soft film, knife scraping cloth, car stickers, banners, and lamp film materials.",
+          "Uses KONICA 1024i series printheads with multiple configuration options.",
+          "Equipped with LED UV curing system for efficient drying.",
+          "High-speed USB 3.0 data transmission for fast processing.",
+          "Compatible with PHOTOPRINT and CALDERA RIP software."
+        ],
+        "speedTable": [
+          {
+            "pass": "Draft Mode",
+            "resolution": "",
+            "speed": "100 m²/h"
+          },
+          {
+            "pass": "Production Mode",
+            "resolution": "",
+            "speed": "910 Sq.ft/h"
+          },
+          {
+            "pass": "High Precision Mode",
+            "resolution": "",
+            "speed": "480 Sq.ft/h"
+          }
+        ],
+        "techSpecs": [
+          {
+            "label": "MACHINE MODEL",
+            "value": "3.2m large format 2 rubber roller UV RTR printer"
+          },
+          {
+            "label": "PRINTHEAD MODEL",
+            "value": "KONICA1024i-6PL / 1024i-13PL / 1024A"
+          },
+          {
+            "label": "PRINTHEAD NO.",
+            "value": "Optional 14 pcs, 2ROW CMYK + 2*LC, LM + 2W"
+          },
+          {
+            "label": "RESOLUTION",
+            "value": "1440 dpi, 2160 dpi"
+          },
+          {
+            "label": "MAXIMUM MEDIA WIDTH",
+            "value": "3300 MM"
+          },
+          {
+            "label": "MAXIMUM MEDIA THICKNESS",
+            "value": "1.5MM"
+          },
+          {
+            "label": "APPLICABLE MEDIA",
+            "value": "Soft film, knife scraping cloth, car sticker, banner, lamp film and other various coils"
+          },
+          {
+            "label": "INK TYPE",
+            "value": "Soft UV ink"
+          },
+          {
+            "label": "INK COLOR",
+            "value": "C, M, Y, K, LC, LM, W"
+          },
+          {
+            "label": "CLEANING SYSTEM",
+            "value": "Positive purge each colour"
+          },
+          {
+            "label": "MACHINE SIZE (L*W*H)",
+            "value": "5540mm * 1040mm * 1700mm"
+          },
+          {
+            "label": "MACHINE NW",
+            "value": "2200KG"
+          },
+          {
+            "label": "MACHINE GW",
+            "value": "2400KG"
+          },
+          {
+            "label": "POWER",
+            "value": "10.6KW (46A)"
+          },
+          {
+            "label": "ELECTRICITY",
+            "value": "230VAC, 50HZ/60HZ L/N/PE"
+          },
+          {
+            "label": "RIP SOFTWARE",
+            "value": "PHOTOPRINT, CALDERA"
+          },
+          {
+            "label": "UV CURING METHOD",
+            "value": "LED lamp"
+          },
+          {
+            "label": "DATA TRANSMISSION",
+            "value": "High-speed USB3.0 transmission"
+          },
+          {
+            "label": "ENVIRONMENT",
+            "value": "Independent, clean, low-light, well-ventilated workplace"
+          },
+          {
+            "label": "TEMPERATURE",
+            "value": "18°C ~ 30°C (64°F ~ 86°F)"
+          },
+          {
+            "label": "HUMIDITY",
+            "value": "30% ~ 70% (no condensed)"
+          }
+        ]
+      },
       // {
       //   "slug": "10-feet-4-row-model-rubber-roller-printer",
       //   "name": "10 FEET 4 Row Model Rubber Roller Printer",
@@ -1714,7 +1826,7 @@ export const productsData = [
       //     "Bulk Grade Durability",
       //     "Low Maintenance Setup"
       //   ],
-      //   "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of 10 FEET 4 Row Model Rubber Roller Printer machines in India.",
+      //   "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of 10 FEET 4 Row Model Rubber Roller Printer machines in Telangana.",
       //   "mainFeaturesTitle": "Main Features of 10 FEET 4 Row Model Rubber Roller Printer machine",
       //   "detailedFeatures": [
       //     "The upgraded printing bed vacuum structure to ensure the media flatness during printing.",
@@ -1797,132 +1909,132 @@ export const productsData = [
       //   ]
       // }
       {
-  "slug": "10-feet-4-row-model-rubber-roller-printer",
-  "name": "Allwin 10Feet 4 Row Model Rubber Roller Printer",
-  "description": "3.2m Large Format 4 Rubber Roller UV RTR Printer",
-  "fullDescription": "The Allwin 10Feet 4 Row Model Rubber Roller Printer is a 3.2m large format UV RTR printer designed for high-speed and high-precision industrial printing. It supports soft film, knife scraping cloth, car stickers, banners, lamp film, and various coil materials, making it ideal for large-scale production environments.",
-  "image": "/images/UVPrinters/imgi_11_MODEL_RUBBER_ROLLER.png",
-  "bg": "bg-white",
-  "text": "text-white",
-  "features": [
-    "3.2m Large Format Printing",
-    "4 Row Rubber Roller System",
-    "High Speed Output Modes",
-    "LED UV Curing Technology"
-  ],
-  "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of 10 FEET 4 Row Model Rubber Roller Printer machines in India.",
-  "mainFeaturesTitle": "Main Features of 10 FEET 4 Row Model Rubber Roller Printer machine",
-  "detailedFeatures": [
-    "Supports soft film, knife scraping cloth, car stickers, banners, and lamp film materials.",
-    "Uses KONICA 1024i series printheads with multiple configuration options.",
-    "Equipped with LED UV curing system for efficient drying.",
-    "High-speed USB 3.0 data transmission for fast processing.",
-    "Compatible with PHOTOPRINT and CALDERA RIP software."
-  ],
-  "speedTable": [
-    {
-      "pass": "Draft Mode",
-      "resolution": "",
-      "speed": "212 m²/h"
-    },
-    {
-      "pass": "Production Mode",
-      "resolution": "",
-      "speed": "1825 Sq.ft/h"
-    },
-    {
-      "pass": "High Precision Mode",
-      "resolution": "",
-      "speed": "935 Sq.ft/h"
-    }
-  ],
-  "techSpecs": [
-    {
-      "label": "MACHINE MODEL",
-      "value": "3.2m large format 4 rubber roller UV RTR printer"
-    },
-    {
-      "label": "PRINTHEAD MODEL",
-      "value": "KONICA1024i-6PL / 1024i-13PL / 1024A"
-    },
-    {
-      "label": "PRINTHEAD NO.",
-      "value": "Optional 18 pcs, 4ROW CMYK + 2W"
-    },
-    {
-      "label": "RESOLUTION",
-      "value": "1440 dpi, 2160 dpi"
-    },
-    {
-      "label": "MAXIMUM MEDIA WIDTH",
-      "value": "3300 MM"
-    },
-    {
-      "label": "MAXIMUM MEDIA THICKNESS",
-      "value": "1.5MM"
-    },
-    {
-      "label": "APPLICABLE MEDIA",
-      "value": "Soft film, knife scraping cloth, car sticker, banner, lamp film and other various coils"
-    },
-    {
-      "label": "INK TYPE",
-      "value": "Soft UV ink"
-    },
-    {
-      "label": "INK COLOR",
-      "value": "C, M, Y, K, W"
-    },
-    {
-      "label": "CLEANING SYSTEM",
-      "value": "Positive purge each colour"
-    },
-    {
-      "label": "MACHINE SIZE (L*W*H)",
-      "value": "5740mm * 1225mm * 1780mm"
-    },
-    {
-      "label": "MACHINE NW",
-      "value": "3200KG"
-    },
-    {
-      "label": "MACHINE GW",
-      "value": "3400KG"
-    },
-    {
-      "label": "POWER",
-      "value": "10.6KW (46A)"
-    },
-    {
-      "label": "ELECTRICITY",
-      "value": "230VAC, 50HZ/60HZ L/N/PE"
-    },
-    {
-      "label": "RIP SOFTWARE",
-      "value": "PHOTOPRINT, CALDERA"
-    },
-    {
-      "label": "UV CURING METHOD",
-      "value": "LED lamp"
-    },
-    {
-      "label": "DATA TRANSMISSION",
-      "value": "High-speed USB3.0 transmission"
-    },
-    {
-      "label": "ENVIRONMENT",
-      "value": "Independent, clean, low-light, well-ventilated workplace"
-    },
-    {
-      "label": "TEMPERATURE",
-      "value": "18°C ~ 30°C (64°F ~ 86°F)"
-    },
-    {
-      "label": "HUMIDITY",
-      "value": "30% ~ 70% (no condensed)"
-    }
-  ]
-}
+        "slug": "10-feet-4-row-model-rubber-roller-printer",
+        "name": "Allwin 10Feet 4 Row Model Rubber Roller Printer",
+        "description": "2280SQ.Ft/h 4 Raw KM1024A",
+        "fullDescription": "The Allwin 10Feet 4 Row Model Rubber Roller Printer is a 3.2m large format UV RTR printer designed for high-speed and high-precision industrial printing. It supports soft film, knife scraping cloth, car stickers, banners, lamp film, and various coil materials, making it ideal for large-scale production environments.",
+        "image": "/images/UVPrinters/imgi_11_MODEL_RUBBER_ROLLER.png",
+        "bg": "bg-white",
+        "text": "text-white",
+        "features": [
+          "3.2m Large Format Printing",
+          "4 Row Rubber Roller System",
+          "High Speed Output Modes",
+          "LED UV Curing Technology"
+        ],
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of 10 FEET 4 Row Model Rubber Roller Printer machines in Telangana.",
+        "mainFeaturesTitle": "Main Features of 10 FEET 4 Row Model Rubber Roller Printer machine",
+        "detailedFeatures": [
+          "Supports soft film, knife scraping cloth, car stickers, banners, and lamp film materials.",
+          "Uses KONICA 1024i series printheads with multiple configuration options.",
+          "Equipped with LED UV curing system for efficient drying.",
+          "High-speed USB 3.0 data transmission for fast processing.",
+          "Compatible with PHOTOPRINT and CALDERA RIP software."
+        ],
+        "speedTable": [
+          {
+            "pass": "Draft Mode",
+            "resolution": "",
+            "speed": "212 m²/h"
+          },
+          {
+            "pass": "Production Mode",
+            "resolution": "",
+            "speed": "1825 Sq.ft/h"
+          },
+          {
+            "pass": "High Precision Mode",
+            "resolution": "",
+            "speed": "935 Sq.ft/h"
+          }
+        ],
+        "techSpecs": [
+          {
+            "label": "MACHINE MODEL",
+            "value": "3.2m large format 4 rubber roller UV RTR printer"
+          },
+          {
+            "label": "PRINTHEAD MODEL",
+            "value": "KONICA1024i-6PL / 1024i-13PL / 1024A"
+          },
+          {
+            "label": "PRINTHEAD NO.",
+            "value": "Optional 18 pcs, 4ROW CMYK + 2W"
+          },
+          {
+            "label": "RESOLUTION",
+            "value": "1440 dpi, 2160 dpi"
+          },
+          {
+            "label": "MAXIMUM MEDIA WIDTH",
+            "value": "3300 MM"
+          },
+          {
+            "label": "MAXIMUM MEDIA THICKNESS",
+            "value": "1.5MM"
+          },
+          {
+            "label": "APPLICABLE MEDIA",
+            "value": "Soft film, knife scraping cloth, car sticker, banner, lamp film and other various coils"
+          },
+          {
+            "label": "INK TYPE",
+            "value": "Soft UV ink"
+          },
+          {
+            "label": "INK COLOR",
+            "value": "C, M, Y, K, W"
+          },
+          {
+            "label": "CLEANING SYSTEM",
+            "value": "Positive purge each colour"
+          },
+          {
+            "label": "MACHINE SIZE (L*W*H)",
+            "value": "5740mm * 1225mm * 1780mm"
+          },
+          {
+            "label": "MACHINE NW",
+            "value": "3200KG"
+          },
+          {
+            "label": "MACHINE GW",
+            "value": "3400KG"
+          },
+          {
+            "label": "POWER",
+            "value": "10.6KW (46A)"
+          },
+          {
+            "label": "ELECTRICITY",
+            "value": "230VAC, 50HZ/60HZ L/N/PE"
+          },
+          {
+            "label": "RIP SOFTWARE",
+            "value": "PHOTOPRINT, CALDERA"
+          },
+          {
+            "label": "UV CURING METHOD",
+            "value": "LED lamp"
+          },
+          {
+            "label": "DATA TRANSMISSION",
+            "value": "High-speed USB3.0 transmission"
+          },
+          {
+            "label": "ENVIRONMENT",
+            "value": "Independent, clean, low-light, well-ventilated workplace"
+          },
+          {
+            "label": "TEMPERATURE",
+            "value": "18°C ~ 30°C (64°F ~ 86°F)"
+          },
+          {
+            "label": "HUMIDITY",
+            "value": "30% ~ 70% (no condensed)"
+          }
+        ]
+      }
     ],
     "bgImage": "/images/productbgimages/bg3.webp"
   },
@@ -1934,7 +2046,7 @@ export const productsData = [
       {
         "slug": "dtf-printer",
         "name": "DTF Printer",
-        "description": "Allwin DTF Printer 602H i3200",
+        "description": "602H i3200",
         "fullDescription": "The Allwin DTF Printer is an industry-standard solution offering unparalleled performance, durability, and cost-efficiency for your professional garments printing needs. Equipped with state-of-the-art textile technology and intelligent powder shaking system.",
         "image": "/images/dtfprinters/imgi_2_ALLWIN-DTF-Printer-1.png",
         "bg": "bg-gray-100",
@@ -1945,7 +2057,7 @@ export const productsData = [
           "Automatic induction collecting",
           "Double-layer recycling bin design"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Allwin DTF Printer machines in India.",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Allwin DTF Printer machines in Telangana.",
         "mainFeaturesTitle": "Main Features of Allwin DTF Printer",
         "detailedFeatures": [
           "The upgraded printing bed vacuum structure to ensure the media flatness during printing.",
@@ -2011,7 +2123,7 @@ export const productsData = [
       {
         "slug": "oric-2-feet-uv-dtf-printer",
         "name": "ORIC 2 Feet UV DTF Printer",
-        "description": "OR-620Pro UV 602H i3200",
+        "description": "602H i3200",
         "fullDescription": "The ORIC 2 Feet UV DTF Printer is an industry-standard solution offering unparalleled performance, durability, and cost-efficiency for your professional garments and merchandise printing needs. Equipped with state-of-the-art dual UV LED technology and Epson print heads.",
         "image": "/images/dtfprinters/imgi_5_ORIC-2-FEET-UV-DTF-PRINTER-1.png",
         "bg": "bg-white",
@@ -2022,7 +2134,7 @@ export const productsData = [
           "Epson l3200-U1 x 3pcs Printheads",
           "Gigabit Ethernet Interface"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of ORIC 2 Feet UV DTF Printer machines in India.",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of ORIC 2 Feet UV DTF Printer machines in Telangana.",
         "mainFeaturesTitle": "Main Features of ORIC 2 Feet UV DTF Printer",
         "detailedFeatures": [
           "High resolution printing up to 2400 dpi with Piezoelectric inkjet technology.",
@@ -2087,6 +2199,10 @@ export const productsData = [
             "label": "POWER SUPPLY",
             "value": "AC 220V ± 10%, 50/60 HZ, 3500W"
           },
+           {
+            "label": "POWER",
+            "value": "3500W"
+          },
           {
             "label": "DIMENSIONS (WITH STAND)",
             "value": "1772(W) x 927(D) x 1420(H) mm"
@@ -2104,7 +2220,7 @@ export const productsData = [
       {
         "slug": "oric-1-feet-uv-dtf-printer",
         "name": "ORIC 1 Feet UV DTF Printer",
-        "description": "OR-620Pro UV (Epson l3200-U1x3)",
+        "description": "OR-620Pro UV (Epson i3200-U1x3)",
         "fullDescription": "The ORIC 1 Feet UV DTF Printer is an industry-standard solution offering unparalleled performance, durability, and cost-efficiency for your professional UV DTF printing needs. Equipped with state-of-the-art Epson printheads and advanced piezoelectric inkjet technology.",
         "image": "/images/dtfprinters/imgi_6_ORIC-1-FEET-UV-DTF-PRINTER-9.png",
         "bg": "bg-gray-100",
@@ -2115,7 +2231,7 @@ export const productsData = [
           "High Resolution Processing",
           "Compact & Efficient Design"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of ORIC 1 Feet UV DTF Printer machines in India.",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of ORIC 1 Feet UV DTF Printer machines in Telangana.",
         "mainFeaturesTitle": "Main Features of ORIC 1 Feet UV DTF Printer",
         "detailedFeatures": [
           "Choice of Epson F1080 x 2pcs or Epson l1600-U1 x 3pcs print heads for flexibility and precision.",
@@ -2218,9 +2334,9 @@ export const productsData = [
     "subProducts": [
       {
         "slug": "yueming-4x3-laser-cutting-engraving-machine",
-        "name": "Yueming 4X3 Laser Cutting & Engraving Machine",
+        "name": "4X3 Laser Cutting & Engraving Machine",
         "description": "(100 watts laser tube) | CMH1309",
-        "fullDescription": "Newclear Technologies introducing a new era of intelligent manufacturing in laser technology, the RAYT. We, here by declare that we are the sole dealer and supplier of RAYT laser in india. We chose bodor because of its high efficient and error free machines with good finish designs with more stability.",
+        "fullDescription": "JK Enterprises introducing a new era of intelligent manufacturing in laser technology, the RAYT. We, here by declare that we are the sole dealer and supplier of RAYT laser in Telangana. We chose bodor because of its high efficient and error free machines with good finish designs with more stability.",
         "image": "/images/LaserCutting&EngravingMachines/imgi_2_YuemingLaserCutting.png",
         "bg": "bg-gray-100",
         "text": "text-gray-900",
@@ -2230,7 +2346,7 @@ export const productsData = [
           "Material movement process and complete testing",
           "Input material inspection"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Yueming machines in India.",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Yueming machines in Telangana.",
         "mainFeaturesTitle": "Main Features of Yueming 4X3 Laser Cutting & Engraving Machine",
         "detailedFeatures": [
           "Specialized in the R&D, production and marketing of industrial laser cutting equipments.",
@@ -2302,9 +2418,9 @@ export const productsData = [
       },
       {
         "slug": "yueming-8x4-laser-cutting-engraving-machine",
-        "name": "Yueming 8X4 Laser Cutting & Engraving Machine",
-        "description": "(150 watts laser tube) | CMA1325C-B-A",
-        "fullDescription": "Newclear Technologies introducing a new era of intelligent manufacturing in laser technology, the RAYT. We, here by declare that we are the sole dealer and supplier of RAYT laser in india.",
+        "name": "8X4 Laser Cutting & Engraving Machine",
+        "description": "(150 watts laser tube)",
+        "fullDescription": "JK Enterprises introducing a new era of intelligent manufacturing in laser technology, the RAYT. We, here by declare that we are the sole dealer and supplier of RAYT laser in Telangana.",
         "image": "/images/LaserCutting&EngravingMachines/imgi_4_8x4YUEMING-LASER-18.png",
         "bg": "bg-white",
         "text": "text-black",
@@ -2314,7 +2430,7 @@ export const productsData = [
           "Material movement process and complete testing",
           "Input material inspection"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Yueming machines in India.",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Yueming machines in Telangana.",
         "mainFeaturesTitle": "Main Features of Yueming 8X4 Laser Cutting & Engraving Machine",
         "detailedFeatures": [
           "Specialized in the R&D, production and marketing of industrial laser cutting equipments.",
@@ -2386,7 +2502,7 @@ export const productsData = [
       },
       {
         "slug": "rayt-2x1-5-ft-laser-cutting-and-engraving-machine",
-        "name": "Rayt 2x1.5 Ft Laser Cutting and Engraving Machine",
+        "name": "2x1.5 Ft Laser Cutting and engraving Machine",
         "description": "(50 watts laser tube)",
         "fullDescription": "The Rayt 2x1.5 Ft Laser Cutting and Engraving Machine provides precise engraving. Professional engraving optical lens with more stable light beam. Equipped with red light position, making locating more convenient and precise.",
         "image": "/images/LaserCutting&EngravingMachines/imgi_5_rayt2x1dot5.png",
@@ -2398,7 +2514,7 @@ export const productsData = [
           "Lift platform is optional, up to 300 mm",
           "Rotary carving fittings optional for cylinders"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Rayt machines in India.",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Rayt machines in Telangana.",
         "mainFeaturesTitle": "Main Features of Rayt 2x1.5 Ft Laser Cutting Machine",
         "detailedFeatures": [
           "Compatibility of the software is very strong for friendly human-computer interface.",
@@ -2471,12 +2587,28 @@ export const productsData = [
             "value": "Fixed / Honeycomb / Lift platform"
           },
           {
+            "label": "LIFT RANGE",
+            "value": "Electric Regulation 0-270mm"
+          },
+          {
             "label": "POWER SUPPLY",
             "value": "AC220V/110V 50HZ"
           },
           {
             "label": "NET WEIGHT",
             "value": "75Kg"
+          },
+           {
+            "label": "PACKAGING",
+            "value": "Standard plywood case"
+          },
+           {
+            "label": "SYSTEM ENVIRONMENT",
+            "value": "WindowXP/win7/8/10"
+          },
+           {
+            "label": "OUTPUT SOFTWARE",
+            "value": "Corellaser/Autolaser/RD Worksv8/LaserCAD"
           }
         ]
       },
@@ -2494,7 +2626,7 @@ export const productsData = [
           "Material movement process and complete testing",
           "Input material inspection"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Rayt machines in India.",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Rayt machines in Telangana.",
         "mainFeaturesTitle": "Main Features",
         "detailedFeatures": [
           "Specialized in the R&D, production and marketing of industrial laser cutting equipments.",
@@ -2528,7 +2660,7 @@ export const productsData = [
           "Hiwin linear guideline with high speed and accuracy",
           "Stepper motor with high torque and low vibration"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Rayt machines in India.",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Rayt machines in Telangana.",
         "mainFeaturesTitle": "Main Features of Rayt 4x3 Ft Laser Cutting Machine",
         "detailedFeatures": [
           "Three-mirrors and one focal lens path system to deliver outstanding engraving and cutting effect.",
@@ -2632,7 +2764,7 @@ export const productsData = [
     "subProducts": [
       {
         "slug": "#",
-        "name": "KARTECH Flatbed Oscilating Knife Cutting Machine",
+        "name": "Flatbed Oscilating Knife Cutting Machine",
         "description": "KT-1625/1325/1313",
         "fullDescription": "Details currently unavailable. Please contact us for more information about the KARTECH Flatbed Oscilating Knife Cutting Machine.",
         "image": "/images/CNCRouterMachines/imgi_2_KARTECH.png",
@@ -2644,7 +2776,7 @@ export const productsData = [
           "Routing Grade Durability",
           "Low Maintenance Setup"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of KARTECH machines in India.",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of KARTECH machines in Telangana.",
         "mainFeaturesTitle": "Main Features",
         "detailedFeatures": [
           "Specialized in the R&D, production and marketing of industrial routing equipments."
@@ -2665,8 +2797,8 @@ export const productsData = [
       },
       {
         "slug": "rayt-cnc-router-nt-1325",
-        "name": "RAYT CNC Router NT 1325",
-        "description": "Advanced CNC Router for wood & acrylic.",
+        "name": "CNC Router",
+        "description": "A NT 1325",
         "fullDescription": "The RAYT CNC Router NT 1325 is an industry-standard solution offering unparalleled performance, durability, and cost-efficiency for your professional wood & acrylic needs. Equipped with state-of-the-art cutting technology.",
         "image": "/images/CNCRouterMachines/imgi_5_RAYT-CNC-ROUTER.png",
         "bg": "bg-white",
@@ -2677,7 +2809,7 @@ export const productsData = [
           "Intelligent Control System",
           "Professional Components"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Rayt machines in India.",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Rayt machines in Telangana.",
         "mainFeaturesTitle": "Main Features of RAYT CNC Router NT 1325",
         "detailedFeatures": [
           "High performance UTECH 4.5kw air cooled spindle ensures long lasting operation.",
@@ -2729,8 +2861,8 @@ export const productsData = [
       },
       {
         "slug": "rayt-cnc-router-nt-6090",
-        "name": "RAYT CNC Router NT 6090",
-        "description": "Compact CNC Router for detailed engraving.",
+        "name": "CNC Router",
+        "description": "NT 6090",
         "fullDescription": "The RAYT CNC Router NT 6090 offers compact precision routing with an excellent structural configuration suitable for smaller workpieces and detailed engraving.",
         "image": "/images/CNCRouterMachines/imgi_6_RAYT-CNC-NT6090.png",
         "bg": "bg-gray-100",
@@ -2741,8 +2873,8 @@ export const productsData = [
           "Iron cast steel body",
           "Soft limited switch protection"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Rayt machines in India.",
-        "mainFeaturesTitle": "Main Features of RAYT CNC Router NT 6090",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Rayt machines in Telangana.",
+        "mainFeaturesTitle": "Main Features of CNC Router NT 6090",
         "detailedFeatures": [
           "NC-studio controller for precise movement processing.",
           "2.2kw water cooling spindle allowing for prolonged work operations.",
@@ -2797,8 +2929,8 @@ export const productsData = [
       },
       {
         "slug": "#",
-        "name": "TigerTec CNC ROUTER TR 408 AD",
-        "description": "High performance CNC routing machine.",
+        "name": "CNC ROUTER",
+        "description": "TR 408 AD",
         "fullDescription": "Details currently unavailable. Please contact us for more information about the TigerTec CNC ROUTER TR 408 AD.",
         "image": "/images/CNCRouterMachines/imgi_8_TIGER-TEC-CNC.png",
         "bg": "bg-white",
@@ -2809,7 +2941,7 @@ export const productsData = [
           "Routing Grade Durability",
           "Low Maintenance Setup"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of TigerTec machines in India.",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of TigerTec machines in Telangana.",
         "mainFeaturesTitle": "Main Features",
         "detailedFeatures": [
           "Specialized in the R&D, production and marketing of industrial routing equipments."
@@ -2830,7 +2962,7 @@ export const productsData = [
       },
       {
         "slug": "utech-economy-cnc-router-eco-1325",
-        "name": "UTECH Economy CNC Router",
+        "name": "Economy CNC Router",
         "description": "ECO 1325/1530/2030/2040",
         "fullDescription": "The UTECH Economy CNC Router (ECO Series) delivers excellent quality processing capabilities ideal for wood and acrylic. Featuring robust mechanics and control systems.",
         "image": "/images/CNCRouterMachines/imgi_9_UTECH-ECONOMY-CNC-ROUTER-.png",
@@ -2842,7 +2974,7 @@ export const productsData = [
           "Built-in control box",
           "Tool sensor setting"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of UTECH machines in India.",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of UTECH machines in Telangana.",
         "mainFeaturesTitle": "Main Features of UTECH Economy CNC Router",
         "detailedFeatures": [
           "Precision helical tooth gear transmission on X and Y axis for fluid speed.",
@@ -2935,7 +3067,7 @@ export const productsData = [
       {
         "slug": "300-watts-laser-welding-machine",
         "name": "300 Watts Laser Welding Machine",
-        "description": "Dobosen 300 Watts Laser Welding Machine",
+        "description": "",
         "fullDescription": "Precision laser welding machine with imported ceramic cavity and Nci YAG pulsed-xenon lamp, designed for high-accuracy industrial welding tasks.",
         "image": "/images/FiberLaserMachines/imgi_3_DOBOSEN_300.png",
         "bg": "bg-white",
@@ -2946,7 +3078,7 @@ export const productsData = [
           "CCD Monitoring System",
           "High Precision Welding"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Dobosen 300 Watts Laser Welding Machine in India.",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Dobosen 300 Watts Laser Welding Machine in Telangana.",
         "techSpecs": [
           { "label": "Laser Cavity", "value": "Imported Ceramic Cavity" },
           { "label": "Worktable Size", "value": "1800mm * 900mm" },
@@ -2970,7 +3102,7 @@ export const productsData = [
       {
         "slug": "fiber-laser-welding-marking-machine",
         "name": "Fiber Laser Welding Marking Machine",
-        "description": "RT 1000 W / 1500 W / 2000 W",
+        "description": "RT 1000 W",
         "fullDescription": "Versatile fiber laser system capable of both high-power welding and marking, featuring double axis swing welding head and advanced fiber technology.",
         "image": "/images/FiberLaserMachines/imgi_4_RAYT-HAND-HELD.png",
         "bg": "bg-gray-100",
@@ -2981,7 +3113,7 @@ export const productsData = [
           "Advanced Cooling System",
           "Multiple Power Options"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Rayt Fiber Laser Welding Marking Machines in India.",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Rayt Fiber Laser Welding Marking Machines in Telangana.",
         "techSpecs": [
           { "label": "Laser Type", "value": "Fiber laser" },
           { "label": "Laser Wavelength", "value": "1080nm" },
@@ -2998,7 +3130,7 @@ export const productsData = [
       {
         "slug": "fiber-laser-welding-machine",
         "name": "Fiber Laser Welding Machine",
-        "description": "Yueming HW Series",
+        "description": "",
         "fullDescription": "Yueming industrial fiber laser welding machine offering high efficiency and stability for production-grade welding applications.",
         "image": "/images/FiberLaserMachines/imgi_7_YuemingFIber.png",
         "bg": "bg-white",
@@ -3009,7 +3141,7 @@ export const productsData = [
           "Precise Control",
           "Robust Construction"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Yueming Fiber Laser Welding Machines in India.",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Yueming Fiber Laser Welding Machines in Telangana.",
         "techSpecs": [
           { "label": "Laser Power", "value": "1000W / 1500W / 2000W" },
           { "label": "Total Power", "value": "6.5kW / 8.0kW / 11kW" },
@@ -3021,7 +3153,7 @@ export const productsData = [
       {
         "slug": "fiber-marking-machine",
         "name": "Fiber Marking Machine",
-        "description": "Yueming MF-E-A",
+        "description": "",
         "fullDescription": "High-speed fiber laser marking machine with superior repositioning accuracy and versatile format support for precise industrial marking.",
         "image": "/images/FiberLaserMachines/imgi_8_fiberMarking.png",
         "bg": "bg-gray-100",
@@ -3032,7 +3164,7 @@ export const productsData = [
           "Wide Format Support",
           "Compact Industrial Design"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Yueming Fiber Marking Machines in India.",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Yueming Fiber Marking Machines in Telangana.",
         "techSpecs": [
           { "label": "Laser Power", "value": "20/30/50w (optional)" },
           { "label": "Power Supply", "value": "AC220±10% 50HZ/60HZ" },
@@ -3048,7 +3180,7 @@ export const productsData = [
       {
         "slug": "portable-mini-marking-machine",
         "name": "Portable Mini Marking Machine",
-        "description": "RAYT Portable Mini Marking Machine",
+        "description": "",
         "fullDescription": "Compact and portable fiber laser marking solution featuring Sino galvanometer and air cooling, ideal for flexible marking across different locations.",
         "image": "/images/FiberLaserMachines/imgi_9_MARKING.png",
         "bg": "bg-white",
@@ -3059,19 +3191,24 @@ export const productsData = [
           "Sino Galvanometer",
           "Easy to Operate"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of RAYT Portable Mini Marking Machines in India.",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of RAYT Portable Mini Marking Machines in Telangana.",
         "techSpecs": [
+           { "label": "Model", "value": "Fiber Laser Marking Machine" },
           { "label": "Laser Wavelength", "value": "1064nm" },
           { "label": "Laser Power", "value": "30W" },
           { "label": "Marking Area", "value": "100*100mm" },
           { "label": "Laser Device", "value": "MAX" },
-          { "label": "Min. Line Width", "value": "0.01mm" },
+          { "label": "Min. Line Width", "value": "0.01mm(0.0004'')" },
           { "label": "Galvanometer", "value": "Sino (China)" },
           { "label": "Power Supply", "value": "220V / 50Hz / 1kVA" },
-          { "label": "Min. Letter", "value": "0.2mm" },
+          { "label": "M2/Beam Quality", "value": "<1.2" },
+          { "label": "Min. Letter", "value": "0.2mm(0.008'')" },
           { "label": "Lens", "value": "Bochang (China)" },
+           { "label": "Red light", "value": "double red light" },
+            { "label": "Marking line speed", "value": "(adjustable depending on material)" },
           { "label": "Cooling Method", "value": "Air Cooling" },
-          { "label": "Warranty", "value": "1 Year" }
+          { "label": "Warranty", "value": "1 Year(laser source two years warranty)" },
+           { "label": "Service", "value": "Indian Local Service Support" },
         ]
       }
     ],
@@ -3084,8 +3221,8 @@ export const productsData = [
     "subProducts": [
       {
         "slug": "dobosen-alluminium-channel-letter-bending-machine",
-        "name": "Dobosen Alluminium Channel Letter Bending Machine",
-        "description": "Double Size Swing Slotting - 1500W",
+        "name": "Alluminium Channel Letter Bending Machine",
+        "description": "",
         "fullDescription": "High-precision aluminium channel letter bending machine featuring auto feed, auto slot, and auto bend capabilities with computer control for professional signage fabrication.",
         "image": "/images/LetterBendingMachines/imgi_2_DOBOSEN-ALUMINIUM.png",
         "bg": "bg-white",
@@ -3096,7 +3233,7 @@ export const productsData = [
           "Computer Control System",
           "High Efficiency Fabrication"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Dobosen Alluminium Channel Letter Bending Machines in India.",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Dobosen Alluminium Channel Letter Bending Machines in Telangana.",
         "techSpecs": [
           { "label": "Working Principle", "value": "Auto Feed, Auto Slot Auto Bend" },
           { "label": "Applicable Material", "value": "Aluminium flat plate, Aluminium Profile Channelume" },
@@ -3115,8 +3252,8 @@ export const productsData = [
       },
       {
         "slug": "dobosen-stainless-steel-channel-letter-bending-machine",
-        "name": "Dobosen Stainless Steel Channel Letter Bending Machine",
-        "description": "Heavy Duty Steel Fabrication - 3000W",
+        "name": "Stainless Steel Channel Letter Bending Machine",
+        "description": "",
         "fullDescription": "Robust stainless steel channel letter bending machine designed for heavy-duty fabrication of stainless steel, galvanized sheet, and iron signage components.",
         "image": "/images/LetterBendingMachines/imgi_4_STEEL.png",
         "bg": "bg-gray-100",
@@ -3127,7 +3264,7 @@ export const productsData = [
           "High Power Performance (3000W)",
           "Precision Bending Technology"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Dobosen Stainless Steel Channel Letter Bending Machines in India.",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Dobosen Stainless Steel Channel Letter Bending Machines in Telangana.",
         "techSpecs": [
           { "label": "Applicable Material", "value": "Stainless steel, Galvanized Sheet, Aluminium flat plate, Iron" },
           { "label": "Processing Height", "value": "≤140mm" },
@@ -3150,8 +3287,8 @@ export const productsData = [
     "subProducts": [
       {
         "slug": "saga-adsorbed-sheet-cutter",
-        "name": "Saga Adsorbed Sheet Cutter",
-        "description": "SG-ASC 2301 - High-Power Servo Control",
+        "name": "Adsorbed Sheet Cutter",
+        "description": "",
         "fullDescription": "Advanced adsorbed sheet cutter featuring vacuum suction, CCD positioning, and double tool holders for precise finish cutting on various media including PVC and PET.",
         "image": "/images/sheetCutters/imgi_3_SAGA-ADSORBED-1.png",
         "bg": "bg-white",
@@ -3162,7 +3299,7 @@ export const productsData = [
           "Double Tool Holders (Blade & Creasing)",
           "7-inch Capacitive Touch Screen"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Saga Adsorbed Sheet Cutters in India.",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Saga Adsorbed Sheet Cutters in Telangana.",
         "techSpecs": [
           { "label": "Model Name", "value": "SG-ASC 2301" },
           { "label": "Cutting Control System", "value": "High-power brushless servo motor" },
@@ -3178,8 +3315,8 @@ export const productsData = [
       },
       {
         "slug": "saga-camera-economy-sheet-cutting-machine",
-        "name": "Saga Camera Economy Sheet Cutting Machine",
-        "description": "SG-SC 30II - Compact & Precise",
+        "name": "Camera Economy Sheet Cutting Machine",
+        "description": "",
         "fullDescription": "Economical yet powerful sheet cutting solution with friction feed and adaptive dimming camera, ideal for small-to-medium production of stickers and labels.",
         "image": "/images/sheetCutters/imgi_4_camera.png",
         "bg": "bg-gray-100",
@@ -3190,7 +3327,7 @@ export const productsData = [
           "Multiple Cutting Patterns",
           "LCD Keypad Control"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Saga Camera Economy Sheet Cutting Machines in India.",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Saga Camera Economy Sheet Cutting Machines in Telangana.",
         "techSpecs": [
           { "label": "Model Name", "value": "SG-SC 30II" },
           { "label": "Control System", "value": "Stepper motor" },
@@ -3204,8 +3341,8 @@ export const productsData = [
       },
       {
         "slug": "saga-sheet-cutter",
-        "name": "Saga Sheet Cutter",
-        "description": "SG-SC 1907 - Precision Performance",
+        "name": "Sheet Cutter",
+        "description": "",
         "fullDescription": "Professional-grade sheet cutter with dual-axis brushless servo motors and CCD positioning, optimized for high-speed A3+ finishing applications.",
         "image": "/images/sheetCutters/imgi_5_SHEET-CUTTER.png",
         "bg": "bg-white",
@@ -3216,7 +3353,7 @@ export const productsData = [
           "High-Precision CCD Sensor",
           "Vacuum Suction Technology"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Saga Sheet Cutters in India.",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Saga Sheet Cutters in Telangana.",
         "techSpecs": [
           { "label": "Model Name", "value": "SG-SC 1907" },
           { "label": "X/Y Control", "value": "Dual brushless servo motors" },
@@ -3237,8 +3374,8 @@ export const productsData = [
     "subProducts": [
       {
         "slug": "fayon-a3-a4-desktop-a4-lamination",
-        "name": "Fayon A3, A4 Desktop A4 Lamination",
-        "description": "FY-350DL - Automatic Desktop Laminator",
+        "name": "A3, A4 Desktop A4 Lamination",
+        "description": "",
         "fullDescription": "Compact and efficient desktop laminator featuring automatic speed control, reversible lamination, and high-precision temperature control up to 180°C for professional sheet finishing.",
         "image": "/images/laminationmachines/imgi_2_Fy350.png",
         "bg": "bg-white",
@@ -3249,7 +3386,7 @@ export const productsData = [
           "Transparent Heating Protection",
           "Auto-Stop Finish Function"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Fayon Desktop Lamination Machines in India.",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Fayon Desktop Lamination Machines in Telangana.",
         "techSpecs": [
           { "label": "Model", "value": "FY-350DL" },
           { "label": "Format", "value": "A3 / A4 Desktop" },
@@ -3261,8 +3398,8 @@ export const productsData = [
       },
       {
         "slug": "fayon-auto-hot-cold-lamination",
-        "name": "Fayon Auto Hot/Cold Lamination",
-        "description": "FY-1600DA - Industrial Hot & Cold Laminator",
+        "name": "Auto Hot/Cold Lamination",
+        "description": "",
         "fullDescription": "Industrial-grade 1.6m laminator with infrared heating and air cylinder roller upgrade, providing versatile hot and cold lamination for wide-format signage and graphics.",
         "image": "/images/laminationmachines/imgi_4_FAYON2-1.png",
         "bg": "bg-gray-100",
@@ -3273,7 +3410,7 @@ export const productsData = [
           "1620mm Maximum Width",
           "Silicon Roller Material"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Fayon Industrial Lamination Machines in India.",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Fayon Industrial Lamination Machines in Telangana.",
         "techSpecs": [
           { "label": "Model", "value": "FY-1600DA" },
           { "label": "Max Laminating Width", "value": "1620mm" },
@@ -3283,7 +3420,7 @@ export const productsData = [
           { "label": "Heating Type", "value": "Infrared" },
           { "label": "Roller Type", "value": "Air cylinder / Silicon" },
           { "label": "Net Weight", "value": "210kg" },
-          { "label": "Power Input", "value": "0.8 - 1.0kw/h" }
+          { "label": "Power Input", "value": "0.8 ~ 1.0kw/h" }
         ]
       }
     ],
@@ -3296,8 +3433,8 @@ export const productsData = [
     "subProducts": [
       {
         "slug": "mimaki-ariii-cutting-plotter",
-        "name": "Mimaki ARIII Cutting Plotter",
-        "description": "CG-AR Series - High Speed & Stability",
+        "name": "ARIII Cutting Plotter",
+        "description": "",
         "fullDescription": "Professional cutting plotter series with up to 550g pressure and 73cm/s speed, featuring versatile tool support for vinyl, cardstock, and reflective sheets.",
         "image": "/images/vinylcuttingplotters/imgi_2_vinyl1.png",
         "bg": "bg-white",
@@ -3308,7 +3445,7 @@ export const productsData = [
           "Ethernet and USB Connectivity",
           "Supports Vinyl, Cardstock, and Reflective Sheets"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Mimaki Cutting Plotters in India.",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Mimaki Cutting Plotters in Telangana.",
         "techSpecs": [
           { "label": "Series", "value": "CG-AR Series (60AR, 100AR, 130AR)" },
           { "label": "Cuttable Area", "value": "Up to 1370mm x 51m" },
@@ -3320,8 +3457,8 @@ export const productsData = [
       },
       {
         "slug": "saga-vinyl-cutting-plotter-with-camera",
-        "name": "Saga Vinyl Cutting Plotter with Camera",
-        "description": "1400IIP CAM - Precise Contour Cutting",
+        "name": "Vinyl Cutting Plotter with Camera",
+        "description": "",
         "fullDescription": "Advanced vinyl plotter featuring CCD positioning for pinpoint contour accuracy, DC servo drive for smooth operation, and multi-interface connectivity.",
         "image": "/images/vinylcuttingplotters/imgi_5_SAGA-VINYL-CUTTING-PLOTTER-WITH-CAMERA.png",
         "bg": "bg-gray-100",
@@ -3332,7 +3469,7 @@ export const productsData = [
           "Linear Cutting Speed 700mm/s",
           "4.3 inch Capacitive Touch Screen"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Saga Vinyl Plotters in India.",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Saga Vinyl Plotters in Telangana.",
         "techSpecs": [
           { "label": "Model", "value": "1400IIP CAM" },
           { "label": "Max Sheet Size", "value": "1400mm" },
@@ -3344,8 +3481,8 @@ export const productsData = [
       },
       {
         "slug": "saga-cutting-plotter",
-        "name": "Saga Cutting Plotter",
-        "description": "SAGA-720I / 1350I Series - Versatile & Robust",
+        "name": "Cutting Plotter",
+        "description": "",
         "fullDescription": "Durable and reliable cutting plotters available in multiple widths with both stepper and DC servo motor options to suit various production requirements.",
         "image": "/images/vinylcuttingplotters/imgi_6_SAGA-CUTTING-PLOTTER.png",
         "bg": "bg-white",
@@ -3356,7 +3493,7 @@ export const productsData = [
           "High Precision Accuracy (+/- 0.01mm)",
           "Robust Build for Industrial Use"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Saga Cutting Plotters in India.",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Saga Cutting Plotters in Telangana.",
         "techSpecs": [
           { "label": "Models", "value": "720I, 720II, 1350I, 1350II" },
           { "label": "Max Media Width", "value": "Up to 1350mm" },
@@ -3367,8 +3504,8 @@ export const productsData = [
       },
       {
         "slug": "saga-flatbed-cutter",
-        "name": "Saga Flatbed Cutter",
-        "description": "SG-ASF420 - High-Precision Sheet Finishing",
+        "name": "Flatbed Cutter",
+        "description": "",
         "fullDescription": "Professional flatbed cutter with dual brushless servo motors and CCD positioning, optimized for high-speed finish cutting on cardstock, PVC, and corrugated paper.",
         "image": "/images/vinylcuttingplotters/imgi_7_SAGA-FLATBED-CUTTER-420-4.png",
         "bg": "bg-gray-100",
@@ -3379,7 +3516,7 @@ export const productsData = [
           "Vacuum Suction Media Hold",
           "7 inch Capacitive Touch Screen"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Saga Flatbed Cutters in India.",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Saga Flatbed Cutters in Telangana.",
         "techSpecs": [
           { "label": "Model", "value": "SG-ASF420" },
           { "label": "Max Cutting Size", "value": "460mm x 665mm" },
@@ -3391,8 +3528,8 @@ export const productsData = [
       },
       {
         "slug": "saga-trimmer-cutter",
-        "name": "Saga Trimmer Cutter",
-        "description": "TM1600B - High-Speed Advertising Slitter",
+        "name": "Trimmer Cutter",
+        "description": "",
         "fullDescription": "Automatic x/y slitting correction system with double round knives, ideal for rapid trimming of advertising coils, plastic films, and decorative materials.",
         "image": "/images/vinylcuttingplotters/imgi_8_SAGA-TRIMMER.png",
         "bg": "bg-white",
@@ -3403,7 +3540,7 @@ export const productsData = [
           "Servo Motor Drive",
           "LCD Keypad Control"
         ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Saga Trimmer Cutters in India.",
+        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Saga Trimmer Cutters in Telangana.",
         "techSpecs": [
           { "label": "Model", "value": "TM1600B" },
           { "label": "Max Cutting Width", "value": "1600mm" },
@@ -3423,8 +3560,8 @@ export const productsData = [
     "subProducts": [
       {
         "slug": "",
-        "name": "Toyo Eco Solvent Inks for dx5 heads",
-        "description": "Premium Eco-Solvent Ink",
+        "name": "Eco Solvent Inks for dx5 heads",
+        "description": "",
         "fullDescription": "High-quality eco-solvent inks specifically formulated for Epson DX5 printheads, delivering exceptional color gamut and outdoor durability.",
         "image": "/images/printingInks/imgi_2_toyo_eco_solvent_ink.png",
         "bg": "bg-white",
@@ -3435,7 +3572,7 @@ export const productsData = [
       {
         "slug": "",
         "name": "Smell less Inks for all heads",
-        "description": "Odorless Solvent Ink",
+        "description": "",
         "fullDescription": "Environmentally friendly solvent inks with minimal odor, compatible with a wide range of industrial printheads.",
         "image": "/images/printingInks/imgi_4_smellless_inks_for_512_1024i.png",
         "bg": "bg-white",
@@ -3445,8 +3582,8 @@ export const productsData = [
       },
       {
         "slug": "",
-        "name": "TOYO UV high quality Ink",
-        "description": "Superior UV Curable Ink",
+        "name": "UV high quality Ink",
+        "description": "",
         "fullDescription": "Advanced UV-curable inks providing instant drying and excellent adhesion on both rigid and flexible substrates.",
         "image": "/images/printingInks/imgi_5_ink_toyo_uv_high_quality.png",
         "bg": "bg-white",
@@ -3457,7 +3594,7 @@ export const productsData = [
       {
         "slug": "",
         "name": "UV Hybrid Ink",
-        "description": "Versatile UV Ink for Hybrid Systems",
+        "description": "",
         "fullDescription": "Formulated for hybrid UV printing systems, offering high flexibility and scratch resistance.",
         "image": "/images/printingInks/imgi_6_ink_toyo_t_series_solvent__77k_ink.png",
         "bg": "bg-white",
@@ -3467,10 +3604,10 @@ export const productsData = [
       },
       {
         "slug": "",
-        "name": "New Sign Budgeted Inks for 512/512i heads",
-        "description": "Economical Solvent Ink",
+        "name": "New Sign Budgeted Inks for 512i and 1024i heads",
+        "description": "",
         "fullDescription": "Cost-effective solvent ink solution for Konica 512 and 512i printheads without compromising on color vibrancy.",
-        "image": "/images/printingInks/imgi_7_ink_new_sign_budgeted_inks_for_512_512i.png",
+        "image": "/images/PrintingInks/inksbottles5card.png",
         "bg": "bg-white",
         "text": "text-gray-900",
         "features": [],
@@ -3479,7 +3616,7 @@ export const productsData = [
       {
         "slug": "",
         "name": "UV Budgeted Inks",
-        "description": "Value UV Ink",
+        "description": "",
         "fullDescription": "Affordable UV ink for high-volume production, ensuring reliable performance and consistent quality.",
         "image": "/images/printingInks/imgi_9_ink_allwin_uv_budgeted_ink.png",
         "bg": "bg-white",
@@ -3490,7 +3627,7 @@ export const productsData = [
       {
         "slug": "",
         "name": "C Type 14PL for all heads",
-        "description": "High-Density Solvent Ink",
+        "description": "",
         "fullDescription": "Industrial 14PL solvent ink designed for high-resolution printing with superior outdoor longevity.",
         "image": "/images/printingInks/imgi_10_c_type.png",
         "bg": "bg-white",
