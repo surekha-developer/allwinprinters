@@ -55,7 +55,7 @@ export async function sendEmail(formData: FormData) {
     const fromEmail = process.env.RESEND_FROM_EMAIL || "onboarding@resend.dev";
 
     // ✅ 1. Send email to OWNER
-    await resend.emails.send({
+    const ownerRes = await resend.emails.send({
       from: `JK Enterprises <${fromEmail}>`,
       to: process.env.TO_EMAIL!,
       replyTo: email,
@@ -73,8 +73,15 @@ ${message}
       `,
     });
 
+    if (ownerRes.error) {
+      console.log("Resend Owner API Error:", ownerRes.error);
+      return { success: false, message: ownerRes.error.message };
+    }
+
     // ✅ 2. Auto-reply to CUSTOMER
-    await resend.emails.send({
+    // NOTE: On Resend's free tier, sending to an unverified email address will fail. 
+    // We log it but do not fail the whole form submission so the owner still gets the inquiry.
+    const customerRes = await resend.emails.send({
       from: `JK Enterprises <${fromEmail}>`,
       to: email,
       subject: "Thank you for contacting JK Enterprises",
@@ -91,13 +98,19 @@ Your Message:
 Best regards,
 JK Enterprises Team
 #11-126, Opp IDPL Colony, Sumitra Nagar, Hyderabad-37
-8712413159 | Jke.jayaram@gmail.com
+8712413159, 86862 42499 | Jke.jayaram@gmail.com
       `,
     });
 
+    if (customerRes.error) {
+      console.log("Resend Customer API Error:", customerRes.error);
+      // We don't return false here, because the owner still received the mail.
+      // But logging it will help debugging.
+    }
+
     return { success: true };
-  } catch (error) {
-    console.log(error);
-    return { success: false, message: "Failed to send message. Please contact us directly at +91-8712413159." };
+  } catch (error: any) {
+    console.log("Catch block error:", error);
+    return { success: false, message: error.message || "Failed to send message. Please contact us directly at +91-8712413159." };
   }
-}
+}

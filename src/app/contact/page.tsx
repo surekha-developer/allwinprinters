@@ -137,12 +137,12 @@ export default function ContactPage() {
     <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8 flex flex-col items-center">
       {/* Header Section */}
       <div className="text-center max-w-2xl mx-auto mb-12">
-        <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl mb-4">
-          Let&apos;s Do Great Work Together
-        </h1>
-        <p className="text-lg text-gray-600">
-          Get in touch with our experts today
-        </p>
+       <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl mb-4">
+  High-Speed Precision Printing
+</h1>
+<p className="text-lg text-gray-600">
+  Find the right printer for your business
+</p>
       </div>
 
       {/* Main Content Grid */}
@@ -198,9 +198,9 @@ export default function ContactPage() {
             </div>
           </div>
           
-          <div className="mt-12 flex flex-col gap-4 text-center items-center pt-6 border-t border-gray-200 italic text-gray-400 text-sm">
+          {/* <div className="mt-12 flex flex-col gap-4 text-center items-center pt-6 border-t border-gray-200 italic text-gray-400 text-sm">
              <p>Our experts are ready to assist you.</p>
-          </div>
+          </div> */}
         </div>
 
         {/* Right Side: Form */}

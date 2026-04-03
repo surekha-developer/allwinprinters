@@ -1,3 +1,4 @@
+import { vinylCuttingPlotters } from './vinylCuttingPlottersData';
 
 
 
@@ -3114,18 +3115,7 @@ export const productsData = [
           "Multiple Power Options"
         ],
         "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Rayt Fiber Laser Welding Marking Machines in Telangana.",
-        "techSpecs": [
-          { "label": "Laser Type", "value": "Fiber laser" },
-          { "label": "Laser Wavelength", "value": "1080nm" },
-          { "label": "Laser Power", "value": "1000W / 1500W / 2000W" },
-          { "label": "Laser Frequency", "value": "50-20000 Khz" },
-          { "label": "Cooling Way", "value": "Water cooling (Pure water/distilled water)" },
-          { "label": "Laser Spot", "value": "0-5mm" },
-          { "label": "Fiber Length", "value": "10m" },
-          { "label": "Power", "value": "5.7KW / 8.5KW / 11KW" },
-          { "label": "Dimension", "value": "1250*610*1280mm" },
-          { "label": "Weight", "value": "190KGS / 190KGS / 200KGS" }
-        ]
+        "specImage": "/images/FiberLaserMachines/RAYT Fiber Laser Welding Marking Machine/imgi_3_RAYT-FIBER-LASER-spec.jpg"
       },
       {
         "slug": "fiber-laser-welding-machine",
@@ -3300,18 +3290,7 @@ export const productsData = [
           "7-inch Capacitive Touch Screen"
         ],
         "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Saga Adsorbed Sheet Cutters in Telangana.",
-        "techSpecs": [
-          { "label": "Model Name", "value": "SG-ASC 2301" },
-          { "label": "Cutting Control System", "value": "High-power brushless servo motor" },
-          { "label": "Positioning Sensor", "value": "Digital camera (CCD)" },
-          { "label": "Maximum Cutting Size", "value": "X: 530mm | Y: 740mm" },
-          { "label": "Cutting Speed", "value": "15 - 1050" },
-          { "label": "Cutting Force", "value": "Creasing: 0-1900 | Blade: 0-750" },
-          { "label": "Media Types", "value": "Self-adhesive paper, cardstock, PVC, PET etc." },
-          { "label": "Connectivity", "value": "USB / U disk / LAN / WiFi" },
-          { "label": "Dimensions", "value": "1110mm * 850mm * 1200mm" },
-          { "label": "Weight", "value": "223kg (Gross) / 171kg (Net)" }
-        ]
+        "specImage": "/images/SheetCutters/Saga Adsorbed Sheet Cutter/imgi_3_SAGA-ADSORBEDspec-827x1024.jpg"
       },
       {
         "slug": "saga-camera-economy-sheet-cutting-machine",
@@ -3328,16 +3307,7 @@ export const productsData = [
           "LCD Keypad Control"
         ],
         "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Saga Camera Economy Sheet Cutting Machines in Telangana.",
-        "techSpecs": [
-          { "label": "Model Name", "value": "SG-SC 30II" },
-          { "label": "Control System", "value": "Stepper motor" },
-          { "label": "Maximum Sheet Size", "value": "483mm * 330mm" },
-          { "label": "Cutting Force", "value": "500gf" },
-          { "label": "Scanning Speed", "value": "6 - 10s" },
-          { "label": "Connectivity", "value": "LAN, U disk, USB" },
-          { "label": "Power", "value": "150W" },
-          { "label": "Weight", "value": "26kg (Net) / 45kg (Gross)" }
-        ]
+        "specImage": "/images/SheetCutters/Saga Camera Economy Sheet Cutting Machine/imgi_3_saga-camera-economy-spec-821x1024.jpg"
       },
       {
         "slug": "saga-sheet-cutter",
@@ -3354,15 +3324,7 @@ export const productsData = [
           "Vacuum Suction Technology"
         ],
         "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Saga Sheet Cutters in Telangana.",
-        "techSpecs": [
-          { "label": "Model Name", "value": "SG-SC 1907" },
-          { "label": "X/Y Control", "value": "Dual brushless servo motors" },
-          { "label": "Positioning", "value": "Digital Camera (CCD)" },
-          { "label": "Max Cutting Size", "value": "A3+ (483mm * 330mm)" },
-          { "label": "Actual Cutting Speed", "value": "12mm/s - 960mm/s" },
-          { "label": "Cutting Force", "value": "Creasing: 0-750gf | Blade: 0-75gf" },
-          { "label": "Mechanical Resolution", "value": "0.02mm" }
-        ]
+        "specImage": "/images/SheetCutters/Saga Sheet Cutter/imgi_3_SAGA-CUTTING-PLOTTER-spec-1.jpg"
       }
     ],
     "bgImage": "/images/productbgimages/bg3.webp"
@@ -3426,133 +3388,7 @@ export const productsData = [
     ],
     "bgImage": "/images/productbgimages/bg5.webp"
   },
-  {
-    "slug": "vinyl-cutting-plotters",
-    "title": "Vinyl Cutting Plotters",
-    "subtitle": "High-precision sticker and vinyl cutting solutions for signage, apparel, and industrial applications.",
-    "subProducts": [
-      {
-        "slug": "mimaki-ariii-cutting-plotter",
-        "name": "ARIII Cutting Plotter",
-        "description": "",
-        "fullDescription": "Professional cutting plotter series with up to 550g pressure and 73cm/s speed, featuring versatile tool support for vinyl, cardstock, and reflective sheets.",
-        "image": "/images/vinylcuttingplotters/imgi_2_vinyl1.png",
-        "bg": "bg-white",
-        "text": "text-gray-900",
-        "features": [
-          "Maximum Pressure 550g",
-          "Cutting Speed up to 103 cm/s (45°)",
-          "Ethernet and USB Connectivity",
-          "Supports Vinyl, Cardstock, and Reflective Sheets"
-        ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Mimaki Cutting Plotters in Telangana.",
-        "techSpecs": [
-          { "label": "Series", "value": "CG-AR Series (60AR, 100AR, 130AR)" },
-          { "label": "Cuttable Area", "value": "Up to 1370mm x 51m" },
-          { "label": "Max Pressure", "value": "550g" },
-          { "label": "Max Speed", "value": "73 cm/s" },
-          { "label": "Tools", "value": "Eccentric cutter, ball-point pen, Creasing tool" },
-          { "label": "Interface", "value": "USB, RS-232C, Ethernet" }
-        ]
-      },
-      {
-        "slug": "saga-vinyl-cutting-plotter-with-camera",
-        "name": "Vinyl Cutting Plotter with Camera",
-        "description": "",
-        "fullDescription": "Advanced vinyl plotter featuring CCD positioning for pinpoint contour accuracy, DC servo drive for smooth operation, and multi-interface connectivity.",
-        "image": "/images/vinylcuttingplotters/imgi_5_SAGA-VINYL-CUTTING-PLOTTER-WITH-CAMERA.png",
-        "bg": "bg-gray-100",
-        "text": "text-gray-900",
-        "features": [
-          "CCD Positioning Sensor",
-          "DC Servo Drive System",
-          "Linear Cutting Speed 700mm/s",
-          "4.3 inch Capacitive Touch Screen"
-        ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Saga Vinyl Plotters in Telangana.",
-        "techSpecs": [
-          { "label": "Model", "value": "1400IIP CAM" },
-          { "label": "Max Sheet Size", "value": "1400mm" },
-          { "label": "Max Cutting Size", "value": "1250mm" },
-          { "label": "Cutting Force", "value": "900g" },
-          { "label": "Connectivity", "value": "USB, LAN, WiFi, U disk" },
-          { "label": "Weight", "value": "68kg (Gross) / 47kg (Net)" }
-        ]
-      },
-      {
-        "slug": "saga-cutting-plotter",
-        "name": "Cutting Plotter",
-        "description": "",
-        "fullDescription": "Durable and reliable cutting plotters available in multiple widths with both stepper and DC servo motor options to suit various production requirements.",
-        "image": "/images/vinylcuttingplotters/imgi_6_SAGA-CUTTING-PLOTTER.png",
-        "bg": "bg-white",
-        "text": "text-gray-900",
-        "features": [
-          "Multiple Width Options (720mm - 1350mm)",
-          "Stepper and DC Servo Drive Options",
-          "High Precision Accuracy (+/- 0.01mm)",
-          "Robust Build for Industrial Use"
-        ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Saga Cutting Plotters in Telangana.",
-        "techSpecs": [
-          { "label": "Models", "value": "720I, 720II, 1350I, 1350II" },
-          { "label": "Max Media Width", "value": "Up to 1350mm" },
-          { "label": "Accuracy", "value": "+/- 0.01mm" },
-          { "label": "Power Consumption", "value": "< 100W" },
-          { "label": "Connectors", "value": "USB / RS-232" }
-        ]
-      },
-      {
-        "slug": "saga-flatbed-cutter",
-        "name": "Flatbed Cutter",
-        "description": "",
-        "fullDescription": "Professional flatbed cutter with dual brushless servo motors and CCD positioning, optimized for high-speed finish cutting on cardstock, PVC, and corrugated paper.",
-        "image": "/images/vinylcuttingplotters/imgi_7_SAGA-FLATBED-CUTTER-420-4.png",
-        "bg": "bg-gray-100",
-        "text": "text-gray-900",
-        "features": [
-          "Dual High-Power Brushless Servo Motors",
-          "Digital Camera (CCD) Positioning",
-          "Vacuum Suction Media Hold",
-          "7 inch Capacitive Touch Screen"
-        ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Saga Flatbed Cutters in Telangana.",
-        "techSpecs": [
-          { "label": "Model", "value": "SG-ASF420" },
-          { "label": "Max Cutting Size", "value": "460mm x 665mm" },
-          { "label": "Cutting Force", "value": "Creasing/Blade: 0-1900gf" },
-          { "label": "Feeding System", "value": "Pneumatic Auto Feeding" },
-          { "label": "Connectivity", "value": "USB, TCP, WiFi, U disk" },
-          { "label": "Net Weight", "value": "267kg (with Flatbed)" }
-        ]
-      },
-      {
-        "slug": "saga-trimmer-cutter",
-        "name": "Trimmer Cutter",
-        "description": "",
-        "fullDescription": "Automatic x/y slitting correction system with double round knives, ideal for rapid trimming of advertising coils, plastic films, and decorative materials.",
-        "image": "/images/vinylcuttingplotters/imgi_8_SAGA-TRIMMER.png",
-        "bg": "bg-white",
-        "text": "text-gray-900",
-        "features": [
-          "Automatic Slitting Correction",
-          "High-Speed Steel Round Knives",
-          "Servo Motor Drive",
-          "LCD Keypad Control"
-        ],
-        "dealerInfo": "We, JK ENTERPRISES are the authorised and sole dealer of Saga Trimmer Cutters in Telangana.",
-        "techSpecs": [
-          { "label": "Model", "value": "TM1600B" },
-          { "label": "Max Cutting Width", "value": "1600mm" },
-          { "label": "Cutting Speed", "value": "200-1000mm/s" },
-          { "label": "Functions", "value": "Automatic slitting correction" },
-          { "label": "Voltage", "value": "100V-240VAC 50/60Hz" },
-          { "label": "Dimensions", "value": "2540mm x 1230mm x 820mm" }
-        ]
-      }
-    ],
-    "bgImage": "/images/productbgimages/bg7.webp"
-  },
+  vinylCuttingPlotters,
   {
     "slug": "printing-inks",
     "title": "Printing Inks",

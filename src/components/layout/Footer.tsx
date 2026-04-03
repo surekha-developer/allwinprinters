@@ -43,10 +43,19 @@ export default function Footer() {
 
           <div className="hidden md:block text-white/40">|</div>
 
-          <div className="flex items-center gap-2">
+          {/* <div className="flex items-center gap-2">
             <Mail size={16} />
             <a href="mailto:Jke.jayaram@gmail.com" className="hover:text-sky-400 transition-colors">Jke.jayaram@gmail.com</a>
-          </div>
+          </div> */}
+          <div className="flex items-center gap-2">
+  <Mail size={16} />
+  <a
+    href="mailto:Jke.jayaram@gmail.com"
+    className="hover:text-sky-400 transition-colors"
+  >
+    Jke.jayaram@gmail.com
+  </a>
+</div>
 
           <div className="hidden md:block text-white/40">|</div>
 
@@ -65,30 +74,34 @@ export default function Footer() {
 
         {/* LEFT */}
         <div>
-           <Link href="/" className="flex items-center gap-2 sm:gap-4 flex-shrink-0">
+                {/* LOGO */}
+          <Link href="/" className="flex items-center gap-0 sm:gap-0 flex-shrink-0">
             <Image
-              src="/images/jklogo-removebg-preview.png"
+              src="/images/logos/WhatsApp_Image_2026-03-31_at_6.03.07_PM-removebg-preview.png"
               alt="JK Enterprises Logo"
-              width={100}
-              height={70}
-              className="rounded-lg w-16 sm:w-20 h-auto"
+              width={130}
+              height={100}
+              
             />
-            <div className="bg-[#03989E] p-1.5 rounded-none inline-block">
-              <Image
-                src="/images/allwinoriginallogo/imgi_32_logo.png"
-                alt="ALLWIN Logo"
-                width={80}
-                height={40}
-                className="object-contain w-14 sm:w-16 h-auto"
-              />
-            </div>
+         
+
+            <div>
+  <Image
+    src="/images/logos/allwinlogoimage-removebg-preview.png"
+    alt="ALLWIN Logo"
+    width={110}
+    height={85}
+    className="bg-white rounded-xl"
+    
+  />
+</div>
           </Link>
 
           <p className="text-white mt-4 mb-6 text-sm leading-relaxed">
-            JK Enterprises is a leading provider of high-performance industrial printing solutions. We specialize in UV, Solvent, and Eco-Solvent printers, delivering unmatched quality and 24/7 technical support to empower your printing business.
+            JK Enterprises is a leading provider of high-performance industrial printing solutions. We specialize in UV, solvent, and eco-solvent printers, delivering exceptional quality and 24/7 technical support to empower your printing business.
           </p>
 
-          <div className="flex gap-3">
+          {/* <div className="flex gap-3">
             {[Facebook, Instagram].map((Icon, i) => (
               <Link
                 key={i}
@@ -98,7 +111,7 @@ export default function Footer() {
                 <Icon size={16} />
               </Link>
             ))}
-          </div>
+          </div> */}
         </div>
 
         {/* SERVICES */}

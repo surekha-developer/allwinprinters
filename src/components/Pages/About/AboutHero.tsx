@@ -7,7 +7,7 @@ export default function AboutHero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/home-printer-based-toner.jpg"
+          src="/images/home-printer-based-toner.webp"
           alt="About Allwin"
           fill
           className="object-cover"
