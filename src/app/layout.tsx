@@ -180,7 +180,7 @@ export const metadata: Metadata = {
   description:
     "JK Enterprises provides high-performance industrial printing solutions, including UV, Eco-Solvent, and DTF printers.",
   icons: {
-    icon: "/images/allwinjklogo.jpeg",
+    icon: "/logo/jklogo.webp",
   },
 };
 

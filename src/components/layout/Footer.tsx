@@ -45,15 +45,15 @@ export default function Footer() {
 
           {/* <div className="flex items-center gap-2">
             <Mail size={16} />
-            <a href="mailto:Jke.jayaram@gmail.com" className="hover:text-sky-400 transition-colors">Jke.jayaram@gmail.com</a>
+            <a href="mailto:jke.jayaram@gmail.com" className="hover:text-sky-400 transition-colors">jke.jayaram@gmail.com</a>
           </div> */}
           <div className="flex items-center gap-2">
   <Mail size={16} />
   <a
-    href="mailto:Jke.jayaram@gmail.com"
+    href="mailto:jkenterprises.allwin2908@gmail.com"
     className="hover:text-sky-400 transition-colors"
   >
-    Jke.jayaram@gmail.com
+    jkenterprises.allwin2908@gmail.com
   </a>
 </div>
 
@@ -75,27 +75,25 @@ export default function Footer() {
         {/* LEFT */}
         <div>
                 {/* LOGO */}
-          <Link href="/" className="flex items-center gap-0 sm:gap-0 flex-shrink-0">
-            <Image
-              src="/images/logos/WhatsApp_Image_2026-03-31_at_6.03.07_PM-removebg-preview.png"
-              alt="JK Enterprises Logo"
-              width={130}
-              height={100}
-              
-            />
-         
-
-            <div>
-  <Image
-    src="/images/logos/allwinlogoimage-removebg-preview.png"
-    alt="ALLWIN Logo"
-    width={110}
-    height={85}
-    className="bg-white rounded-xl"
+ <Link href="/" className="flex items-center flex-shrink-0">
+  <div className="flex items-center gap-2 bg-white rounded-xl px-3 py-2">
     
-  />
-</div>
-          </Link>
+    <Image
+      src="/logo/jklogo.webp"
+      alt="JK Enterprises Logo"
+      width={110}
+      height={90}
+    />
+
+    <Image
+      src="/images/logos/allwinlogoimage-removebg-preview.png"
+      alt="ALLWIN Logo"
+      width={110}
+      height={85}
+    />
+
+  </div>
+</Link>
 
           <p className="text-white mt-4 mb-6 text-sm leading-relaxed">
             JK Enterprises is a leading provider of high-performance industrial printing solutions. We specialize in UV, solvent, and eco-solvent printers, delivering exceptional quality and 24/7 technical support to empower your printing business.

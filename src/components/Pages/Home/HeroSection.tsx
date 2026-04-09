@@ -13,11 +13,11 @@ import { motion } from "framer-motion"
 export default function HeroSection() {
 
   const logos = [
-   
+
     "/images/SolventPrintingMachines/imgi_4_C8-512i_KM512i_30pl_KM1024_42pl.png",
-   
+
     "/images/SolventPrintingMachines/imgi_8_allwin1024-300x132.png",
-   
+
     "/images/UVPrinters/imgi_10_pinchroller.png",
     "/images/UVPrinters/imgi_11_MODEL_RUBBER_ROLLER.png",
     "/images/UVPrinters/imgi_16_allwin-1.png",
@@ -46,8 +46,8 @@ export default function HeroSection() {
     "/images/printingInks/imgi_4_smellless_inks_for_512_1024i.png",
     "/images/printingInks/imgi_5_ink_toyo_uv_high_quality.png",
     "/images/printingInks/imgi_7_ink_new_sign_budgeted_inks_for_512_512i.png",
-   
-    
+
+
   ]
 
   return (
@@ -61,7 +61,7 @@ export default function HeroSection() {
           {/* LEFT CONTENT */}
           <div>
 
-          
+
             <motion.h1
               className="text-4xl lg:text-6xl font-bold mb-6 tracking-tight leading-tight text-foreground"
               initial={{ opacity: 0, y: 30 }}
@@ -125,26 +125,26 @@ export default function HeroSection() {
                     repeat: Infinity,
                     repeatDelay: 3,
                   }}
-                  className="bg-sky-500/10 p-2 rounded-full text-sky-500"
+                  className="bg-[#16438C]/10 p-2 rounded-full text-[#16438C]"
                 >
                   <BiSolidPhoneCall size={28} />
                 </motion.div>
-                
+
                 <div className="flex flex-col">
-                  <span className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground font-bold mb-0.5">
-                    Call Now
+                  <span className="text-[11px] uppercase tracking-[0.1em] text-muted-foreground font-bold mb-0.8 text-gray">
+                    Call Now – 24/7 Support Available
                   </span>
-                  <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-2xl sm:text-3xl font-black tracking-tight leading-none">
-                    <a 
-                      href="tel:8712413159" 
-                      className="bg-gradient-to-r from-sky-600 to-cyan-500 bg-clip-text text-transparent hover:from-sky-400 hover:to-sky-400 transition-all duration-300"
+                  <div className="flex flex-col sm:flex-row items-start sm:items-center gap-x-4 gap-y-1 text-2xl sm:text-3xl font-black tracking-tight leading-tight tabular-nums">
+                    <a
+                      href="tel:8712413159"
+                      className="whitespace-nowrap text-[#16438C] hover:opacity-80 transition-all duration-300"
                     >
                       87124 13159
                     </a>
                     <span className="hidden sm:inline text-muted-foreground/30 font-light select-none">|</span>
-                    <a 
-                      href="tel:8686242499" 
-                      className="bg-gradient-to-r from-sky-600 to-cyan-500 bg-clip-text text-transparent hover:from-sky-400 hover:to-sky-400 transition-all duration-300"
+                    <a
+                      href="tel:8686242499"
+                      className="whitespace-nowrap text-[#16438C] hover:opacity-80 transition-all duration-300"
                     >
                       86862 42499
                     </a>
@@ -187,11 +187,11 @@ export default function HeroSection() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
 
           {[
-  { value: "1000+", label: "Machines Installed" },
-  { value: "22+", label: "Years Experience" },
-  { value: "97%", label: "Client Retention" },
-  { value: "24/7", label: "Availability" },
-].map((stat, i) => (
+            { value: "1000+", label: "Machines Installed" },
+            { value: "22+", label: "Years Experience" },
+            { value: "97%", label: "Client Retention" },
+            { value: "24/7", label: "Availability" },
+          ].map((stat, i) => (
             <motion.div
               key={i}
               className="group relative rounded-xl p-[2px] transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-xl cursor-pointer"
@@ -201,7 +201,7 @@ export default function HeroSection() {
             >
               {/* This is the border gradient that appears on hover, matching the button */}
               <div className="absolute inset-0 rounded-none opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-              
+
               <div className="relative h-full w-full bg-card dark:bg-black p-6 rounded-xl text-center shadow-sm flex flex-col items-center justify-center z-10 transition-colors">
                 <div className="text-2xl font-bold text-foreground">{stat.value}</div>
                 <div className="text-muted-foreground text-sm mt-1">{stat.label}</div>
@@ -215,9 +215,9 @@ export default function HeroSection() {
         {/* TRUSTED BRANDS */}
         <div className="mt-12 text-center">
 
-        <p className="text-muted-foreground mb-10 text-lg">
-  Trusted Worldwide in Printing
-</p>
+          <p className="text-muted-foreground mb-10 text-lg">
+            Trusted Worldwide in Printing
+          </p>
 
           <div className="relative overflow-hidden">
 

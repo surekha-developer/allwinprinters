@@ -134,10 +134,10 @@ export default function Header() {
           {/* LOGO */}
           <Link href="/" className="flex items-center gap-0 sm:gap-0 flex-shrink-0">
             <Image
-              src="/images/logos/WhatsApp_Image_2026-03-31_at_6.03.07_PM-removebg-preview.png"
+              src="/logo/jklogo.webp"
               alt="JK Enterprises Logo"
-              width={130}
-              height={100}
+              width={110}
+              height={90}
               
             />
          

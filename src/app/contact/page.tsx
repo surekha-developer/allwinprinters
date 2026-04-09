@@ -173,8 +173,8 @@ export default function ContactPage() {
                 <h4 className="text-gray-500 text-sm font-medium mb-3">Email :</h4>
                 <div className="flex items-center gap-4">
                   <Mail className="text-primary w-5 h-5 flex-shrink-0" />
-                  <a href="mailto:Jke.jayaram@gmail.com" className="text-sm text-gray-700 hover:text-primary transition-colors">
-                    Jke.jayaram@gmail.com
+                  <a href="mailto:jkenterprises.allwin2908@gmail.com" className="text-sm text-gray-700 hover:text-primary transition-colors">
+                    jkenterprises.allwin2908@gmail.com
                   </a>
                 </div>
               </div>

@@ -86,36 +86,6 @@ html {
 DARK MODE
 -------------------------------------------------- */
 
-.dark {
-
---background: #0F0F12;
---foreground: #F5F5F5;
-
-/* CARDS */
-
---card: #1A1A1F;
---card-foreground: #F5F5F5;
-
-/* SECTIONS */
-
---secondary: #121214;
---secondary-foreground: #F5F5F5;
-
---muted: #1F1F24;
---muted-foreground: #A1A1AA;
-
-/* BUTTON */
-
---primary: #008FD7;
---primary-foreground: #F5F3FF;
-
-/* BORDER */
-
---border: #2A2A30;
---input: #2A2A30;
---ring: #7C3AED;
-
-}
 
 /* --------------------------------------------------
 BASE STYLES
@@ -400,7 +370,7 @@ PREMIUM GRADIENT BACKGROUND
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  color: #04B7C2;
+  color: #163D8F;
   box-shadow: 
     calc(1*var(--d))      calc(0*var(--d))     0 0,
     calc(0.707*var(--d))  calc(0.707*var(--d)) 0 1px,

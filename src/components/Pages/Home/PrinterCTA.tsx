@@ -29,7 +29,7 @@ export default function PrinterCTA() {
         </p>
 
         {/* Buttons */}
-        <div className="flex flex-col sm:flex-row justify-center gap-4">
+        <div className="flex flex-col items-center sm:flex-row justify-center gap-4">
           <Link href="/contact" className="inline-block">
             <button className="group btn-gradient px-8 py-3 rounded-full flex items-center justify-center gap-2 
               transition-all duration-300 hover:scale-105 hover:shadow-xl font-bold">
